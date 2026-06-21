@@ -1,0 +1,5 @@
+Updated: Swapped 2026
+  Old: https://tuktukhd.com/wp-content/uploads/2026/05/tHhxWxge06goXU6ZQH1hj7vK8Hd.webp
+  New: https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Swapped_poster.jpg/250px-Swapped_poster.jpg
+
+data.js updated

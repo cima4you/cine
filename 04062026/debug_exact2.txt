@@ -1,0 +1,16 @@
+[1753] ct:movie | seasons: 0
+[1912] ct:movie | seasons: 0
+[1913] ct:movie | seasons: 0
+[1914] ct:movie | seasons: 0
+[1915] ct:movie | seasons: 0
+
+Total items with exact title 2026: 317
+
+[631] title: '2026Ïº┘ä┘âÏº┘à┘èÏ▒Ïº Ïº┘äÏ«┘ü┘èÏ®'
+  ct: series
+  seasons: 1
+  first season eps: 30
+
+[1383] title: 'Swapped'
+  ct: movie
+  poster: https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Swapped

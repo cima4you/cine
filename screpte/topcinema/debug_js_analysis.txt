@@ -1,0 +1,20 @@
+External scripts: 6
+  https://www.googletagmanager.com/gtag/js?id=UA-269945118-1
+  https://www.googletagmanager.com/gtag/js?id=G-6ZDPCTTMZN
+  https://www.googletagmanager.com/gtag/js?id=UA-269945118-2
+  https://web.topcinemaa.com/wp-content/themes/movies2023/UI/js/jquery.min.js
+  https://web.topcinemaa.com/wp-content/themes/movies2023/UI/js/owl.carousel.min.js
+  https://web.topcinemaa.com/wp-content/themes/movies2023/Init.js?1306492895
+
+Inline scripts: 14
+  Script 12 (190 chars):
+    
+	HomeURL = "https://web.topcinemaa.com";
+	IsUser = 'false';
+	ajaxURL = 'https://web.topcinemaa.com/Ajaxat/';
+	MyAjaxURL = "https://web.topcinemaa.com/wp-content/themes/movies2023/Ajaxat/";
+
+
+AJAX endpoints found: 0
+
+Post ID 225459 mentions: 2

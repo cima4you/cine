@@ -1,0 +1,51 @@
+Poster domains:
+  image.tmdb.org: 9638
+  tuktukhd.com: 4384
+  media0101.elcinema.com: 582
+  www.tuktukcinma.com: 92
+  m.media-amazon.com: 89
+  www2.0zz0.com: 37
+  tuktukcinma.cam: 22
+  wecima.ahwaktv.net: 12
+  media0098.elcinema.com: 7
+  larozza.living: 5
+  web2.topcinema.cam: 4
+  m.arabseed.show: 2
+  to.taxielcima.pro: 2
+  core.elcinema.com: 1
+  imagedelivery.net: 1
+  yam.ahwaktv.net: 1
+  tye.txcima.com: 1
+  mocima.ahwaktv.net: 1
+
+Ïº┘å┘à┘è items: 347
+Ïú┘å┘à┘è items: 109
+
+Ï▒┘àÏÂÏº┘å 2025 items: 22
+  Ï¬Ï¡Ï¬ Ïº┘äÏºÏ▒ÏÂ: ┘à┘êÏ│┘à Ï¡ÏºÏ▒  | poster: https://media0101.elcinema.com/uploads/_320x_ccd2e
+  Ï│┘â┘êÏºÏ» | poster: https://media0101.elcinema.com/uploads/_320x_73a32
+   ┘ä┘èÏº┘ä┘è Ï▒┘ê┘âÏ│┘è  | poster: https://media0101.elcinema.com/uploads/_320x_97a8d
+  ÏºÏ¿┘å Ïº┘äÏ¿ÏºÏ┤Ïº | poster: https://media0101.elcinema.com/uploads/_320x_ecf63
+  ÏºÏ│┘êÏ» Ï¿Ïº┘çÏ¬ | poster: https://media0101.elcinema.com/uploads/_320x_8baf9
+
+ÏºÏ«Ï▒┘ë items: 2
+  Face to Face with ETA 2023 | movie
+  Pictures of Ghosts 2023 | movie
+
+Items with no poster: 18
+  The Young Imam 2023 | type: ÏúÏ¼┘åÏ¿┘è | ct: movie
+  The Baztan Trilogy | type: ÏúÏ¼┘åÏ¿┘è | ct: movie
+  B and B Merry 2022 | type: ÏúÏ¼┘åÏ¿┘è | ct: movie
+  Marvels Avengers Recap 2019 | type: ÏúÏ¼┘åÏ¿┘è | ct: movie
+  2018 Ouija Seance The Final Game | type: ÏúÏ¼┘åÏ¿┘è | ct: movie
+  OtaGal 9 | type: ÏúÏ¼┘åÏ¿┘è | ct: movie
+  Summer of 36 6 | type: ÏúÏ¼┘åÏ¿┘è | ct: movie
+  Summer of 36 5 | type: ÏúÏ¼┘åÏ¿┘è | ct: movie
+  Summer of 36 4 | type: ÏúÏ¼┘åÏ¿┘è | ct: movie
+  Summer of 36 1 | type: ÏúÏ¼┘åÏ¿┘è | ct: movie
+
+Series by type:
+  'Ï╣Ï▒Ï¿┘è': 585
+  'Ï▒┘àÏÂÏº┘å 2025': 22
+  'ÏúÏ¼┘åÏ¿┘è': 11
+  'Ïú┘å┘à┘è': 6

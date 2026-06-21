@@ -1,0 +1,34 @@
+tabContents">
+                    <section class="allseasonss" style="display: none;">
+                <ul class="Blocks--List Centered">
+                                                <div class="Block--Item">
+                                <a href="https://tuktukhd.com/series/%d8%a7%d9%84%d9%85%d9%88%d8%b3%d9%85-1-%d9%85%d8%b3%d9%84%d8%b3%d9%84-from-%d9%85%d8%aa%d8%b1%d8%ac%d9%85/" title="">
+                                    <div class="Poster--Block">
+                                        <img src="https://tuktukhd.com/wp-content/themes/TukTukCinema3/no.png?x47010" data-src="https://tuktukhd.com/wp-content/uploads/2022/02/MV5BZjI1MTM3MWQtOWMyZi00NTg1LWFkN2MtZmYzM2RmODc1NjZmXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_FMjpg_UX1000_-.jpg_UY1200--300x444.jpg?x47010" class="lazyload" alt="الموسم 1">
+                                    </div>
+                                    <div class="Block--Info">
+                                        <h3>الموسم 1</h3>
+                                    </div>
+                                </a>
+                            </div>
+                                                        <div class="Block--Item">
+                                <a href="https://tuktukhd.com/series/%d8%a7%d9%84%d9%85%d9%88%d8%b3%d9%85-2-%d9%85%d8%b3%d9%84%d8%b3%d9%84-from-%d9%85%d8%aa%d8%b1%d8%ac%d9%85/" title="">
+                                    <div class="Poster--Block">
+                                        <img src="https://tuktukhd.com/wp-content/themes/TukTukCinema3/no.png?x47010" data-src="https://tuktukhd.com/wp-content/uploads/2023/04/MV5BNDQxOGI4ZjItM2NhZC00Y2FhLWEwZTAtZTc2MmJmNzY1MjViXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX700-300x444.jpg?x47010" class="lazyload" alt="الموسم 2">
+                                    </div>
+                                    <div class="Block--Info">
+                                        <h3>الموسم 2</h3>
+                                    </div>
+                                </a>
+                            </div>
+                                                        <div class="Block--Item">
+                                <a href="https://tuktukhd.com/series/%d8%a7%d9%84%d9%85%d9%88%d8%b3%d9%85-3-%d9%85%d8%b3%d9%84%d8%b3%d9%84-from-%d9%85%d8%aa%d8%b1%d8%ac%d9%85/" title="">
+                                    <div class="Poster--Block">
+                                        <img src="https://tuktukhd.com/wp-content/themes/TukTukCinema3/no.png?x47010" data-src="https://tuktukhd.com/wp-content/uploads/2024/09/MV5BYzM5ZWMxOGEtZjEyMC00YjQ0LThiYjEtZjVkZGEzN2NlOGEwXkEyXkFqcGc@.jpg_V1_SX700-300x444.webp?x47010" class="lazyload" alt="الموسم 3">
+                                    </div>
+                                    <div class="Block--Info">
+                                        <h3>الموسم 3</h3>
+                                    </div>
+                                </a>
+                            </div>
+                                                        <div class="

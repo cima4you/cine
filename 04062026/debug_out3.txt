@@ -1,0 +1,92 @@
+Posters shared by multiple items: 628
+
+  Poster: https://tuktukhd.com/wp-content/uploads/2023/12/MV5BZmE1NzFh
+    - Psycho-Pass Movie Providence
+    - Psycho-Pass: Providence 2023
+
+  Poster: https://tuktukhd.com/wp-content/uploads/2023/10/t9XXivYtzap9
+    - Lupin III VS CatÔÇÖs Eye
+    - Lupin the 3rd vs. CatÔÇÖs Eye 2023
+
+  Poster: https://tuktukhd.com/wp-content/uploads/2024/11/MV5BOWU3YTkx
+    - Look Back
+    -   Look Back 
+
+  Poster: https://tuktukhd.com/wp-content/uploads/2024/09/MV5BNmEzZWY5
+    - Blue Lock Episode Nagi
+    - Blue Lock: Episode Nagi 2024
+
+  Poster: https://tuktukhd.com/wp-content/uploads/2024/08/MV5BYWE2YzA0
+    - Pretty Guardian Sailor Moon Cosmos Part 2 
+    - Pretty Guardian Sailor Moon Cosmos Part 1
+    - Sailor Moon Cosmos
+    - Pretty Guardian Sailor Moon Cosmos The Movie Part 
+    - Pretty Guardian Sailor Moon Cosmos The Movie Part 
+
+  Poster: https://tuktukhd.com/wp-content/uploads/2022/09/MV5BY2I5Y2Ux
+    - Jujutsu Kaisen 0 
+    - Jujutsu Kaisen 0: The Movie 2021
+
+  Poster: https://tuktukhd.com/wp-content/uploads/2024/11/MV5BODdkYzky
+    - Detective Conan 27 The Million Dollar Pentagram
+    - Detective Conan: The Million-Dollar Pentagram 2024
+
+  Poster: https://tuktukhd.com/wp-content/uploads/2025/03/MV5BNzVjOWEw
+    - Attack on Titan The Last Attack
+    - Attack on Titan the Movie: The Last Attack 2024
+
+  Poster: https://tuktukhd.com/wp-content/uploads/2025/03/MV5BNDUwYTUx
+    - Trapezium
+    - Trapezium 
+
+  Poster: https://tuktukhd.com/wp-content/uploads/2024/08/MV5BZjZiMmFm
+    - Dancing Village The Curse Begins
+    - Godzilla Minus One/Minus Color 2024
+
+  Poster: https://tuktukhd.com/wp-content/uploads/2024/09/Ï▒┘è┘ü┘ê┘ä┘üÏ▒-2-┘à┘ê
+    - Revolver
+    - 2025
+
+  Poster: https://tuktukhd.com/wp-content/uploads/2024/09/MV5BOGY5ZDA0
+    - Menjelang Ajal
+    - White Bird 2023
+
+  Poster: https://tuktukhd.com/wp-content/uploads/2023/12/MV5BMjZmMWNl
+    - Perfect Days
+    - A Hipster in Rural Spain 2024
+
+  Poster: https://tuktukhd.com/wp-content/uploads/2024/06/MV5BMzljOWVm
+    - Abang Adik
+    - The Lockdown 2024
+
+  Poster: https://tuktukhd.com/wp-content/uploads/2024/08/MV5BOTYxMmRk
+    - Yolo
+    - Yoko 
+    - Untamed Royals 2024
+
+  Poster: https://tuktukhd.com/wp-content/uploads/2024/08/MV5BYTQxYjAy
+    - The Sin
+    - Adam Sandler: Love You 2024
+
+  Poster: https://tuktukhd.com/wp-content/uploads/2024/08/Ïº┘ä┘àÏ«ÏÀÏÀ-┘à┘ê┘éÏ╣.
+    - The Plot
+    - Rob Peace 2024
+
+  Poster: https://tuktukhd.com/wp-content/uploads/2024/10/MV5BNzI3Y2Qz
+    - The Experts
+    - The Red 2024
+
+  Poster: https://tuktukhd.com/wp-content/uploads/2024/10/MV5BYWZiOWRk
+    - DevilÔÇÖs Horns
+    - The Last of the Sea Women 2024
+
+  Poster: https://tuktukhd.com/wp-content/uploads/2024/09/MV5BYzUxMjAy
+    - Bangkok Breaking Heaven and Hell
+    - Breathe 2024
+
+
+Potential type mismatches (Arabic type but English title):
+  33 | poster: https://media0101.elcinema.com/uploads/_315x420_b1
+
+Potential type mismatches (English type but Arabic title):
+  Total Arabic-titled items marked as 'ÏúÏ¼┘åÏ¿┘è': 0

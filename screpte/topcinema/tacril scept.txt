@@ -1,0 +1,2 @@
+cd "d:\Users\DT01\Desktop\rachid-site"
+python scripts/topcinema/scrape_topcinema_movies.py --start 1 --end  58  --workers 30

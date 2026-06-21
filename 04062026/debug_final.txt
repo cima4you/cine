@@ -1,0 +1,25 @@
+Known movie assignments: 132
+Extracted from desc + cleaned: 54
+Not found (still need manual): 131
+
+Title distribution:
+   131x  Swapped
+   131x  2026
+     3x  Michael
+     2x  Power Ballad
+     2x  In the Grey
+     2x  Affection
+     2x  Normal
+     2x  Ready or Not: Here I Come
+     2x  Brothers Under Fire
+     1x  One Spoon of Chocolate
+     1x  Erupcja
+     1x  Blackout
+     1x  Saccharine
+     1x  Corporate Retreat
+     1x  Ladies First
+     1x  Whistle
+     1x  You Can't Win
+     1x  The Drama
+     1x  They Will Kill You
+     1x  Protector

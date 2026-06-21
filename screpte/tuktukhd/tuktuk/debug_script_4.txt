@@ -1,0 +1,18 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "فيلم الغاضبون 2026 مدبلج اون لاين",
+  "description": "حصرياً نسخة مدبلجة للعربية من فيلم الاكشن والجريمة الغاضبون The Furious (火遮眼) 2026 بجودة فائقة HD. شاهد واستمتع بفيلم The Furious مدبلج عربي كامل اونلاين بدون تقطيع، تحميل مباشر لفيلم الغاضبون بصوت عربي حصري.",
+  "thumbnailUrl": [
+    "https://tuktukhd.com/wp-content/uploads/2026/06/zP19YO60jwEsfKd5Qf1UvA5uJu8.webp"
+  ],
+  "uploadDate": "2026-06-15T23:12:58+03:00",
+  "duration": "PT1H30M",
+  "contentUrl": "https://tuktukhd.com/videos/%d9%81%d9%8a%d9%84%d9%85-%d8%a7%d9%84%d8%ba%d8%a7%d8%b6%d8%a8%d9%88%d9%86-2026-%d9%85%d8%af%d8%a8%d9%84%d8%ac-%d8%a7%d9%88%d9%86-%d9%84%d8%a7%d9%8a%d9%86.mp4",
+  "embedUrl": "https://tuktukhd.com/%D9%81%D9%8A%D9%84%D9%85-%D8%A7%D9%84%D8%BA%D8%A7%D8%B6%D8%A8%D9%88%D9%86-2026-%D9%85%D8%AF%D8%A8%D9%84%D8%AC-%D8%A7%D9%88%D9%86-%D9%84%D8%A7%D9%8A%D9%86/",
+  "interactionStatistic": {
+    "@type": "InteractionCounter",
+    "interactionType": { "@type": "WatchAction" },
+    "userInteractionCount": 5647
+  }
+}

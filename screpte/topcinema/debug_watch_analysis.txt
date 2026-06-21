@@ -1,0 +1,66 @@
+Server items with data-id/server: 9
+  data-id=225459, data-server=0, name=متعدد الجودات
+  data-id=225459, data-server=1, name=UpDown
+  data-id=225459, data-server=2, name=StreamWish
+  data-id=225459, data-server=3, name=Doodstream
+  data-id=225459, data-server=4, name=Filelions
+  data-id=225459, data-server=5, name=Streamtape
+  data-id=225459, data-server=6, name=LuluStream
+  data-id=225459, data-server=7, name=Uqload
+  data-id=225459, data-server=8, name=Mixdrop
+
+All server--item blocks: 9
+  
+								<i style="background: #387c44" class="fal fa-play playIC"></i><span>متعدد الجودات</span>
+							
+  
+								<i style="background: #1565c0" class="fal fa-play playIC"></i><span>UpDown</span>
+							
+  
+								<i style="background: #dd2c00" class="fal fa-play playIC"></i><span>StreamWish</span>
+							
+  
+								<i style="background: #7e354d" class="fal fa-play playIC"></i><span>Doodstream</span>
+							
+  
+								<i style="background: #ffd600" class="fal fa-play playIC"></i><span>Filelions</span>
+							
+
+Scripts: 14
+
+data-crypt values: 0
+
+data-url values: 0
+
+data-lnk values: 0
+
+Watch area (2056 chars):
+
+			<div class="watch--servers--list">
+				<h2 class="watch--servers-title">سيرفرات المشاهدة </h2>
+				<ul>
+												<li data-id="225459" data-server="0" class="server--item active">
+								<i style="background: #387c44" class="fal fa-play playIC"></i><span>متعدد الجودات</span>
+							</li>
+																				<li data-id="225459" data-server="1" class="server--item ">
+								<i style="background: #1565c0" class="fal fa-play playIC"></i><span>UpDown</span>
+							</li>
+																				<li data-id="225459" data-server="2" class="server--item ">
+								<i style="background: #dd2c00" class="fal fa-play playIC"></i><span>StreamWish</span>
+							</li>
+																				<li data-id="225459" data-server="3" class="server--item ">
+								<i style="background: #7e354d" class="fal fa-play playIC"></i><span>Doodstream</span>
+							</li>
+																				<li data-id="225459" data-server="4" class="server--item ">
+								<i style="background: #ffd600" class="fal fa-play playIC"></i><span>Filelions</span>
+							</li>
+																				<li data-id="225459" data-server="5" class="server--item ">
+								<i style="background: #006064" class="fal fa-play playIC"></i><span>Streamtape</span>
+							</li>
+																				<li data-id="225459" data-server="6" class="server--item ">
+								<i style="background: #2305bd" class="fal fa-play playIC"></i><span>LuluStream</span>
+							</li>
+																				<li data-id="225459" data-server="7" class="server--item ">
+							
+
+Media tags: 0

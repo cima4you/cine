@@ -1,0 +1,34 @@
+<script>
+            document.addEventListener('click', function(e) {
+                // 1. التقاط العنصر
+                var link = e.target.closest('a.smart-external-link');
+                if (!link) return;
+
+                // 2. وقف أي حاجة تانية
+                e.preventDefault();
+                e.stopImmediatePropagation();
+
+                // 3. هات الرابط الحقيقي (اللي هو بقا المشفر حالياً)
+                var realUrl = link.getAttribute('data-real-url');
+                if (!realUrl) return;
+
+                // 4. تحليل نوع الجهاز بدقة (المصيدة)
+                var ua = navigator.userAgent;
+                var isAndroid = /Android/i.test(ua);
+                // كشف التطبيق
+                var isApp = /wv/i.test(ua) || /AppMySite/i.test(ua) || (/Version\/[\d+\.]+/i.test(ua) && /Chrome/i.test(ua));
+
+                // 5. التنفيذ
+                if (isAndroid && isApp) {
+                    // --- (الحالة: تطبيق أندرويد) -> اجبار الخروج لكروم ---
+                    // هنا هيفتح رابط موقعك المشفر في كروم، وكروم هو اللي هيعمل التحويل
+                    var intentUrl = realUrl.replace("https://", "intent://").replace("http://", "intent://");
+                    intentUrl += "#Intent;scheme=https;package=com.android.chrome;end";
+                    window.location.href = intentUrl;
+
+                } else {
+                    // --- (الحالة: متصفح عادي / كمبيوتر / أيفون) -> فتح عادي ---
+                    window.open(realUrl, '_blank');
+                }
+            }, true);
+        </script>

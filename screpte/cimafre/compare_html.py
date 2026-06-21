@@ -1,0 +1,11 @@
+import hashlib
+a = hashlib.md5(open('screpte/cimafre/data/detail.html','rb').read()).hexdigest()
+b = hashlib.md5(open('screpte/cimafre/data/cloudflare_detail.html','rb').read()).hexdigest()
+print(f'requests: {a}')
+print(f'cloudscraper: {b}')
+print(f'Same: {a==b}')
+t1 = open('screpte/cimafre/data/detail.html','r',encoding='utf-8').read()
+t2 = open('screpte/cimafre/data/cloudflare_detail.html','r',encoding='utf-8').read()
+print(f'WatchList count: requests={t1.count("WatchList")}, cloudscraper={t2.count("WatchList")}')
+print(f'data-embed-url count: requests={t1.count("data-embed-url")}, cloudscraper={t2.count("data-embed-url")}')
+print(f'Sizes: {len(t1)} vs {len(t2)}')

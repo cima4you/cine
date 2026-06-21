@@ -1,0 +1,2 @@
+// Auto-generated loader — combines category-based parts
+const contentData = [].concat(cd_foreign, cd_netflix, cd_arabic, cd_asian, cd_turkish_movies, cd_hindi, cd_arabic_series, cd_turkish_completed, cd_turkish_ongoing, cd_asian_series_completed, cd_asian_series_ongoing, cd_anime, cd_anime_series, cd_dubbed, cd_documentary, cd_other, cd_foreign_series, cd_imdb, cd_streamimdb, cd_ooanime, cd_cimafre);

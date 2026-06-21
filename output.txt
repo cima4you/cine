@@ -1,0 +1,5 @@
+Total movies: 9873
+Categories:
+  arabic-moives: 430
+  foreign-movies: 2534
+  turkish-series: 6909

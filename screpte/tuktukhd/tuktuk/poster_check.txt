@@ -1,0 +1,6 @@
+Poster Block HTML:
+<div class="Poster--Block">
+<img alt="فيلم الصراخ 7 2026 مدبلج اون لاين" class="lazyload" data-src="https://tuktukhd.com/wp-content/uploads/2026/03/oyisqE0QLwyzDx46UuwdNU6VuWO-500x750.webp?x47010" height="750" src="https://tuktukhd.com/wp-content/themes/TukTukCinema3/no.png?x47010" width="500"/>
+<span class="Ribbon">مدبلج</span> </div>
+  src: https://tuktukhd.com/wp-content/themes/TukTukCinema3/no.png?x47010
+  data-src: https://tuktukhd.com/wp-content/uploads/2026/03/oyisqE0QLwyzDx46UuwdNU6VuWO-500x750.webp?x47010

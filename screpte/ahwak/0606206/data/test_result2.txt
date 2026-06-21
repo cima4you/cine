@@ -1,0 +1,18 @@
+Total: 16 series
+  'حب محتمل muhtemel ask'                                 ->    1 eps, 1 season(s)
+  'في السابعة عشرة daha 17'                               ->    3 eps, 1 season(s)
+  'اسطنبول راسا على عقب alti ustu istanbul'               ->    1 eps, 1 season(s)
+  'الورود والخطايا'                                       ->   32 eps, 1 season(s)
+  'الخليفة'                                               ->   35 eps, 1 season(s)
+  'المؤسس أورهان'                                         ->   26 eps, 1 season(s)
+  'محمد الفاتح سلطان الفتوحات مترج'                       ->   83 eps, 1 season(s)
+  'حلم اشرف الموسم الثاني'                                ->   34 eps, 1 season(s)
+  'أخي abi'                                               ->   18 eps, 1 season(s)
+  'اسم الرمز كرلانج'                                      ->   59 eps, 3 season(s)
+  'أطفال الجنة'                                           ->   22 eps, 1 season(s)
+  'هذا البحر سوف يفيض'                                    ->   31 eps, 1 season(s)
+  'جبل جونول'                                             ->  193 eps, 2 season(s)
+  'انت من احب sevdigim sensin'                            ->   15 eps, 1 season(s)
+  'حال ليلى leyla hali'                                   ->   10 eps, 1 season(s)
+  'حلم اشرف'                                              ->   47 eps, 1 season(s)
+Total episodes: 610

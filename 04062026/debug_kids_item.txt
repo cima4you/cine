@@ -1,0 +1,24 @@
+[14078] full item:
+  title: '2026'
+  type: 'ÏºÏÀ┘üÏº┘ä'
+  contentType: 'movie'
+  seasons: 0
+  servers: 8
+  poster: https://image.tmdb.org/t/p/w500/mAX1ujOROXtKsOuIg5MbJbotOyD.
+  keys: ['title', 'year', 'rating', 'duration', 'quality', 'type', 'description', 'cast', 'categories', 'poster', 'servers', 'downloadServers', 'trial', 'contentType']
+[14080] full item:
+  title: '2026'
+  type: 'ÏºÏÀ┘üÏº┘ä'
+  contentType: 'movie'
+  seasons: 0
+  servers: 6
+  poster: https://image.tmdb.org/t/p/w500/mAX1ujOROXtKsOuIg5MbJbotOyD.
+  keys: ['title', 'year', 'rating', 'duration', 'quality', 'type', 'description', 'cast', 'categories', 'poster', 'servers', 'downloadServers', 'trial', 'contentType']
+[14081] full item:
+  title: '2026'
+  type: 'ÏºÏÀ┘üÏº┘ä'
+  contentType: 'movie'
+  seasons: 0
+  servers: 6
+  poster: https://image.tmdb.org/t/p/w500/mAX1ujOROXtKsOuIg5MbJbotOyD.
+  keys: ['title', 'year', 'rating', 'duration', 'quality', 'type', 'description', 'cast', 'categories', 'poster', 'servers', 'downloadServers', 'trial', 'contentType']

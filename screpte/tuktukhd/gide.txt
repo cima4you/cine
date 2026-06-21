@@ -1,0 +1,17 @@
+# سحب القائمة (صفحات 1-3)
+python scripts/tuktukhd/scrape_foreign_series.py --start 1 --end 3 --phase listing
+
+# سحب التفاصيل (يكمل من القائمة)
+python scripts/tuktukhd/scrape_foreign_series.py --phase detail --resume
+
+# سحب السيرفرات (يكمل من التفاصيل)
+python scripts/tuktukhd/scrape_foreign_series.py --phase servers --resume
+
+# الكل مرة واحدة (صفحة واحدة فقط)
+python scripts/tuktukhd/scrape_foreign_series.py --start 1 --end 1 --workers 4
+
+# تحويل بيانات JSON الحالية لصيغة الموقع
+python scripts/tuktukhd/scrape_foreign_series.py --convert
+
+# دمج مع ملف حالي
+python scripts/tuktukhd/scrape_foreign_series.py --convert --merge split/data-foreign.js
