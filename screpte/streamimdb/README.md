@@ -59,7 +59,7 @@ python screpte/streamimdb/scrape_streamimdb.py --help
 
 ### 2. `convert_to_js.py` — تحويل JSON إلى JS
 
-يقرأ `data/streamimdb_movies.json` ويكتب `data/data-streamimdb.js`.
+يقرأ `data/streamimdb_movies.json` ويكتب `data-streamimdb.js` في جذر المشروع.
 
 ```powershell
 python screpte/streamimdb/convert_to_js.py
@@ -96,10 +96,11 @@ screpte/streamimdb/
     ├── state.json             # حالة التقدم (listings_page + embeds_index)
     └── _check_*.py            # ملفات اختبار مؤقتة
 
-data/
+(data-streamimdb.js في جذر المشروع)
 ├── data-streamimdb.js         # الأفلام بصيغة JS
 ├── data-loader.js             # يجمع كل cd_* في contentData
-└── index.html                 # الموقع + CATEGORIES
+├── index.html                 # الموقع + CATEGORIES
+└── logo.png                   # شعار الموقع
 ```
 
 ## سير العمل الكامل

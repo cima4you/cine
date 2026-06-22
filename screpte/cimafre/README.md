@@ -45,7 +45,7 @@ python screpte/cimafre/scrape_cimafre.py --servers --parallel 10
 
 ### 2. `convert_to_js.py` — تحويل JSON إلى JS
 
-يقرأ `data/arabic_movies.json` ويكتب `data/data-cimafre.js` و `data/data-cimafre.json`.
+يقرأ `data/arabic_movies.json` ويكتب `data-cimafre.js` و `data-cimafre.json` في جذر المشروع.
 
 ```powershell
 python screpte/cimafre/convert_to_js.py
@@ -81,10 +81,8 @@ screpte/cimafre/
 ├── README.md               # هذا الملف
 ├── data/
 │   └── arabic_movies.json  # بيانات الأفلام الخام (JSON)
-│
-└── *_test / check_*.py     # ملفات اختبار وتجريب
 
-data/
+(data-cimafre.js في جذر المشروع)
 ├── data-cimafre.js         # الأفلام بصيغة JS
 ├── data-cimafre.json       # الأفلام بصيغة JSON (للمراجعة)
 ├── data-loader.js          # يجمع كل cd_* في contentData
@@ -93,10 +91,11 @@ data/
 
 ## سير العمل الكامل
 
-1. **جلب التصفح:** `python scrape_cimafre.py --to 999` (أو العدد المطلوب من الصفحات)
+1. **جلب التصفح:** `python scrape_cimafre.py --to 999`
 2. **جلب السيرفرات:** `python scrape_cimafre.py --servers --parallel 10`
 3. **تحويل إلى JS:** `python convert_to_js.py`
-4. **تحديث الموقع:** أضف `<script src="data-cimafre.js">` إلى `index.html` و `cd_cimafre` إلى `data-loader.js`
+4. **رفع للموقع:** `git add -A && git commit -m "تحديث" && git push`
+5. **GitHub Pages** ينشر تلقائياً ← `https://cima4u.github.io/cine/`
 
 ## ملاحظات مهمة
 

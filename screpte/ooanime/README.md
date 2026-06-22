@@ -55,7 +55,7 @@ python screpte/ooanime/scrape_ooanime.py --detail-only --resume && python scrept
 
 ### 2. `convert_to_js.py` — تحويل JSON إلى JS
 
-يقرأ `data/ooanime_series.json` ويكتب `data/data-ooanime.js` و `data/data-ooanime.json`.
+يقرأ `data/ooanime_series.json` ويكتب `data-ooanime.js` و `data-ooanime.json` في جذر المشروع.
 
 ```powershell
 python screpte/ooanime/convert_to_js.py
@@ -101,10 +101,8 @@ screpte/ooanime/
 ├── README.md               # هذا الملف
 ├── data/
 │   └── ooanime_series.json # بيانات المسلسلات الخام (JSON)
-│
-└── _check_*.py / _explore.py  # ملفات اختبار وتجريب
 
-data/
+(data-ooanime.js في جذر المشروع)
 ├── data-ooanime.js         # المسلسلات بصيغة JS
 ├── data-ooanime.json       # المسلسلات بصيغة JSON (للمراجعة)
 ├── data-loader.js          # يجمع كل cd_* في contentData
