@@ -1,8 +1,8 @@
-import json, re, sys, os
+import json, re, sys, os, time
 sys.stdout.reconfigure(encoding='utf-8')
 
 TUKTUK_JSON = r"screpte\tuktukhd\tuktuk\dubbed.json"
-DATA_FILE = r"data\data-dubbed.js"
+DATA_FILE = r"data-dubbed.js"
 
 if not os.path.exists(TUKTUK_JSON):
     print(f'❌ الملف غير موجود: {TUKTUK_JSON}')
@@ -22,6 +22,8 @@ prefix = content[:arr_start]
 suffix = content[arr_end:]
 
 existing = json.loads(content[arr_start:arr_end])
+for x in existing:
+    x.setdefault('dateAdded', 0)
 
 existing_titles = {m.get('title', '') for m in existing}
 existing_by_title = {m.get('title', ''): m for m in existing}
@@ -29,9 +31,11 @@ added = 0
 updated = 0
 for m in new_movies:
     m['type'] = 'مدبلج'
+    m['contentType'] = m.get('contentType', 'movie')
     title = m.get('title', '')
     if title not in existing_titles:
-        existing.append(m)
+        m['dateAdded'] = int(time.time())
+        existing.insert(0, m)
         existing_titles.add(title)
         added += 1
     else:
