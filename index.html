@@ -16,23 +16,23 @@
     <meta name="apple-mobile-web-app-title" content="R-CINE">
     <title>R-CINE - Rachid Movies</title>
     <script src="https://cdn.tailwindcss.com"></script>
-        <script src="data-foreign.js?v=20250623z"></script>
-    <script src="data-foreign-series.js?v=20250623z"></script>
-    <script src="data-netflix.js?v=20250623z"></script>
-    <script src="data-arabic.js?v=20250623z"></script>
-    <script src="data-asian.js?v=20250623z"></script>
-    <script src="data-turkish-movies.js?v=20250623z"></script>
-    <script src="data-hindi.js?v=20250623z"></script>
-    <script src="data-arabic-series.js?v=20250623z"></script>
-    <script src="data-turkish-completed.js?v=20250623z"></script>
-    <script src="data-turkish-ongoing.js?v=20250623z"></script>
-    <script src="data-asian-series-completed.js?v=20250623z"></script>
-    <script src="data-asian-series-ongoing.js?v=20250623z"></script>
-    <script src="data-anime.js?v=20250623z"></script>
-    <script src="data-anime-series.js?v=20250623z"></script>
-    <script src="data-dubbed.js?v=20250623z"></script>
-    <script src="data-documentary.js?v=20250623z"></script>
-    <script src="data-other.js?v=20250623z"></script>
+        <script src="data-foreign.js?v=20250623aaa"></script>
+    <script src="data-foreign-series.js?v=20250623aaa"></script>
+    <script src="data-netflix.js?v=20250623aaa"></script>
+    <script src="data-arabic.js?v=20250623aaa"></script>
+    <script src="data-asian.js?v=20250623aaa"></script>
+    <script src="data-turkish-movies.js?v=20250623aaa"></script>
+    <script src="data-hindi.js?v=20250623aaa"></script>
+    <script src="data-arabic-series.js?v=20250623aaa"></script>
+    <script src="data-turkish-completed.js?v=20250623aaa"></script>
+    <script src="data-turkish-ongoing.js?v=20250623aaa"></script>
+    <script src="data-asian-series-completed.js?v=20250623aaa"></script>
+    <script src="data-asian-series-ongoing.js?v=20250623aaa"></script>
+    <script src="data-anime.js?v=20250623aaa"></script>
+    <script src="data-anime-series.js?v=20250623aaa"></script>
+    <script src="data-dubbed.js?v=20250623aaa"></script>
+    <script src="data-documentary.js?v=20250623aaa"></script>
+    <script src="data-other.js?v=20250623aaa"></script>
     <script src="data-imdb.js?v=20250619"></script>
     <script src="data-streamimdb.js?v=20250619"></script>
     <script src="data-ooanime.js?v=20250621"></script>
@@ -484,6 +484,7 @@
                 <div class="Header--Search">
                     <input id="headerSearch" type="text" placeholder="بحث...">
                 </div>
+                <div id="notificationBtn" title="تفعيل الإشعارات" style="cursor:pointer;font-size:18px;padding:6px;color:#aaa;transition:color .2s">🔕</div>
                 <!-- Mobile buttons -->
                 <div class="mobile--bars" id="mobileBars">☰</div>
                 <div class="mobile--search" id="mobileSearchBtn">🔍</div>
@@ -1776,6 +1777,26 @@
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('sw.js').catch(() => {});
         }
+
+        // Notification
+        const notifBtn = document.getElementById('notificationBtn');
+        if ('Notification' in window) {
+            if (Notification.permission === 'granted') { notifBtn.textContent = '🔔'; notifBtn.title = 'الإشعارات مفعلة'; }
+            notifBtn.addEventListener('click', () => {
+                if (Notification.permission === 'granted') {
+                    new Notification('R-CINE', { body: 'الإشعارات مفعلة بالفعل ✅', icon: 'logo.png' });
+                } else if (Notification.permission === 'denied') {
+                    alert('تم رفض الإشعارات مسبقًا');
+                } else {
+                    Notification.requestPermission().then(perm => {
+                        if (perm === 'granted') {
+                            notifBtn.textContent = '🔔'; notifBtn.title = 'الإشعارات مفعلة';
+                            new Notification('R-CINE', { body: 'تم تفعيل الإشعارات بنجاح 🎉', icon: 'logo.png' });
+                        }
+                    });
+                }
+            });
+        } else { notifBtn.style.display = 'none'; }
     </script>
 
 </body>

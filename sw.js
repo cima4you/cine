@@ -14,3 +14,10 @@ self.addEventListener('fetch', e => {
     }))
   );
 });
+self.addEventListener('notificationclick', e => {
+  e.notification.close();
+  e.waitUntil(clients.matchAll({type:'window'}).then(cls => {
+    if (cls[0]) { cls[0].focus(); return; }
+    clients.openWindow('/');
+  }));
+});
