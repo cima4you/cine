@@ -7,30 +7,32 @@
     <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="pragma" content="no-cache">
     <meta http-equiv="expires" content="0">
+    <link rel="icon" href="logo.png">
     <link rel="manifest" href="manifest.json">
+    <link rel="sitemap" type="application/xml" href="sitemap.xml">
     <meta name="theme-color" content="#16162a">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="R-CINE">
     <title>R-CINE - Rachid Movies</title>
     <script src="https://cdn.tailwindcss.com"></script>
-        <script src="data-foreign.js?v=20250623y"></script>
-    <script src="data-foreign-series.js?v=20250623y"></script>
-    <script src="data-netflix.js?v=20250623y"></script>
-    <script src="data-arabic.js?v=20250623y"></script>
-    <script src="data-asian.js?v=20250623y"></script>
-    <script src="data-turkish-movies.js?v=20250623y"></script>
-    <script src="data-hindi.js?v=20250623y"></script>
-    <script src="data-arabic-series.js?v=20250623y"></script>
-    <script src="data-turkish-completed.js?v=20250623y"></script>
-    <script src="data-turkish-ongoing.js?v=20250623y"></script>
-    <script src="data-asian-series-completed.js?v=20250623y"></script>
-    <script src="data-asian-series-ongoing.js?v=20250623y"></script>
-    <script src="data-anime.js?v=20250623y"></script>
-    <script src="data-anime-series.js?v=20250623y"></script>
-    <script src="data-dubbed.js?v=20250623y"></script>
-    <script src="data-documentary.js?v=20250623y"></script>
-    <script src="data-other.js?v=20250623y"></script>
+        <script src="data-foreign.js?v=20250623z"></script>
+    <script src="data-foreign-series.js?v=20250623z"></script>
+    <script src="data-netflix.js?v=20250623z"></script>
+    <script src="data-arabic.js?v=20250623z"></script>
+    <script src="data-asian.js?v=20250623z"></script>
+    <script src="data-turkish-movies.js?v=20250623z"></script>
+    <script src="data-hindi.js?v=20250623z"></script>
+    <script src="data-arabic-series.js?v=20250623z"></script>
+    <script src="data-turkish-completed.js?v=20250623z"></script>
+    <script src="data-turkish-ongoing.js?v=20250623z"></script>
+    <script src="data-asian-series-completed.js?v=20250623z"></script>
+    <script src="data-asian-series-ongoing.js?v=20250623z"></script>
+    <script src="data-anime.js?v=20250623z"></script>
+    <script src="data-anime-series.js?v=20250623z"></script>
+    <script src="data-dubbed.js?v=20250623z"></script>
+    <script src="data-documentary.js?v=20250623z"></script>
+    <script src="data-other.js?v=20250623z"></script>
     <script src="data-imdb.js?v=20250619"></script>
     <script src="data-streamimdb.js?v=20250619"></script>
     <script src="data-ooanime.js?v=20250621"></script>
@@ -688,6 +690,10 @@
                 <div id="downloadList" class="flex flex-wrap gap-2"></div>
             </div>
 
+            <div id="ratingSection" class="mb-4" style="display:none">
+                <div class="text-sm text-gray-500 mb-1">⭐ تقييمك:</div>
+                <div id="starRating" class="flex gap-1" style="font-size:24px;cursor:pointer"></div>
+            </div>
             <div id="shareSection" class="mb-4" style="display:none">
                 <div class="text-sm text-gray-500 mb-2">📤 مشاركة:</div>
                 <div class="flex flex-wrap gap-2">
@@ -1488,6 +1494,36 @@
             modal.style.display = 'flex';
             document.body.style.overflow = 'hidden';
             document.getElementById('shareSection').style.display = 'block';
+            // User rating
+            const ratings = JSON.parse(localStorage.getItem('rcine_ratings') || '{}');
+            const itemKey = item.title + (item.year || '');
+            const userRating = ratings[itemKey] || 0;
+            const rs = document.getElementById('ratingSection');
+            let avgRating = 0;
+            if (ratings[itemKey]) avgRating = ratings[itemKey];
+            rs.style.display = 'block';
+            const sr = document.getElementById('starRating');
+            sr.innerHTML = '';
+            for (let i=1; i<=5; i++) {
+                const s = document.createElement('span');
+                s.textContent = i <= userRating ? '★' : '☆';
+                s.style.color = i <= userRating ? '#d4a843' : '#555';
+                s.dataset.v = i;
+                s.className = 'rating-star hover:scale-110 transition-transform';
+                s.addEventListener('click', function() {
+                    const v = +this.dataset.v;
+                    ratings[itemKey] = v;
+                    localStorage.setItem('rcine_ratings', JSON.stringify(ratings));
+                    renderStars(v);
+                });
+                sr.appendChild(s);
+            }
+            function renderStars(v) {
+                sr.querySelectorAll('.rating-star').forEach((s,i) => {
+                    s.textContent = i < v ? '★' : '☆';
+                    s.style.color = i < v ? '#d4a843' : '#555';
+                });
+            }
         }
 
         document.getElementById('closeModal').addEventListener('click', closeModal);
