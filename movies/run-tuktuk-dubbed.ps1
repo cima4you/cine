@@ -21,4 +21,4 @@ python $MERGER
 if ($LASTEXITCODE -ne 0) { Write-Host "Merge FAILED" -ForegroundColor Red; exit 1 }
 
 Write-Host "`nDone! Now commit and push:" -ForegroundColor Green
-Write-Host "git add -A && git commit -m `"تحديث أفلام مدبلجة TukTuk`" && git push" -ForegroundColor White
+Write-Host 'git add -A && git commit -m "تحديث أفلام مدبلجة TukTuk" && git push' -ForegroundColor White

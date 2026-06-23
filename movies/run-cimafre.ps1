@@ -24,4 +24,4 @@ python -X utf8 $CONVERT
 if ($LASTEXITCODE -ne 0) { Write-Host "Convert FAILED" -ForegroundColor Red; exit 1 }
 
 Write-Host "`nDone! Now commit and push:" -ForegroundColor Green
-Write-Host "git add -A && git commit -m `"تحديث Cimafre`" && git push" -ForegroundColor White
+Write-Host 'git add -A && git commit -m "تحديث Cimafre" && git push' -ForegroundColor White

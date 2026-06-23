@@ -19,4 +19,4 @@ python $SCRAPER --convert --merge "data/data-foreign-series.js" --output "data/d
 if ($LASTEXITCODE -ne 0) { Write-Host "Convert FAILED" -ForegroundColor Red; exit 1 }
 
 Write-Host "`nDone! Now commit and push:" -ForegroundColor Green
-Write-Host "git add -A && git commit -m `"تحديث مسلسلات أجنبية TukTuk`" && git push" -ForegroundColor White
+Write-Host 'git add -A && git commit -m "تحديث مسلسلات أجنبية TukTuk" && git push' -ForegroundColor White
