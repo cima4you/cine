@@ -21,11 +21,11 @@
     ]
   },
   {
-    "url": "https://yam.ahwaktv.net/watch.php?vid=c077534bd",
-    "vid": "c077534bd",
+    "url": "https://yam.ahwaktv.net/watch.php?vid=1c88a86d1",
+    "vid": "1c88a86d1",
     "poster": "https://yam.ahwaktv.net/uploads/thumbs/b3f26d564-1.jpg",
     "title": "في السابعة عشرة daha 17",
-    "description": "مشاهدة الحلقة 3 الثالثة من مسلسل الدراما والرومانسية التركي في السابعة عشرة حلقة 3 مترجم كامل نسخة اصلية HD ، تحميل مسلسل لا تزال في السابعة عشرة موسم...",
+    "description": "مشاهدة الحلقة 4 الرابعة من مسلسل الدراما والرومانسية التركي في السابعة عشرة حلقة 4 مترجم كامل نسخة اصلية HD ، تحميل مسلسل لا تزال في السابعة عشرة موسم...",
     "episodes": [
       {
         "url": "https://yam.ahwaktv.net/watch.php?vid=b3f26d564",
@@ -43,6 +43,12 @@
         "url": "https://yam.ahwaktv.net/watch.php?vid=c077534bd",
         "title": "مسلسل في السابعة عشرة الحلقة 3 الثالثة مترجمة HD",
         "episodeNumber": 3,
+        "seasonNumber": 1
+      },
+      {
+        "url": "https://yam.ahwaktv.net/watch.php?vid=1c88a86d1",
+        "title": "مسلسل في السابعة عشرة الحلقة 4 الرابعة مترجمة HD",
+        "episodeNumber": 4,
         "seasonNumber": 1
       }
     ],

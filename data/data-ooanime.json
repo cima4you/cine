@@ -5313,6 +5313,32 @@
         "poster": "",
         "episodes": [
           {
+            "episodeNumber": 1,
+            "title": "الحلقة 1",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alsighar.Eltayibun.S01/[OOAnime.com].Alsighar.Eltayibun.S01.Ep01.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 2,
+            "title": "الحلقة 2",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alsighar.Eltayibun.S01/[OOAnime.com].Alsighar.Eltayibun.S01.Ep02.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
             "episodeNumber": 3,
             "title": "الحلقة 3",
             "duration": "",
@@ -5584,6 +5610,19 @@
         "poster": "",
         "episodes": [
           {
+            "episodeNumber": 1,
+            "title": "الحلقة 1",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Elsiyad.Eljari.S01/[OOAnime.com].Elsiyad.Eljari.S01.Ep01.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
             "episodeNumber": 2,
             "title": "الحلقة 2",
             "duration": "",
@@ -5842,6 +5881,58 @@
               }
             ],
             "downloadServers": []
+          },
+          {
+            "episodeNumber": 22,
+            "title": "الحلقة 22",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Elsiyad.Eljari.S01/[OOAnime.com].Elsiyad.Eljari.S01.Ep22.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 23,
+            "title": "الحلقة 23",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Elsiyad.Eljari.S01/[OOAnime.com].Elsiyad.Eljari.S01.Ep23.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 24,
+            "title": "الحلقة 24",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Elsiyad.Eljari.S01/[OOAnime.com].Elsiyad.Eljari.S01.Ep24.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 25,
+            "title": "الحلقة 25",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Elsiyad.Eljari.S01/[OOAnime.com].Elsiyad.Eljari.S01.Ep25.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
           }
         ]
       }
@@ -6083,6 +6174,188 @@
               {
                 "name": "Ooanime",
                 "url": "https://new.ooanime.com/OOAnime.com/Alssayiq.S01/[OOAnime.com].Alssayiq.S01.Ep17.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 18,
+            "title": "الحلقة 18",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alssayiq.S01/[OOAnime.com].Alssayiq.S01.Ep18.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 19,
+            "title": "الحلقة 19",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alssayiq.S01/[OOAnime.com].Alssayiq.S01.Ep19.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 20,
+            "title": "الحلقة 20",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alssayiq.S01/[OOAnime.com].Alssayiq.S01.Ep20.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 21,
+            "title": "الحلقة 21",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alssayiq.S01/[OOAnime.com].Alssayiq.S01.Ep21.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 22,
+            "title": "الحلقة 22",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alssayiq.S01/[OOAnime.com].Alssayiq.S01.Ep22.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 23,
+            "title": "الحلقة 23",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alssayiq.S01/[OOAnime.com].Alssayiq.S01.Ep23.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 24,
+            "title": "الحلقة 24",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alssayiq.S01/[OOAnime.com].Alssayiq.S01.Ep24.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 25,
+            "title": "الحلقة 25",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alssayiq.S01/[OOAnime.com].Alssayiq.S01.Ep25.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 26,
+            "title": "الحلقة 26",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alssayiq.S01/[OOAnime.com].Alssayiq.S01.Ep26.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 27,
+            "title": "الحلقة 27",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alssayiq.S01/[OOAnime.com].Alssayiq.S01.Ep27.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 28,
+            "title": "الحلقة 28",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alssayiq.S01/[OOAnime.com].Alssayiq.S01.Ep28.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 29,
+            "title": "الحلقة 29",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alssayiq.S01/[OOAnime.com].Alssayiq.S01.Ep29.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 30,
+            "title": "الحلقة 30",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alssayiq.S01/[OOAnime.com].Alssayiq.S01.Ep30.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 31,
+            "title": "الحلقة 31",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alssayiq.S01/[OOAnime.com].Alssayiq.S01.Ep31.mp4",
                 "isDefault": true
               }
             ],
@@ -12970,6 +13243,175 @@
             "downloadServers": []
           },
           {
+            "episodeNumber": 162,
+            "title": "الحلقة 162",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Bleach.S01/[OOAnime.com].Bleach.S01.Ep162.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 163,
+            "title": "الحلقة 163",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Bleach.S01/[OOAnime.com].Bleach.S01.Ep163.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 164,
+            "title": "الحلقة 164",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Bleach.S01/[OOAnime.com].Bleach.S01.Ep164.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 165,
+            "title": "الحلقة 165",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Bleach.S01/[OOAnime.com].Bleach.S01.Ep165.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 166,
+            "title": "الحلقة 166",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Bleach.S01/[OOAnime.com].Bleach.S01.Ep166.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 167,
+            "title": "الحلقة 167",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Bleach.S01/[OOAnime.com].Bleach.S01.Ep167.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 168,
+            "title": "الحلقة 168",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Bleach.S01/[OOAnime.com].Bleach.S01.Ep168.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 169,
+            "title": "الحلقة 169",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Bleach.S01/[OOAnime.com].Bleach.S01.Ep169.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 170,
+            "title": "الحلقة 170",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Bleach.S01/[OOAnime.com].Bleach.S01.Ep170.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 171,
+            "title": "الحلقة 171",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Bleach.S01/[OOAnime.com].Bleach.S01.Ep171.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 172,
+            "title": "الحلقة 172",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Bleach.S01/[OOAnime.com].Bleach.S01.Ep172.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 173,
+            "title": "الحلقة 173",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Bleach.S01/[OOAnime.com].Bleach.S01.Ep173.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 174,
+            "title": "الحلقة 174",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Bleach.S01/[OOAnime.com].Bleach.S01.Ep174.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
             "episodeNumber": 175,
             "title": "الحلقة 175",
             "duration": "",
@@ -15523,6 +15965,97 @@
               {
                 "name": "Ooanime",
                 "url": "https://new.ooanime.com/OOAnime.com/Basma.Wa.Abdo.S01/[OOAnime.com].Basma.Wa.Abdo.S01.Ep03.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 4,
+            "title": "الحلقة 4",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Basma.Wa.Abdo.S01/[OOAnime.com].Basma.Wa.Abdo.S01.Ep04.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 5,
+            "title": "الحلقة 5",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Basma.Wa.Abdo.S01/[OOAnime.com].Basma.Wa.Abdo.S01.Ep05.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 6,
+            "title": "الحلقة 6",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Basma.Wa.Abdo.S01/[OOAnime.com].Basma.Wa.Abdo.S01.Ep06.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 7,
+            "title": "الحلقة 7",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Basma.Wa.Abdo.S01/[OOAnime.com].Basma.Wa.Abdo.S01.Ep07.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 8,
+            "title": "الحلقة 8",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Basma.Wa.Abdo.S01/[OOAnime.com].Basma.Wa.Abdo.S01.Ep08.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 9,
+            "title": "الحلقة 9",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Basma.Wa.Abdo.S01/[OOAnime.com].Basma.Wa.Abdo.S01.Ep09.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 10,
+            "title": "الحلقة 10",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Basma.Wa.Abdo.S01/[OOAnime.com].Basma.Wa.Abdo.S01.Ep10.mp4",
                 "isDefault": true
               }
             ],
@@ -22066,6 +22599,19 @@
             "downloadServers": []
           },
           {
+            "episodeNumber": 49,
+            "title": "الحلقة 49",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/D.Gray.man.S01/[OOAnime.com].D.Gray.man.S01.Ep49.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
             "episodeNumber": 50,
             "title": "الحلقة 50",
             "duration": "",
@@ -22684,6 +23230,19 @@
               {
                 "name": "Ooanime",
                 "url": "https://new.ooanime.com/OOAnime.com/D.Gray.man.S01/[OOAnime.com].D.Gray.man.S01.Ep97.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 98,
+            "title": "الحلقة 98",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/D.Gray.man.S01/[OOAnime.com].D.Gray.man.S01.Ep98.mp4",
                 "isDefault": true
               }
             ],
@@ -24656,6 +25215,19 @@
             "downloadServers": []
           },
           {
+            "episodeNumber": 15,
+            "title": "الحلقة 15",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Aldabbaba.El.Khadra.S01/[OOAnime.com].Aldabbaba.El.Khadra.S01.Ep15.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
             "episodeNumber": 16,
             "title": "الحلقة 16",
             "duration": "",
@@ -24702,6 +25274,32 @@
               {
                 "name": "Ooanime",
                 "url": "https://new.ooanime.com/OOAnime.com/Aldabbaba.El.Khadra.S01/[OOAnime.com].Aldabbaba.El.Khadra.S01.Ep19.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 20,
+            "title": "الحلقة 20",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Aldabbaba.El.Khadra.S01/[OOAnime.com].Aldabbaba.El.Khadra.S01.Ep20.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 21,
+            "title": "الحلقة 21",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Aldabbaba.El.Khadra.S01/[OOAnime.com].Aldabbaba.El.Khadra.S01.Ep21.mp4",
                 "isDefault": true
               }
             ],
@@ -47806,6 +48404,71 @@
         "poster": "",
         "episodes": [
           {
+            "episodeNumber": 1,
+            "title": "الحلقة 1",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Black.Rock.Shooter.S01/[OOAnime.com].Black.Rock.Shooter.S01.Ep01.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 2,
+            "title": "الحلقة 2",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Black.Rock.Shooter.S01/[OOAnime.com].Black.Rock.Shooter.S01.Ep02.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 3,
+            "title": "الحلقة 3",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Black.Rock.Shooter.S01/[OOAnime.com].Black.Rock.Shooter.S01.Ep03.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 4,
+            "title": "الحلقة 4",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Black.Rock.Shooter.S01/[OOAnime.com].Black.Rock.Shooter.S01.Ep04.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 5,
+            "title": "الحلقة 5",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Black.Rock.Shooter.S01/[OOAnime.com].Black.Rock.Shooter.S01.Ep05.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
             "episodeNumber": 6,
             "title": "الحلقة 6",
             "duration": "",
@@ -47839,6 +48502,392 @@
               {
                 "name": "Ooanime",
                 "url": "https://new.ooanime.com/OOAnime.com/Black.Rock.Shooter.S01/[OOAnime.com].Black.Rock.Shooter.S01.Ep08.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Devil May Cry",
+    "year": "2007",
+    "rating": "7.02",
+    "type": "كرتون",
+    "contentType": "series",
+    "description": "",
+    "poster": "https://www.ooanime.com/files/9b2bb36715fc185e33716e53c50c685b.jpg",
+    "categories": [
+      "كرتون"
+    ],
+    "quality": "HD",
+    "badge": "كرتون",
+    "badgeClr": "orange",
+    "seasons": [
+      {
+        "seasonNumber": 1,
+        "description": "",
+        "poster": "",
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "الحلقة 1",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Devil.May.Cry.S01/[OOAnime.com].Devil.May.Cry.S01.Ep01.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 2,
+            "title": "الحلقة 2",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Devil.May.Cry.S01/[OOAnime.com].Devil.May.Cry.S01.Ep02.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 3,
+            "title": "الحلقة 3",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Devil.May.Cry.S01/[OOAnime.com].Devil.May.Cry.S01.Ep03.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 4,
+            "title": "الحلقة 4",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Devil.May.Cry.S01/[OOAnime.com].Devil.May.Cry.S01.Ep04.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 5,
+            "title": "الحلقة 5",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Devil.May.Cry.S01/[OOAnime.com].Devil.May.Cry.S01.Ep05.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 6,
+            "title": "الحلقة 6",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Devil.May.Cry.S01/[OOAnime.com].Devil.May.Cry.S01.Ep06.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 7,
+            "title": "الحلقة 7",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Devil.May.Cry.S01/[OOAnime.com].Devil.May.Cry.S01.Ep07.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 8,
+            "title": "الحلقة 8",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Devil.May.Cry.S01/[OOAnime.com].Devil.May.Cry.S01.Ep08.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 9,
+            "title": "الحلقة 9",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Devil.May.Cry.S01/[OOAnime.com].Devil.May.Cry.S01.Ep09.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 10,
+            "title": "الحلقة 10",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Devil.May.Cry.S01/[OOAnime.com].Devil.May.Cry.S01.Ep10.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 11,
+            "title": "الحلقة 11",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Devil.May.Cry.S01/[OOAnime.com].Devil.May.Cry.S01.Ep11.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 12,
+            "title": "الحلقة 12",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Devil.May.Cry.S01/[OOAnime.com].Devil.May.Cry.S01.Ep12.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "حكايات القط",
+    "year": "1900s",
+    "rating": "4.4",
+    "type": "كرتون",
+    "contentType": "series",
+    "description": "",
+    "poster": "https://www.ooanime.com/files/317e14f1abb7f35527ac50d8ce2bdbab.jpg",
+    "categories": [
+      "كرتون"
+    ],
+    "quality": "HD",
+    "badge": "كرتون",
+    "badgeClr": "orange",
+    "seasons": [
+      {
+        "seasonNumber": 1,
+        "description": "",
+        "poster": "",
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "الحلقة 1",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Hikayat.Elqut.S01/[OOAnime.com].Hikayat.Elqut.S01.Ep01.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 2,
+            "title": "الحلقة 2",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Hikayat.Elqut.S01/[OOAnime.com].Hikayat.Elqut.S01.Ep02.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 3,
+            "title": "الحلقة 3",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Hikayat.Elqut.S01/[OOAnime.com].Hikayat.Elqut.S01.Ep03.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 4,
+            "title": "الحلقة 4",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Hikayat.Elqut.S01/[OOAnime.com].Hikayat.Elqut.S01.Ep04.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 5,
+            "title": "الحلقة 5",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Hikayat.Elqut.S01/[OOAnime.com].Hikayat.Elqut.S01.Ep05.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 6,
+            "title": "الحلقة 6",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Hikayat.Elqut.S01/[OOAnime.com].Hikayat.Elqut.S01.Ep06.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 7,
+            "title": "الحلقة 7",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Hikayat.Elqut.S01/[OOAnime.com].Hikayat.Elqut.S01.Ep07.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 8,
+            "title": "الحلقة 8",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Hikayat.Elqut.S01/[OOAnime.com].Hikayat.Elqut.S01.Ep08.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 9,
+            "title": "الحلقة 9",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Hikayat.Elqut.S01/[OOAnime.com].Hikayat.Elqut.S01.Ep09.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 10,
+            "title": "الحلقة 10",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Hikayat.Elqut.S01/[OOAnime.com].Hikayat.Elqut.S01.Ep10.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 11,
+            "title": "الحلقة 11",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Hikayat.Elqut.S01/[OOAnime.com].Hikayat.Elqut.S01.Ep11.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 12,
+            "title": "الحلقة 12",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Hikayat.Elqut.S01/[OOAnime.com].Hikayat.Elqut.S01.Ep12.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 13,
+            "title": "الحلقة 13",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Hikayat.Elqut.S01/[OOAnime.com].Hikayat.Elqut.S01.Ep13.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 14,
+            "title": "الحلقة 14",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Hikayat.Elqut.S01/[OOAnime.com].Hikayat.Elqut.S01.Ep14.mp4",
                 "isDefault": true
               }
             ],
@@ -48175,6 +49224,19 @@
               {
                 "name": "Ooanime",
                 "url": "https://new.ooanime.com/OOAnime.com/Hakim.El.Aqzam.S01/[OOAnime.com].Hakim.El.Aqzam.S01.Ep24.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 26,
+            "title": "الحلقة 26",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Hakim.El.Aqzam.S01/[OOAnime.com].Hakim.El.Aqzam.S01.Ep26.mp4",
                 "isDefault": true
               }
             ],
@@ -58960,6 +60022,32 @@
               {
                 "name": "Ooanime",
                 "url": "https://new.ooanime.com/OOAnime.com/Captain.Tsubasa.2018.Ara.S01/[OOAnime.com].Captain.Tsubasa.2018.Ara.S01.Ep14.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 15,
+            "title": "الحلقة 15",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Captain.Tsubasa.2018.Ara.S01/[OOAnime.com].Captain.Tsubasa.2018.Ara.S01.Ep15.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 16,
+            "title": "الحلقة 16",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Captain.Tsubasa.2018.Ara.S01/[OOAnime.com].Captain.Tsubasa.2018.Ara.S01.Ep16.mp4",
                 "isDefault": true
               }
             ],
@@ -73536,6 +74624,97 @@
             "downloadServers": []
           },
           {
+            "episodeNumber": 10,
+            "title": "الحلقة 10",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Rihlat.Elaa.Afriqia.S01/[OOAnime.com].Rihlat.Elaa.Afriqia.S01.Ep10.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 11,
+            "title": "الحلقة 11",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Rihlat.Elaa.Afriqia.S01/[OOAnime.com].Rihlat.Elaa.Afriqia.S01.Ep11.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 12,
+            "title": "الحلقة 12",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Rihlat.Elaa.Afriqia.S01/[OOAnime.com].Rihlat.Elaa.Afriqia.S01.Ep12.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 13,
+            "title": "الحلقة 13",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Rihlat.Elaa.Afriqia.S01/[OOAnime.com].Rihlat.Elaa.Afriqia.S01.Ep13.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 14,
+            "title": "الحلقة 14",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Rihlat.Elaa.Afriqia.S01/[OOAnime.com].Rihlat.Elaa.Afriqia.S01.Ep14.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 15,
+            "title": "الحلقة 15",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Rihlat.Elaa.Afriqia.S01/[OOAnime.com].Rihlat.Elaa.Afriqia.S01.Ep15.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 16,
+            "title": "الحلقة 16",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Rihlat.Elaa.Afriqia.S01/[OOAnime.com].Rihlat.Elaa.Afriqia.S01.Ep16.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
             "episodeNumber": 17,
             "title": "الحلقة 17",
             "duration": "",
@@ -79403,6 +80582,240 @@
             "downloadServers": []
           },
           {
+            "episodeNumber": 12,
+            "title": "الحلقة 12",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Isalu.Labyba.S01/[OOAnime.com].Isalu.Labyba.S01.Ep12.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 13,
+            "title": "الحلقة 13",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Isalu.Labyba.S01/[OOAnime.com].Isalu.Labyba.S01.Ep13.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 14,
+            "title": "الحلقة 14",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Isalu.Labyba.S01/[OOAnime.com].Isalu.Labyba.S01.Ep14.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 15,
+            "title": "الحلقة 15",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Isalu.Labyba.S01/[OOAnime.com].Isalu.Labyba.S01.Ep15.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 16,
+            "title": "الحلقة 16",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Isalu.Labyba.S01/[OOAnime.com].Isalu.Labyba.S01.Ep16.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 17,
+            "title": "الحلقة 17",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Isalu.Labyba.S01/[OOAnime.com].Isalu.Labyba.S01.Ep17.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 18,
+            "title": "الحلقة 18",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Isalu.Labyba.S01/[OOAnime.com].Isalu.Labyba.S01.Ep18.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 19,
+            "title": "الحلقة 19",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Isalu.Labyba.S01/[OOAnime.com].Isalu.Labyba.S01.Ep19.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 20,
+            "title": "الحلقة 20",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Isalu.Labyba.S01/[OOAnime.com].Isalu.Labyba.S01.Ep20.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 21,
+            "title": "الحلقة 21",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Isalu.Labyba.S01/[OOAnime.com].Isalu.Labyba.S01.Ep21.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 22,
+            "title": "الحلقة 22",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Isalu.Labyba.S01/[OOAnime.com].Isalu.Labyba.S01.Ep22.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 23,
+            "title": "الحلقة 23",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Isalu.Labyba.S01/[OOAnime.com].Isalu.Labyba.S01.Ep23.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 24,
+            "title": "الحلقة 24",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Isalu.Labyba.S01/[OOAnime.com].Isalu.Labyba.S01.Ep24.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 25,
+            "title": "الحلقة 25",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Isalu.Labyba.S01/[OOAnime.com].Isalu.Labyba.S01.Ep25.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 26,
+            "title": "الحلقة 26",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Isalu.Labyba.S01/[OOAnime.com].Isalu.Labyba.S01.Ep26.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 27,
+            "title": "الحلقة 27",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Isalu.Labyba.S01/[OOAnime.com].Isalu.Labyba.S01.Ep27.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 28,
+            "title": "الحلقة 28",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Isalu.Labyba.S01/[OOAnime.com].Isalu.Labyba.S01.Ep28.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 29,
+            "title": "الحلقة 29",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Isalu.Labyba.S01/[OOAnime.com].Isalu.Labyba.S01.Ep29.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
             "episodeNumber": 30,
             "title": "الحلقة 30",
             "duration": "",
@@ -82487,6 +83900,162 @@
             "downloadServers": []
           },
           {
+            "episodeNumber": 3,
+            "title": "الحلقة 3",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Elrajul.Aleankabut.Elmudahish.S01/[OOAnime.com].Elrajul.Aleankabut.Elmudahish.S01.Ep03.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 4,
+            "title": "الحلقة 4",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Elrajul.Aleankabut.Elmudahish.S01/[OOAnime.com].Elrajul.Aleankabut.Elmudahish.S01.Ep04.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 5,
+            "title": "الحلقة 5",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Elrajul.Aleankabut.Elmudahish.S01/[OOAnime.com].Elrajul.Aleankabut.Elmudahish.S01.Ep05.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 6,
+            "title": "الحلقة 6",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Elrajul.Aleankabut.Elmudahish.S01/[OOAnime.com].Elrajul.Aleankabut.Elmudahish.S01.Ep06.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 7,
+            "title": "الحلقة 7",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Elrajul.Aleankabut.Elmudahish.S01/[OOAnime.com].Elrajul.Aleankabut.Elmudahish.S01.Ep07.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 8,
+            "title": "الحلقة 8",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Elrajul.Aleankabut.Elmudahish.S01/[OOAnime.com].Elrajul.Aleankabut.Elmudahish.S01.Ep08.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 9,
+            "title": "الحلقة 9",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Elrajul.Aleankabut.Elmudahish.S01/[OOAnime.com].Elrajul.Aleankabut.Elmudahish.S01.Ep09.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 10,
+            "title": "الحلقة 10",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Elrajul.Aleankabut.Elmudahish.S01/[OOAnime.com].Elrajul.Aleankabut.Elmudahish.S01.Ep10.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 11,
+            "title": "الحلقة 11",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Elrajul.Aleankabut.Elmudahish.S01/[OOAnime.com].Elrajul.Aleankabut.Elmudahish.S01.Ep11.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 12,
+            "title": "الحلقة 12",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Elrajul.Aleankabut.Elmudahish.S01/[OOAnime.com].Elrajul.Aleankabut.Elmudahish.S01.Ep12.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 13,
+            "title": "الحلقة 13",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Elrajul.Aleankabut.Elmudahish.S01/[OOAnime.com].Elrajul.Aleankabut.Elmudahish.S01.Ep13.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 14,
+            "title": "الحلقة 14",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Elrajul.Aleankabut.Elmudahish.S01/[OOAnime.com].Elrajul.Aleankabut.Elmudahish.S01.Ep14.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
             "episodeNumber": 15,
             "title": "الحلقة 15",
             "duration": "",
@@ -83612,6 +85181,58 @@
         "poster": "",
         "episodes": [
           {
+            "episodeNumber": 1,
+            "title": "الحلقة 1",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Rihlat.Alasdiqa.S01/[OOAnime.com].Rihlat.Alasdiqa.S01.Ep01.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 2,
+            "title": "الحلقة 2",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Rihlat.Alasdiqa.S01/[OOAnime.com].Rihlat.Alasdiqa.S01.Ep02.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 3,
+            "title": "الحلقة 3",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Rihlat.Alasdiqa.S01/[OOAnime.com].Rihlat.Alasdiqa.S01.Ep03.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 4,
+            "title": "الحلقة 4",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Rihlat.Alasdiqa.S01/[OOAnime.com].Rihlat.Alasdiqa.S01.Ep04.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
             "episodeNumber": 5,
             "title": "الحلقة 5",
             "duration": "",
@@ -84050,6 +85671,214 @@
               }
             ],
             "downloadServers": []
+          },
+          {
+            "episodeNumber": 11,
+            "title": "الحلقة 11",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alsbe.Elmudahash.S01/[OOAnime.com].Alsbe.Elmudahash.S01.Ep11.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 12,
+            "title": "الحلقة 12",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alsbe.Elmudahash.S01/[OOAnime.com].Alsbe.Elmudahash.S01.Ep12.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 13,
+            "title": "الحلقة 13",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alsbe.Elmudahash.S01/[OOAnime.com].Alsbe.Elmudahash.S01.Ep13.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 14,
+            "title": "الحلقة 14",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alsbe.Elmudahash.S01/[OOAnime.com].Alsbe.Elmudahash.S01.Ep14.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 15,
+            "title": "الحلقة 15",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alsbe.Elmudahash.S01/[OOAnime.com].Alsbe.Elmudahash.S01.Ep15.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 16,
+            "title": "الحلقة 16",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alsbe.Elmudahash.S01/[OOAnime.com].Alsbe.Elmudahash.S01.Ep16.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 17,
+            "title": "الحلقة 17",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alsbe.Elmudahash.S01/[OOAnime.com].Alsbe.Elmudahash.S01.Ep17.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 18,
+            "title": "الحلقة 18",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alsbe.Elmudahash.S01/[OOAnime.com].Alsbe.Elmudahash.S01.Ep18.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 19,
+            "title": "الحلقة 19",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alsbe.Elmudahash.S01/[OOAnime.com].Alsbe.Elmudahash.S01.Ep19.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 20,
+            "title": "الحلقة 20",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alsbe.Elmudahash.S01/[OOAnime.com].Alsbe.Elmudahash.S01.Ep20.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 21,
+            "title": "الحلقة 21",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alsbe.Elmudahash.S01/[OOAnime.com].Alsbe.Elmudahash.S01.Ep21.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 22,
+            "title": "الحلقة 22",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alsbe.Elmudahash.S01/[OOAnime.com].Alsbe.Elmudahash.S01.Ep22.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 23,
+            "title": "الحلقة 23",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alsbe.Elmudahash.S01/[OOAnime.com].Alsbe.Elmudahash.S01.Ep23.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 24,
+            "title": "الحلقة 24",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alsbe.Elmudahash.S01/[OOAnime.com].Alsbe.Elmudahash.S01.Ep24.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 25,
+            "title": "الحلقة 25",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alsbe.Elmudahash.S01/[OOAnime.com].Alsbe.Elmudahash.S01.Ep25.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 26,
+            "title": "الحلقة 26",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Alsbe.Elmudahash.S01/[OOAnime.com].Alsbe.Elmudahash.S01.Ep26.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
           }
         ]
       }
@@ -84075,6 +85904,58 @@
         "description": "",
         "poster": "",
         "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "الحلقة 1",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Aeda.Elshar.S01/[OOAnime.com].Aeda.Elshar.S01.Ep01.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 2,
+            "title": "الحلقة 2",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Aeda.Elshar.S01/[OOAnime.com].Aeda.Elshar.S01.Ep02.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 3,
+            "title": "الحلقة 3",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Aeda.Elshar.S01/[OOAnime.com].Aeda.Elshar.S01.Ep03.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 4,
+            "title": "الحلقة 4",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Aeda.Elshar.S01/[OOAnime.com].Aeda.Elshar.S01.Ep04.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
           {
             "episodeNumber": 5,
             "title": "الحلقة 5",
@@ -89590,6 +91471,97 @@
             "downloadServers": []
           },
           {
+            "episodeNumber": 13,
+            "title": "الحلقة 13",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Bwmbw.Elsayarat.Elmuraha.S01/[OOAnime.com].Bwmbw.Elsayarat.Elmuraha.S01.Ep13.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 14,
+            "title": "الحلقة 14",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Bwmbw.Elsayarat.Elmuraha.S01/[OOAnime.com].Bwmbw.Elsayarat.Elmuraha.S01.Ep14.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 15,
+            "title": "الحلقة 15",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Bwmbw.Elsayarat.Elmuraha.S01/[OOAnime.com].Bwmbw.Elsayarat.Elmuraha.S01.Ep15.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 16,
+            "title": "الحلقة 16",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Bwmbw.Elsayarat.Elmuraha.S01/[OOAnime.com].Bwmbw.Elsayarat.Elmuraha.S01.Ep16.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 17,
+            "title": "الحلقة 17",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Bwmbw.Elsayarat.Elmuraha.S01/[OOAnime.com].Bwmbw.Elsayarat.Elmuraha.S01.Ep17.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 18,
+            "title": "الحلقة 18",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Bwmbw.Elsayarat.Elmuraha.S01/[OOAnime.com].Bwmbw.Elsayarat.Elmuraha.S01.Ep18.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 19,
+            "title": "الحلقة 19",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Bwmbw.Elsayarat.Elmuraha.S01/[OOAnime.com].Bwmbw.Elsayarat.Elmuraha.S01.Ep19.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
             "episodeNumber": 20,
             "title": "الحلقة 20",
             "duration": "",
@@ -89753,6 +91725,45 @@
               {
                 "name": "Ooanime",
                 "url": "https://new.ooanime.com/OOAnime.com/Bwmbw.Elsayarat.Elmuraha.S01/[OOAnime.com].Bwmbw.Elsayarat.Elmuraha.S01.Ep32.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 33,
+            "title": "الحلقة 33",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Bwmbw.Elsayarat.Elmuraha.S01/[OOAnime.com].Bwmbw.Elsayarat.Elmuraha.S01.Ep33.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 34,
+            "title": "الحلقة 34",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Bwmbw.Elsayarat.Elmuraha.S01/[OOAnime.com].Bwmbw.Elsayarat.Elmuraha.S01.Ep34.mp4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 35,
+            "title": "الحلقة 35",
+            "duration": "",
+            "servers": [
+              {
+                "name": "Ooanime",
+                "url": "https://new.ooanime.com/OOAnime.com/Bwmbw.Elsayarat.Elmuraha.S01/[OOAnime.com].Bwmbw.Elsayarat.Elmuraha.S01.Ep35.mp4",
                 "isDefault": true
               }
             ],
