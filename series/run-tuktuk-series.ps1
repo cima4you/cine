@@ -15,7 +15,7 @@ python $SCRAPER --start $StartPage --end $EndPage --workers $Workers --phase all
 if ($LASTEXITCODE -ne 0) { Write-Host "FAILED" -ForegroundColor Red; exit 1 }
 
 Write-Host "[2/2] Converting and merging..." -ForegroundColor Yellow
-python $SCRAPER --convert --merge "data/data-foreign-series.js" --output "data/data-foreign-series.js"
+python $SCRAPER --convert --merge "data-foreign-series.js" --output "data-foreign-series.js"
 if ($LASTEXITCODE -ne 0) { Write-Host "Convert FAILED" -ForegroundColor Red; exit 1 }
 
 Write-Host "`nDone! Now commit and push:" -ForegroundColor Green

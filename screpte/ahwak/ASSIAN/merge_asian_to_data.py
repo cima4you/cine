@@ -14,7 +14,7 @@ import os, sys, json, re, time, argparse
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(SCRIPT_DIR)))  # site-rachid/
-DATA_DIR = os.path.join(BASE_DIR, 'data')
+DATA_DIR = BASE_DIR
 
 COMPLETED_FILE = os.path.join(DATA_DIR, 'data-asian-series-completed.js')
 ONGOING_FILE = os.path.join(DATA_DIR, 'data-asian-series-ongoing.js')
