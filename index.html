@@ -9,23 +9,23 @@
     <meta http-equiv="expires" content="0">
     <title>R-CINE - Rachid Movies</title>
     <script src="https://cdn.tailwindcss.com"></script>
-        <script src="data-foreign.js?v=20250623i"></script>
-    <script src="data-foreign-series.js?v=20250623i"></script>
-    <script src="data-netflix.js?v=20250623i"></script>
-    <script src="data-arabic.js?v=20250623i"></script>
-    <script src="data-asian.js?v=20250623i"></script>
-    <script src="data-turkish-movies.js?v=20250623i"></script>
-    <script src="data-hindi.js?v=20250623i"></script>
-    <script src="data-arabic-series.js?v=20250623i"></script>
-    <script src="data-turkish-completed.js?v=20250623i"></script>
-    <script src="data-turkish-ongoing.js?v=20250623i"></script>
-    <script src="data-asian-series-completed.js?v=20250623i"></script>
-    <script src="data-asian-series-ongoing.js?v=20250623i"></script>
-    <script src="data-anime.js?v=20250623i"></script>
-    <script src="data-anime-series.js?v=20250623i"></script>
-    <script src="data-dubbed.js?v=20250623i"></script>
-    <script src="data-documentary.js?v=20250623i"></script>
-    <script src="data-other.js?v=20250623i"></script>
+        <script src="data-foreign.js?v=20250623h"></script>
+    <script src="data-foreign-series.js?v=20250623h"></script>
+    <script src="data-netflix.js?v=20250623h"></script>
+    <script src="data-arabic.js?v=20250623h"></script>
+    <script src="data-asian.js?v=20250623h"></script>
+    <script src="data-turkish-movies.js?v=20250623h"></script>
+    <script src="data-hindi.js?v=20250623h"></script>
+    <script src="data-arabic-series.js?v=20250623h"></script>
+    <script src="data-turkish-completed.js?v=20250623h"></script>
+    <script src="data-turkish-ongoing.js?v=20250623h"></script>
+    <script src="data-asian-series-completed.js?v=20250623h"></script>
+    <script src="data-asian-series-ongoing.js?v=20250623h"></script>
+    <script src="data-anime.js?v=20250623h"></script>
+    <script src="data-anime-series.js?v=20250623h"></script>
+    <script src="data-dubbed.js?v=20250623h"></script>
+    <script src="data-documentary.js?v=20250623h"></script>
+    <script src="data-other.js?v=20250623h"></script>
     <script src="data-imdb.js?v=20250619"></script>
     <script src="data-streamimdb.js?v=20250619"></script>
     <script src="data-ooanime.js?v=20250621"></script>
@@ -412,22 +412,22 @@
             <!-- Top bar: menu+logo | search | sign in -->
             <div class="flex items-center justify-between gap-2 mb-3">
                 <div class="flex items-center gap-2">
-                    <button id="navToggle" class="flex items-center justify-center w-9 h-9 rounded-lg border border-gray-700 text-gray-400 hover:text-white hover:border-[#d4a843]/50 transition-colors" title="Ø§Ù„Ù‚Ø§Ø¦Ù…Ø©">
+                    <button id="navToggle" class="flex items-center justify-center w-9 h-9 rounded-lg border border-gray-700 text-gray-400 hover:text-white hover:border-[#d4a843]/50 transition-colors" title="القائمة">
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
                     </button>
                     <a href="#" id="logoLink" class="flex items-center gap-2 no-underline">
-                        <img src="logo.png" alt="Ø±Ø´ÙŠØ¯" class="w-8 h-8 rounded-lg object-cover">
+                        <img src="logo.png" alt="رشيد" class="w-8 h-8 rounded-lg object-cover">
                         <span class="hidden sm:inline text-lg font-black bg-gradient-to-l from-[#d4a843] via-[#f0d68a] to-[#b8922f] bg-clip-text text-transparent">R-CINE</span>
                     </a>
                 </div>
                 <div class="hidden md:block flex-1 max-w-md mx-auto">
                     <form onsubmit="return false;" class="relative">
-                        <input id="headerSearch" type="text" placeholder="Ø¨Ø­Ø«..." class="w-full text-sm bg-[#0b1a25]/60 border border-gray-700 rounded-lg py-1.5 pr-3 pl-9 text-gray-200 placeholder-gray-500 focus:outline-none focus:border-[#d4a843]/50 transition-colors">
+                        <input id="headerSearch" type="text" placeholder="بحث..." class="w-full text-sm bg-[#0b1a25]/60 border border-gray-700 rounded-lg py-1.5 pr-3 pl-9 text-gray-200 placeholder-gray-500 focus:outline-none focus:border-[#d4a843]/50 transition-colors">
                         <svg class="absolute left-2.5 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
                     </form>
                 </div>
                 <div class="flex items-center gap-2">
-                    <button id="mobileSearchBtn" class="flex md:hidden items-center justify-center w-9 h-9 rounded-lg border border-gray-700 text-gray-400 hover:text-white hover:border-[#d4a843]/50 transition-colors" title="Ø¨Ø­Ø«">
+                    <button id="mobileSearchBtn" class="flex md:hidden items-center justify-center w-9 h-9 rounded-lg border border-gray-700 text-gray-400 hover:text-white hover:border-[#d4a843]/50 transition-colors" title="بحث">
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
                     </button>
                     <a class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium rounded-lg border border-[#d4a843]/30 text-[#d4a843] hover:bg-[#d4a843]/10 transition-colors" href="#modal-login-form" data-toggle="modal" data-target="#modal-login-form">Sign in</a>
@@ -438,11 +438,11 @@
                 <h1 class="text-xl md:text-3xl font-black tracking-tight bg-gradient-to-l from-[#d4a843] via-[#f0d68a] to-[#b8922f] bg-clip-text text-transparent">
                     R-CINE
                 </h1>
-                <p class="mt-1 text-gray-500 text-xs md:text-sm max-w-lg mx-auto">Ø£ÙÙ„Ø§Ù… Ø£Ø¬Ù†Ø¨ÙŠØ© Â· Ø¹Ø±Ø¨ÙŠØ© Â· Ù‡Ù†Ø¯ÙŠØ© Â· Ø¢Ø³ÙŠÙˆÙŠØ© Â· Ù…Ø³Ù„Ø³Ù„Ø§Øª</p>
+                <p class="mt-1 text-gray-500 text-xs md:text-sm max-w-lg mx-auto">أفلام أجنبية · عربية · هندية · آسيوية · مسلسلات</p>
                 <div class="mt-2 flex items-center justify-center gap-2 text-xs text-gray-500">
                     <span id="totalCount" class="px-3 py-1 rounded-full border border-gray-700"></span>
-                    <span class="px-3 py-1 rounded-full border border-gray-700">ØªØ­Ø¯ÙŠØ« ÙŠÙˆÙ…ÙŠ</span>
-                    <span class="px-3 py-1 rounded-full border border-gray-700">Ù…Ø´Ø§Ù‡Ø¯Ø© Ù…Ø¨Ø§Ø´Ø±Ø©</span>
+                    <span class="px-3 py-1 rounded-full border border-gray-700">تحديث يومي</span>
+                    <span class="px-3 py-1 rounded-full border border-gray-700">مشاهدة مباشرة</span>
                 </div>
             </div>
         </div>
@@ -450,7 +450,7 @@
         <div id="sideNavOverlay" class="fixed inset-0 bg-black/60 z-40 hidden opacity-0 transition-opacity duration-300"></div>
         <div id="sideNav" class="fixed top-0 right-0 h-full w-64 bg-[#0b1a25] border-l border-gray-800 z-50 transform translate-x-full transition-transform duration-300 overflow-y-auto shadow-2xl">
             <div class="flex items-center justify-between p-4 border-b border-gray-800">
-                <span class="text-sm font-bold text-[#d4a843]">Ø§Ù„Ù‚ÙˆØ§Ø¦Ù…</span>
+                <span class="text-sm font-bold text-[#d4a843]">القوائم</span>
                 <button id="sideNavClose" class="text-gray-500 hover:text-white transition-colors">
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
                 </button>
@@ -459,48 +459,48 @@
         </div>
     </header>
 
-    <button id="backToTop" title="Ø§Ù„Ø¹ÙˆØ¯Ø© Ù„Ù„Ø£Ø¹Ù„Ù‰">â†‘</button>
+    <button id="backToTop" title="العودة للأعلى">↑</button>
     <!-- ===== FILTERS ===== -->
     <section class="w-full px-3 md:px-5 mb-4">
         <div class="glass-filter p-2.5 md:p-3">
             <div class="flex flex-col md:flex-row gap-2">
                 <div class="relative flex-1">
-                    <input type="text" id="searchInput" placeholder="ðŸ” Ø§Ø¨Ø­Ø« Ø¹Ù† ÙÙŠÙ„Ù… Ø£Ùˆ Ù…Ø³Ù„Ø³Ù„..." class="w-full text-sm">
+                    <input type="text" id="searchInput" placeholder="🔍 ابحث عن فيلم أو مسلسل..." class="w-full text-sm">
                     <button id="clearSearch" class="absolute left-1 top-1/2 -translate-y-1/2 w-6 h-6 flex items-center justify-center text-gray-400 hover:text-gray-600 transition-colors" style="display:none">&times;</button>
                 </div>
                 <select id="typeFilter" class="md:w-24 text-sm">
-                    <option value="all">ðŸ“‚ Ø§Ù„ÙƒÙ„</option>
-                    <option value="movie">ðŸŽ¥ Ø£ÙÙ„Ø§Ù…</option>
-                    <option value="series">ðŸ“º Ù…Ø³Ù„Ø³Ù„Ø§Øª</option>
+                    <option value="all">📂 الكل</option>
+                    <option value="movie">🎥 أفلام</option>
+                    <option value="series">📺 مسلسلات</option>
                 </select>
                 <select id="categoryFilter" class="md:w-28 text-sm">
-                    <option value="all">ðŸ·ï¸ Ø§Ù„ØªØµÙ†ÙŠÙ</option>
-                    <option value="Ø§Ø¬Ù†Ø¨ÙŠ">ðŸŒ Ø£Ø¬Ù†Ø¨ÙŠØ©</option>
-                    <option value="Ø¹Ø±Ø¨ÙŠ">ðŸŒ™ Ø¹Ø±Ø¨ÙŠØ©</option>
-                    <option value="Ù‡Ù†Ø¯ÙŠ">ðŸ‡®ðŸ‡³ Ù‡Ù†Ø¯ÙŠØ©</option>
-                    <option value="Ø§Ø³ÙŠÙˆÙŠ">ðŸ¯ Ø¢Ø³ÙŠÙˆÙŠØ©</option>
-                    <option value="ØªØ±ÙƒÙŠ">ðŸ‡¹ðŸ‡· ØªØ±ÙƒÙŠØ©</option>
-                    <option value="Ù†ØªÙÙ„ÙŠÙƒØ³">ðŸ“º Ù†Øª ÙÙ„ÙŠÙƒØ³</option>
-                    <option value="Ø§Ù†Ù…ÙŠ">ðŸŽŒ Ø£Ù†Ù…ÙŠ</option>
-                    <option value="Ù…Ø¯Ø¨Ù„Ø¬">ðŸ”Š Ù…Ø¯Ø¨Ù„Ø¬</option>
-                    <option value="ÙˆØ«Ø§Ø¦Ù‚ÙŠ">ðŸ“– ÙˆØ«Ø§Ø¦Ù‚ÙŠ</option>
-                    <option value="Ø§Ø®Ø±Ù‰">ðŸ“¦ Ø£Ø®Ø±Ù‰</option>
-                    <option value="imdb">â­ Top IMDb</option>
-                    <option value="streamimdb">ðŸŽ¬ Ø£ÙÙ„Ø§Ù… Ø£Ø¬Ù†Ø¨ÙŠØ© Ø£ØµÙ„ÙŠØ©</option>
-                    <option value="ooanime">ðŸŽ¬ ÙƒØ±ØªÙˆÙ† Ø§Ù„Ø²Ù…Ù† Ø§Ù„Ø¬Ù…ÙŠÙ„</option>
+                    <option value="all">🏷️ التصنيف</option>
+                    <option value="اجنبي">🌍 أجنبية</option>
+                    <option value="عربي">🌙 عربية</option>
+                    <option value="هندي">🇮🇳 هندية</option>
+                    <option value="اسيوي">🏯 آسيوية</option>
+                    <option value="تركي">🇹🇷 تركية</option>
+                    <option value="نتفليكس">📺 نت فليكس</option>
+                    <option value="انمي">🎌 أنمي</option>
+                    <option value="مدبلج">🔊 مدبلج</option>
+                    <option value="وثائقي">📖 وثائقي</option>
+                    <option value="اخرى">📦 أخرى</option>
+                    <option value="imdb">⭐ Top IMDb</option>
+                    <option value="streamimdb">🎬 أفلام أجنبية أصلية</option>
+                    <option value="ooanime">🎬 كرتون الزمن الجميل</option>
                 </select>
                 <select id="yearFilter" class="md:w-20 text-sm">
-                    <option value="all">ðŸ“… Ø§Ù„Ø³Ù†Ø©</option>
+                    <option value="all">📅 السنة</option>
                 </select>
                 <select id="sortFilter" class="md:w-28 text-sm">
-                    <option value="default">ðŸ“Œ ØªØ±ØªÙŠØ¨</option>
-                    <option value="newest">ðŸ†• Ø§Ù„Ø£Ø­Ø¯Ø«</option>
-                    <option value="oldest">ðŸ“€ Ø§Ù„Ø£Ù‚Ø¯Ù…</option>
-                    <option value="rating">â­ Ø§Ù„ØªÙ‚ÙŠÙŠÙ…</option>
-                    <option value="alpha">ðŸ”¤ Ø£-ÙŠ</option>
-                    <option value="random">ðŸ”€ Ø¹Ø´ÙˆØ§Ø¦ÙŠ</option>
+                    <option value="default">📌 ترتيب</option>
+                    <option value="newest">🆕 الأحدث</option>
+                    <option value="oldest">📀 الأقدم</option>
+                    <option value="rating">⭐ التقييم</option>
+                    <option value="alpha">🔤 أ-ي</option>
+                    <option value="random">🔀 عشوائي</option>
                 </select>
-                <button id="resetFilters" class="px-3 py-1.5 text-sm rounded-lg border border-gray-300 text-gray-500 hover:border-red-400 hover:text-red-500 hover:bg-red-50 transition-colors" style="display:none">âœ• Ù…Ø³Ø­</button>
+                <button id="resetFilters" class="px-3 py-1.5 text-sm rounded-lg border border-gray-300 text-gray-500 hover:border-red-400 hover:text-red-500 hover:bg-red-50 transition-colors" style="display:none">✕ مسح</button>
             </div>
         </div>
     </section>
@@ -529,23 +529,23 @@
 
     <!-- ===== BACK TO HOME ===== -->
     <div id="backHomeRow" class="w-full px-3 md:px-5 mb-3" style="display:none">
-        <button id="backHomeBtn" class="text-[#d4a843] text-sm font-bold hover:text-white transition flex items-center gap-2"><span class="text-lg">â†</span> Ø§Ù„Ø¹ÙˆØ¯Ø© Ù„Ù„ØµÙØ­Ø© Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠØ©</button>
+        <button id="backHomeBtn" class="text-[#d4a843] text-sm font-bold hover:text-white transition flex items-center gap-2"><span class="text-lg">←</span> العودة للصفحة الرئيسية</button>
     </div>
 
     <!-- ===== FOOTER ===== -->
     <footer class="border-t border-[#d4a843]/10 mt-10">
         <div class="w-full px-3 md:px-5 py-4 flex flex-col md:flex-row items-center justify-between gap-2">
-            <div class="text-gray-600 text-xs">Ø¬Ù…ÙŠØ¹ Ø§Ù„Ø­Ù‚ÙˆÙ‚ Ù…Ø­ÙÙˆØ¸Ø© &copy; 2026 &mdash; R-CINE</div>
+            <div class="text-gray-600 text-xs">جميع الحقوق محفوظة &copy; 2026 &mdash; R-CINE</div>
             <div class="flex gap-4 text-gray-600 text-xs">
-                <span>ðŸ“§ rachid@example.com</span>
-                <span>ðŸ“± +212 6XX-XXXXXX</span>
+                <span>📧 rachid@example.com</span>
+                <span>📱 +212 6XX-XXXXXX</span>
             </div>
         </div>
     </footer>
 
     <!-- ===== MODAL ===== -->
     <div id="videoModal" class="fixed inset-0 z-50 flex items-center justify-center p-4" style="display:none; background: rgba(0,0,0,.88); backdrop-filter: blur(8px);">
-        <button id="backFromModal" class="absolute top-4 right-4 z-50 text-[#d4a843] text-sm font-bold hover:text-white transition flex items-center gap-1 bg-black/40 px-3 py-1.5 rounded-full border border-white/10">â† Ø±Ø¬ÙˆØ¹</button>
+        <button id="backFromModal" class="absolute top-4 right-4 z-50 text-[#d4a843] text-sm font-bold hover:text-white transition flex items-center gap-1 bg-black/40 px-3 py-1.5 rounded-full border border-white/10">← رجوع</button>
         <div id="closeModal" class="absolute top-4 left-4 w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center cursor-pointer text-white/60 hover:text-white hover:bg-white/10 transition z-50" style="font-size:22px">&times;</div>
 
         <div class="glass-modal w-full max-w-4xl max-h-[90vh] overflow-y-auto rounded-2xl p-5 md:p-8 relative" style="scrollbar-width:thin">
@@ -569,23 +569,23 @@
             <div id="videoContainer" class="rounded-xl overflow-hidden bg-black mb-4" style="aspect-ratio:16/9">
                 <div id="videoPlayer" class="w-full h-full flex items-center justify-center relative">
                     <div id="videoPlaceholder" class="text-center p-4">
-                        <div class="text-4xl mb-2 opacity-40">â–¶</div>
-                        <p class="text-sm text-gray-500">Ø§Ø®ØªØ± Ø³ÙŠØ±ÙØ± Ù„Ù„Ù…Ø´Ø§Ù‡Ø¯Ø©</p>
+                        <div class="text-4xl mb-2 opacity-40">▶</div>
+                        <p class="text-sm text-gray-500">اختر سيرفر للمشاهدة</p>
                     </div>
                 </div>
             </div>
 
             <div id="volumeSection" class="flex items-center gap-3 mb-4 px-1" style="display:none">
-                <span class="text-xs text-gray-500">ðŸ”Š Ø§Ù„ØµÙˆØª:</span>
+                <span class="text-xs text-gray-500">🔊 الصوت:</span>
                 <input type="range" id="volumeControl" min="0" max="100" value="100" class="flex-1 h-1 rounded-full appearance-none bg-gray-700 cursor-pointer" style="accent-color:#d4a843">
                 <span id="volumeLabel" class="text-xs text-gray-500 w-8 text-left">100%</span>
             </div>
 
-            <div id="serverLabel" class="text-sm text-gray-500 mb-2" style="display:none">ðŸŽ¬ Ø³ÙŠØ±ÙØ±Ø§Øª Ø§Ù„Ù…Ø´Ø§Ù‡Ø¯Ø©:</div>
+            <div id="serverLabel" class="text-sm text-gray-500 mb-2" style="display:none">🎬 سيرفرات المشاهدة:</div>
             <div id="serverList" class="flex flex-wrap gap-2 mb-4"></div>
 
             <div id="downloadSection" class="mb-4 p-4 rounded-xl bg-gray-800/60" style="display:none">
-                <div class="text-sm text-gray-500 mb-2">ðŸ”½ Ø§Ù„ØªØ­Ù…ÙŠÙ„:</div>
+                <div class="text-sm text-gray-500 mb-2">🔽 التحميل:</div>
                 <div id="downloadList" class="flex flex-wrap gap-2"></div>
             </div>
 
@@ -607,26 +607,26 @@
 
         // Category definitions
         const CATEGORIES = [
-            { id: 'recent', label: 'ðŸ†• Ù…Ø¶Ø§Ù Ø­Ø¯ÙŠØ«Ø§', type: null, contentType: null, limit: 64, clr: 'gold' },
-            { id: 'imdb', label: 'â­ Top 250 IMDb', type: 'IMDb', contentType: 'movie', limit: 246, clr: 'gold' },
-            { id: 'streamimdb', label: 'ðŸŽ¬ Ø£ÙÙ„Ø§Ù… Ø£Ø¬Ù†Ø¨ÙŠØ© Ø£ØµÙ„ÙŠØ©', type: null, contentType: null, typeCheck: (t) => t === 'StreamIMDb', limit: 100, clr: 'blue' },
-            { id: 'foreign', label: 'ðŸŒ Ø£ÙÙ„Ø§Ù… Ø£Ø¬Ù†Ø¨ÙŠØ©', type: 'Ø£Ø¬Ù†Ø¨ÙŠ', contentType: 'movie', limit: 100, clr: 'blue' },
-    { id: 'foreign-series', label: 'ðŸŒ Ù…Ø³Ù„Ø³Ù„Ø§Øª Ø£Ø¬Ù†Ø¨ÙŠØ©', type: 'Ø£Ø¬Ù†Ø¨ÙŠ', contentType: 'series', limit: 100, clr: 'blue' },
-            { id: 'netflix', label: 'ðŸ“º Ù†Øª ÙÙ„ÙŠÙƒØ³', type: 'Ù†ØªÙÙ„ÙŠÙƒØ³', contentType: null, limit: 100, clr: 'red' },
-            { id: 'arabic', label: 'ðŸŒ™ Ø£ÙÙ„Ø§Ù… Ø¹Ø±Ø¨ÙŠØ©', type: 'Ø¹Ø±Ø¨ÙŠ', contentType: 'movie', limit: 100, clr: 'gold' },
-            { id: 'asian', label: 'ðŸ¯ Ø£ÙÙ„Ø§Ù… Ø¢Ø³ÙŠÙˆÙŠØ©', type: 'Ø£Ø³ÙŠÙˆÙŠ', contentType: 'movie', limit: 100, clr: 'red' },
-            { id: 'turkish-movies', label: 'ðŸ‡¹ðŸ‡· Ø£ÙÙ„Ø§Ù… ØªØ±ÙƒÙŠØ©', type: 'ØªØ±ÙƒÙŠ', contentType: 'movie', limit: 100, clr: 'purple' },
-            { id: 'hindi', label: 'ðŸ‡®ðŸ‡³ Ø£ÙÙ„Ø§Ù… Ù‡Ù†Ø¯ÙŠØ©', type: 'Ù‡Ù†Ø¯ÙŠ', contentType: 'movie', limit: 100, clr: 'orange' },
-            { id: 'arabic-series', label: 'ðŸŒ™ Ù…Ø³Ù„Ø³Ù„Ø§Øª Ø¹Ø±Ø¨ÙŠØ©', type: 'Ø¹Ø±Ø¨ÙŠ', contentType: 'series', limit: 100, sortBy: 'random', clr: 'gold' },
-            { id: 'turkish-completed', label: 'ðŸ‡¹ðŸ‡· Ù…Ø³Ù„Ø³Ù„Ø§Øª ØªØ±ÙƒÙŠØ© Ù…Ù†ØªÙ‡ÙŠØ©', type: 'ØªØ±ÙƒÙŠ', contentType: 'series', isComplete: true, limit: 100, clr: 'purple' },
-            { id: 'turkish-ongoing', label: 'ðŸ‡¹ðŸ‡· Ù…Ø³Ù„Ø³Ù„Ø§Øª ØªØ±ÙƒÙŠØ© (Ø§Ù„Ù…Ø³ØªÙ…Ø±Ø©)', type: 'ØªØ±ÙƒÙŠ', contentType: 'series', isComplete: false, limit: 100, clr: 'purple' },
-            { id: 'asian-series-completed', label: 'ðŸ¯ Ù…Ø³Ù„Ø³Ù„Ø§Øª Ø¢Ø³ÙŠÙˆÙŠØ© Ù…Ù†ØªÙ‡ÙŠØ©', type: 'Ø£Ø³ÙŠÙˆÙŠ', contentType: 'series', isComplete: true, limit: 100, clr: 'red' },
-            { id: 'asian-series-ongoing', label: 'ðŸ¯ Ù…Ø³Ù„Ø³Ù„Ø§Øª Ø¢Ø³ÙŠÙˆÙŠØ© (Ø§Ù„Ù…Ø³ØªÙ…Ø±Ø©)', type: 'Ø£Ø³ÙŠÙˆÙŠ', contentType: 'series', isComplete: false, limit: 100, clr: 'red' },
-            { id: 'anime', label: 'ðŸŽŒ Ø£Ù†Ù…ÙŠ', type: null, contentType: null, typeCheck: (t, item) => ['Ø§Ù†Ù…ÙŠ','Ø£Ù†Ù…ÙŠ','anime'].includes((t||'').trim().toLowerCase()) && item.contentType !== 'series', limit: 100, clr: 'pink' },
-            { id: 'anime-series', label: 'ðŸŽŒ Ù…Ø³Ù„Ø³Ù„Ø§Øª Ø£Ù†Ù…ÙŠ', type: 'Ø§Ù†Ù…ÙŠ', contentType: 'series', limit: 100, clr: 'pink' },
-{ id: 'ooanime', label: 'ðŸŽ¬ ÙƒØ±ØªÙˆÙ† Ø§Ù„Ø²Ù…Ù† Ø§Ù„Ø¬Ù…ÙŠÙ„', type: 'ÙƒØ±ØªÙˆÙ†', contentType: 'series', limit: 100, clr: 'orange' },
-            { id: 'dubbed', label: 'ðŸ”Š Ø£ÙÙ„Ø§Ù… Ù…Ø¯Ø¨Ù„Ø¬Ø©', type: 'Ù…Ø¯Ø¨Ù„Ø¬', contentType: 'movie', limit: 100, clr: 'teal' },
-            { id: 'documentary', label: 'ðŸ“– ÙˆØ«Ø§Ø¦Ù‚ÙŠØ§Øª', type: 'ÙˆØ«Ø§Ø¦Ù‚ÙŠ', contentType: null, limit: 100, clr: 'blue' },
+            { id: 'recent', label: '🆕 مضاف حديثا', type: null, contentType: null, limit: 64, clr: 'gold' },
+            { id: 'imdb', label: '⭐ Top 250 IMDb', type: 'IMDb', contentType: 'movie', limit: 246, clr: 'gold' },
+            { id: 'streamimdb', label: '🎬 أفلام أجنبية أصلية', type: null, contentType: null, typeCheck: (t) => t === 'StreamIMDb', limit: 100, clr: 'blue' },
+            { id: 'foreign', label: '🌍 أفلام أجنبية', type: 'أجنبي', contentType: 'movie', limit: 100, clr: 'blue' },
+    { id: 'foreign-series', label: '🌍 مسلسلات أجنبية', type: 'أجنبي', contentType: 'series', limit: 100, clr: 'blue' },
+            { id: 'netflix', label: '📺 نت فليكس', type: 'نتفليكس', contentType: null, limit: 100, clr: 'red' },
+            { id: 'arabic', label: '🌙 أفلام عربية', type: 'عربي', contentType: 'movie', limit: 100, clr: 'gold' },
+            { id: 'asian', label: '🏯 أفلام آسيوية', type: 'أسيوي', contentType: 'movie', limit: 100, clr: 'red' },
+            { id: 'turkish-movies', label: '🇹🇷 أفلام تركية', type: 'تركي', contentType: 'movie', limit: 100, clr: 'purple' },
+            { id: 'hindi', label: '🇮🇳 أفلام هندية', type: 'هندي', contentType: 'movie', limit: 100, clr: 'orange' },
+            { id: 'arabic-series', label: '🌙 مسلسلات عربية', type: 'عربي', contentType: 'series', limit: 100, sortBy: 'random', clr: 'gold' },
+            { id: 'turkish-completed', label: '🇹🇷 مسلسلات تركية منتهية', type: 'تركي', contentType: 'series', isComplete: true, limit: 100, clr: 'purple' },
+            { id: 'turkish-ongoing', label: '🇹🇷 مسلسلات تركية (المستمرة)', type: 'تركي', contentType: 'series', isComplete: false, limit: 100, clr: 'purple' },
+            { id: 'asian-series-completed', label: '🏯 مسلسلات آسيوية منتهية', type: 'أسيوي', contentType: 'series', isComplete: true, limit: 100, clr: 'red' },
+            { id: 'asian-series-ongoing', label: '🏯 مسلسلات آسيوية (المستمرة)', type: 'أسيوي', contentType: 'series', isComplete: false, limit: 100, clr: 'red' },
+            { id: 'anime', label: '🎌 أنمي', type: null, contentType: null, typeCheck: (t, item) => ['انمي','أنمي','anime'].includes((t||'').trim().toLowerCase()) && item.contentType !== 'series', limit: 100, clr: 'pink' },
+            { id: 'anime-series', label: '🎌 مسلسلات أنمي', type: 'انمي', contentType: 'series', limit: 100, clr: 'pink' },
+{ id: 'ooanime', label: '🎬 كرتون الزمن الجميل', type: 'كرتون', contentType: 'series', limit: 100, clr: 'orange' },
+            { id: 'dubbed', label: '🔊 أفلام مدبلجة', type: 'مدبلج', contentType: 'movie', limit: 100, clr: 'teal' },
+            { id: 'documentary', label: '📖 وثائقيات', type: 'وثائقي', contentType: null, limit: 100, clr: 'blue' },
         ];
 
         // ===== POPULATE YEAR FILTER =====
@@ -648,25 +648,25 @@
                 if (!skip && catVal !== 'all') {
                     const it = (m.type || '').trim();
                     const ct = m.contentType || '';
-                    if (catVal === 'Ø§Ø¬Ù†Ø¨ÙŠ' && it !== 'Ø£Ø¬Ù†Ø¨ÙŠ') skip = true;
-                    else if (catVal === 'Ø¹Ø±Ø¨ÙŠ' && it !== 'Ø¹Ø±Ø¨ÙŠ') skip = true;
-                    else if (catVal === 'Ù‡Ù†Ø¯ÙŠ' && it !== 'Ù‡Ù†Ø¯ÙŠ') skip = true;
-                    else if (catVal === 'Ø§Ø³ÙŠÙˆÙŠ' && it !== 'Ø£Ø³ÙŠÙˆÙŠ') skip = true;
-                    else if (catVal === 'Ù†ØªÙÙ„ÙŠÙƒØ³' && it !== 'Ù†ØªÙÙ„ÙŠÙƒØ³') skip = true;
-                    else if (catVal === 'ØªØ±ÙƒÙŠ' && it !== 'ØªØ±ÙƒÙŠ' && it !== 'ØªØ±ÙƒÙŠÙŠ') skip = true;
-                    else if (catVal === 'turkish-completed' && (it !== 'ØªØ±ÙƒÙŠ' || ct !== 'series' || !m.isComplete)) skip = true;
-                    else if (catVal === 'turkish-ongoing' && (it !== 'ØªØ±ÙƒÙŠ' || ct !== 'series' || m.isComplete)) skip = true;
-                    else if (catVal === 'asian-series-completed' && (it !== 'Ø£Ø³ÙŠÙˆÙŠ' || ct !== 'series' || !m.isComplete)) skip = true;
-                    else if (catVal === 'asian-series-ongoing' && (it !== 'Ø£Ø³ÙŠÙˆÙŠ' || ct !== 'series' || m.isComplete)) skip = true;
-                    else if (catVal === 'foreign-series' && (it !== 'Ø£Ø¬Ù†Ø¨ÙŠ' || ct !== 'series')) skip = true;
-                    else if (catVal === 'Ø§Ù†Ù…ÙŠ' && !['Ø£Ù†Ù…ÙŠ','Ø§Ù†Ù…ÙŠ'].includes(it)) skip = true;
-                    else if (catVal === 'anime-series' && (!['Ø£Ù†Ù…ÙŠ','Ø§Ù†Ù…ÙŠ'].includes(it) || ct !== 'series')) skip = true;
-                    else if (catVal === 'Ù…Ø¯Ø¨Ù„Ø¬' && it !== 'Ù…Ø¯Ø¨Ù„Ø¬') skip = true;
-                    else if (catVal === 'ÙˆØ«Ø§Ø¦Ù‚ÙŠ' && it !== 'ÙˆØ«Ø§Ø¦Ù‚ÙŠ') skip = true;
+                    if (catVal === 'اجنبي' && it !== 'أجنبي') skip = true;
+                    else if (catVal === 'عربي' && it !== 'عربي') skip = true;
+                    else if (catVal === 'هندي' && it !== 'هندي') skip = true;
+                    else if (catVal === 'اسيوي' && it !== 'أسيوي') skip = true;
+                    else if (catVal === 'نتفليكس' && it !== 'نتفليكس') skip = true;
+                    else if (catVal === 'تركي' && it !== 'تركي' && it !== 'تركيي') skip = true;
+                    else if (catVal === 'turkish-completed' && (it !== 'تركي' || ct !== 'series' || !m.isComplete)) skip = true;
+                    else if (catVal === 'turkish-ongoing' && (it !== 'تركي' || ct !== 'series' || m.isComplete)) skip = true;
+                    else if (catVal === 'asian-series-completed' && (it !== 'أسيوي' || ct !== 'series' || !m.isComplete)) skip = true;
+                    else if (catVal === 'asian-series-ongoing' && (it !== 'أسيوي' || ct !== 'series' || m.isComplete)) skip = true;
+                    else if (catVal === 'foreign-series' && (it !== 'أجنبي' || ct !== 'series')) skip = true;
+                    else if (catVal === 'انمي' && !['أنمي','انمي'].includes(it)) skip = true;
+                    else if (catVal === 'anime-series' && (!['أنمي','انمي'].includes(it) || ct !== 'series')) skip = true;
+                    else if (catVal === 'مدبلج' && it !== 'مدبلج') skip = true;
+                    else if (catVal === 'وثائقي' && it !== 'وثائقي') skip = true;
                     else if (catVal === 'imdb' && it !== 'IMDb') skip = true;
                     else if (catVal === 'streamimdb' && it !== 'StreamIMDb') skip = true;
-                    else if (catVal === 'ooanime' && (it !== 'ÙƒØ±ØªÙˆÙ†' || ct !== 'series')) skip = true;
-                    else if (catVal === 'Ø§Ø®Ø±Ù‰' && !['Ø£Ø¬Ù†Ø¨ÙŠ','Ø¹Ø±Ø¨ÙŠ','Ù‡Ù†Ø¯ÙŠ','Ø£Ø³ÙŠÙˆÙŠ','Ø£Ù†Ù…ÙŠ','Ø§Ù†Ù…ÙŠ','Ù†ØªÙÙ„ÙŠÙƒØ³','ØªØ±ÙƒÙŠ','ØªØ±ÙƒÙŠÙŠ','Ù…Ø¯Ø¨Ù„Ø¬','ÙˆØ«Ø§Ø¦Ù‚ÙŠ','IMDb','StreamIMDb','foreign-series','ÙƒØ±ØªÙˆÙ†'].includes(it)) skip = true;
+                    else if (catVal === 'ooanime' && (it !== 'كرتون' || ct !== 'series')) skip = true;
+                    else if (catVal === 'اخرى' && !['أجنبي','عربي','هندي','أسيوي','أنمي','انمي','نتفليكس','تركي','تركيي','مدبلج','وثائقي','IMDb','StreamIMDb','foreign-series','كرتون'].includes(it)) skip = true;
                 }
                 if (skip) return;
                 let y = m.year || '';
@@ -675,7 +675,7 @@
             });
             const sel = document.getElementById('yearFilter');
             const currentVal = sel.value;
-            sel.innerHTML = '<option value="all">ðŸ“… Ø§Ù„Ø³Ù†Ø©</option>';
+            sel.innerHTML = '<option value="all">📅 السنة</option>';
             Array.from(years).sort((a,b) => b-a).forEach(y => {
                 const o = document.createElement('option');
                 o.value = y; o.textContent = y; sel.appendChild(o);
@@ -697,35 +697,35 @@
         function getTypeLabel(item) {
             const ct = item.contentType || '';
             const t = (item.type || '').trim();
-            if (ct === 'series') return 'Ù…Ø³Ù„Ø³Ù„';
-            if (t === 'Ø¹Ø±Ø¨ÙŠ') return 'Ø¹Ø±Ø¨ÙŠ';
-            if (t === 'Ø£Ø¬Ù†Ø¨ÙŠ') return 'Ø£Ø¬Ù†Ø¨ÙŠ';
-            if (t === 'Ù‡Ù†Ø¯ÙŠ') return 'Ù‡Ù†Ø¯ÙŠ';
-            if (t === 'Ø£Ø³ÙŠÙˆÙŠ') return 'Ø¢Ø³ÙŠÙˆÙŠ';
-            if (t === 'ØªØ±ÙƒÙŠ') return 'ØªØ±ÙƒÙŠ';
+            if (ct === 'series') return 'مسلسل';
+            if (t === 'عربي') return 'عربي';
+            if (t === 'أجنبي') return 'أجنبي';
+            if (t === 'هندي') return 'هندي';
+            if (t === 'أسيوي') return 'آسيوي';
+            if (t === 'تركي') return 'تركي';
             if (t === 'IMDb') return 'IMDb';
-            if (t === 'StreamIMDb') return 'Ø£ØµÙ„ÙŠ';
-            return t || 'ÙÙŠÙ„Ù…';
+            if (t === 'StreamIMDb') return 'أصلي';
+            return t || 'فيلم';
         }
 
         // ===== BUILD CARD =====
         function badgeColor(typeLabel) {
             const m = {
-                'Ù…Ø³Ù„Ø³Ù„':'teal', 'Ø¹Ø±Ø¨ÙŠ':'gold', 'Ø£Ø¬Ù†Ø¨ÙŠ':'blue', 'Ù‡Ù†Ø¯ÙŠ':'orange',
-                'Ø¢Ø³ÙŠÙˆÙŠ':'red', 'Ø£Ù†Ù…ÙŠ':'pink', 'Ø§Ù†Ù…ÙŠ':'pink', 'ÙƒØ±ØªÙˆÙ†':'orange', 'ØªØ±ÙƒÙŠ':'purple', 'Ù†ØªÙÙ„ÙŠÙƒØ³':'red',
-                'Ù…Ø¯Ø¨Ù„Ø¬':'teal', 'ÙˆØ«Ø§Ø¦Ù‚ÙŠ':'blue', 'Ø§Ø·ÙØ§Ù„':'orange', 'Ø£ØµÙ„ÙŠ':'gold',
+                'مسلسل':'teal', 'عربي':'gold', 'أجنبي':'blue', 'هندي':'orange',
+                'آسيوي':'red', 'أنمي':'pink', 'انمي':'pink', 'كرتون':'orange', 'تركي':'purple', 'نتفليكس':'red',
+                'مدبلج':'teal', 'وثائقي':'blue', 'اطفال':'orange', 'أصلي':'gold',
             };
             return 'badge-' + (m[typeLabel] || 'gold');
         }
 
         function createCard(item, idx) {
-            const title = item.title || 'Ø¨Ø¯ÙˆÙ† Ø¹Ù†ÙˆØ§Ù†';
+            const title = item.title || 'بدون عنوان';
             const year = extractYear(item);
             const rating = item.rating || '';
             let poster = item.poster || '';
             const typeLabel = getTypeLabel(item);
             const isSeries = item.contentType === 'series';
-            const isForeignSeries = isSeries && (item.type || '').trim() === 'Ø£Ø¬Ù†Ø¨ÙŠ';
+            const isForeignSeries = isSeries && (item.type || '').trim() === 'أجنبي';
 
             const card = document.createElement('div');
                 card.className = 'movie-card fade-up' + (isSeries ? ' series-card' : '') + (isForeignSeries ? ' foreign-series-card' : '');
@@ -751,7 +751,7 @@
 
             const info = document.createElement('div');
             info.className = 'card-info';
-            info.innerHTML = `<h3>${title}</h3><div class="meta"><span>${year||''}</span><span>${isSeries ? 'ðŸ“º' : 'ðŸŽ¥'}</span></div>`;
+            info.innerHTML = `<h3>${title}</h3><div class="meta"><span>${year||''}</span><span>${isSeries ? '📺' : '🎥'}</span></div>`;
             wrapper.appendChild(info);
 
             const badge = document.createElement('div');
@@ -762,7 +762,7 @@
             if (rating) {
                 const ratingEl = document.createElement('div');
                 ratingEl.className = 'card-rating';
-                ratingEl.textContent = 'â­ ' + rating;
+                ratingEl.textContent = '⭐ ' + rating;
                 wrapper.appendChild(ratingEl);
             }
 
@@ -820,10 +820,10 @@
                 } else if (cat.isComplete !== undefined) {
                     items = contentData.filter(item => (item.type || '').trim() === cat.type && item.contentType === 'series' && item.isComplete === cat.isComplete);
                 } else if (cat.id === 'arabic-series') {
-                    items = contentData.filter(item => item.contentType === 'series' && ((item.type || '').trim() === 'Ø¹Ø±Ø¨ÙŠ' || (item.type || '').startsWith('Ø±Ù…Ø¶Ø§Ù†')));
+                    items = contentData.filter(item => item.contentType === 'series' && ((item.type || '').trim() === 'عربي' || (item.type || '').startsWith('رمضان')));
                 } else if (cat.id === 'anime-series') {
                     items = contentData.filter(item => {
-                        if ((item.type || '').trim() !== 'Ø§Ù†Ù…ÙŠ' || item.contentType !== 'series') return false;
+                        if ((item.type || '').trim() !== 'انمي' || item.contentType !== 'series') return false;
                         const eps = (item.seasons || []).reduce((s, sq) => s + (sq.episodes || []).length, 0);
                         return eps > 1;
                     });
@@ -848,7 +848,7 @@
 
                 const viewAllBtn = document.createElement('button');
                 viewAllBtn.className = 'section-title-btn';
-                viewAllBtn.textContent = `Ø¹Ø±Ø¶ Ø§Ù„ÙƒÙ„ (${items.length})`;
+                viewAllBtn.textContent = `عرض الكل (${items.length})`;
                 viewAllBtn.addEventListener('click', () => {
                     document.getElementById('categoryFilter').value = cat.id;
                     document.getElementById('searchInput').value = '';
@@ -878,13 +878,13 @@
 
                 const rightBtn = document.createElement('button');
                 rightBtn.className = 'scroll-overlay next';
-                rightBtn.innerHTML = 'â€º';
+                rightBtn.innerHTML = '›';
                 rightBtn.addEventListener('click', () => {
                     scrollDiv.scrollLeft = scrollDiv.scrollLeft - 720;
                 });
                 const leftBtn = document.createElement('button');
                 leftBtn.className = 'scroll-overlay prev';
-                leftBtn.innerHTML = 'â€¹';
+                leftBtn.innerHTML = '‹';
                 leftBtn.addEventListener('click', () => {
                     scrollDiv.scrollLeft = scrollDiv.scrollLeft + 720;
                 });
@@ -913,7 +913,7 @@
             document.getElementById('sectionsContainer').style.display = 'none';
             document.getElementById('movieGrid').style.display = 'grid';
             document.getElementById('backHomeRow').style.display = 'block';
-            document.getElementById('counter').textContent = `${items.length} Ù†ØªÙŠØ¬Ø© â€” ${label || ''}`.trim();
+            document.getElementById('counter').textContent = `${items.length} نتيجة — ${label || ''}`.trim();
             filteredMovies = sortItems(items);
             currentPage = 1;
             renderGrid();
@@ -941,7 +941,7 @@
             grid.innerHTML = '';
 
             if (pageItems.length === 0) {
-                grid.innerHTML = '<div class="col-span-full text-center text-gray-600 py-20 text-sm">Ù„Ø§ ØªÙˆØ¬Ø¯ Ù†ØªØ§Ø¦Ø¬</div>';
+                grid.innerHTML = '<div class="col-span-full text-center text-gray-600 py-20 text-sm">لا توجد نتائج</div>';
                 document.getElementById('pagination').innerHTML = '';
                 return;
             }
@@ -960,7 +960,7 @@
             if (totalPages <= 1) return;
 
             const prev = document.createElement('button');
-            prev.className = 'page-btn'; prev.textContent = 'â€¹ Ø§Ù„Ø³Ø§Ø¨Ù‚';
+            prev.className = 'page-btn'; prev.textContent = '‹ السابق';
             prev.disabled = currentPage === 1;
             prev.addEventListener('click', () => { if (currentPage > 1) { currentPage--; renderGrid(); window.scrollTo({top:0,behavior:'smooth'}); } });
             container.appendChild(prev);
@@ -991,7 +991,7 @@
             }
 
             const next = document.createElement('button');
-            next.className = 'page-btn'; next.textContent = 'Ø§Ù„ØªØ§Ù„ÙŠ â€º';
+            next.className = 'page-btn'; next.textContent = 'التالي ›';
             next.disabled = currentPage === totalPages;
             next.addEventListener('click', () => { if (currentPage < totalPages) { currentPage++; renderGrid(); window.scrollTo({top:0,behavior:'smooth'}); } });
             container.appendChild(next);
@@ -1003,7 +1003,7 @@
             const vs = document.getElementById('volumeSection');
             container.innerHTML = '';
             if (!url) {
-                container.innerHTML = '<div class="text-center p-4 text-gray-500 text-sm">Ù„Ø§ ÙŠØªÙˆÙØ± Ø±Ø§Ø¨Ø· ØªØ´ØºÙŠÙ„</div>';
+                container.innerHTML = '<div class="text-center p-4 text-gray-500 text-sm">لا يتوفر رابط تشغيل</div>';
                 return;
             }
             if (url.includes('youtube.com') || url.includes('youtu.be')) {
@@ -1013,7 +1013,7 @@
                 if (vid) {
                     const e = document.createElement('iframe'); e.src='https://www.youtube.com/embed/'+vid+'?autoplay=1&rel=0&modestbranding=1'; e.className='w-full h-full border-0'; e.allowFullscreen=true; e.setAttribute('allow','accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'); container.appendChild(e);
                     if (vs) vs.style.display = '';
-                } else { container.innerHTML = '<div class="text-center p-4 text-gray-500 text-sm">Ø±Ø§Ø¨Ø· ÙŠÙˆØªÙŠÙˆØ¨ ØºÙŠØ± ØµØ§Ù„Ø­</div>'; }
+                } else { container.innerHTML = '<div class="text-center p-4 text-gray-500 text-sm">رابط يوتيوب غير صالح</div>'; }
             } else if (url.endsWith('.mp4') || url.endsWith('.webm') || url.endsWith('.ogg')) {
                 const v = document.createElement('video'); v.className='w-full h-full'; v.controls=true; v.setAttribute('playsinline','');
                 const s = document.createElement('source'); s.src=url; s.type='video/mp4'; v.appendChild(s);
@@ -1031,7 +1031,7 @@
         function clearPlayer() {
             const container = document.getElementById('videoPlayer');
             if (container) {
-                container.innerHTML = '<div id="videoPlaceholder" class="text-center p-4"><div class="text-4xl mb-2 opacity-40">â–¶</div><p class="text-sm text-gray-500">Ø§Ø®ØªØ± Ø³ÙŠØ±ÙØ± Ù„Ù„Ù…Ø´Ø§Ù‡Ø¯Ø©</p></div>';
+                container.innerHTML = '<div id="videoPlaceholder" class="text-center p-4"><div class="text-4xl mb-2 opacity-40">▶</div><p class="text-sm text-gray-500">اختر سيرفر للمشاهدة</p></div>';
             }
         }
 
@@ -1057,27 +1057,27 @@
             const downloadSection = document.getElementById('downloadSection');
             const trailerSection = document.getElementById('trailerSection');
 
-            const title = item.title || 'Ø¨Ø¯ÙˆÙ† Ø¹Ù†ÙˆØ§Ù†';
+            const title = item.title || 'بدون عنوان';
             const year = extractYear(item);
             titleEl.textContent = title + (year ? ' (' + year + ')' : '');
             posterImg.src = (item.poster || NO_POSTER);
             posterImg.onerror = function() { if (!this.dataset.f) { this.dataset.f='1'; this.src=NO_POSTER; } };
 
-            const description = item.description || 'Ù„Ø§ ØªÙˆØ¬Ø¯ Ù‚ØµØ© Ù…ØªØ§Ø­Ø©';
+            const description = item.description || 'لا توجد قصة متاحة';
             descEl.textContent = description;
 
             const rating = item.rating || '';
             const quality = item.quality || '';
             const duration = item.duration || '';
-            const categories = (item.categories || []).join(' Â· ') || 'Ø¨Ø¯ÙˆÙ† ØªØµÙ†ÙŠÙ';
+            const categories = (item.categories || []).join(' · ') || 'بدون تصنيف';
             const typeLabel = getTypeLabel(item);
 
             let metaHtml = `<span>${typeLabel}</span>`;
-            if (year) metaHtml += ` <span>â€¢ ${year}</span>`;
-            if (rating) metaHtml += ` <span>â€¢ â­ ${rating}</span>`;
-            if (quality) metaHtml += ` <span>â€¢ ${quality}</span>`;
-            if (duration) metaHtml += ` <span>â€¢ ${duration}</span>`;
-            metaHtml += ` <span>â€¢ ${categories}</span>`;
+            if (year) metaHtml += ` <span>• ${year}</span>`;
+            if (rating) metaHtml += ` <span>• ⭐ ${rating}</span>`;
+            if (quality) metaHtml += ` <span>• ${quality}</span>`;
+            if (duration) metaHtml += ` <span>• ${duration}</span>`;
+            metaHtml += ` <span>• ${categories}</span>`;
             metaEl.innerHTML = metaHtml;
 
             const isSeries = item.contentType === 'series';
@@ -1105,14 +1105,14 @@
                     const eps = sortServers(episode.servers || []);
                     if (eps.length === 0) {
                         serverLabel.style.display = 'none';
-                        serverList.innerHTML = '<span class="text-gray-600 text-sm">Ù„Ø§ ØªÙˆØ¬Ø¯ Ø³ÙŠØ±ÙØ±Ø§Øª Ù„Ù‡Ø°Ù‡ Ø§Ù„Ø­Ù„Ù‚Ø©</span>';
+                        serverList.innerHTML = '<span class="text-gray-600 text-sm">لا توجد سيرفرات لهذه الحلقة</span>';
                         clearPlayer();
                     } else {
                         serverLabel.style.display = 'block';
                         eps.forEach((s, i) => {
                             const btn = document.createElement('button');
                             btn.className = `server-btn ${i===0?'active':''}`;
-                            btn.textContent = s.name || `Ø³ÙŠØ±ÙØ± ${i+1}`;
+                            btn.textContent = s.name || `سيرفر ${i+1}`;
                             btn.addEventListener('click', () => {
                                 document.querySelectorAll('#serverList .server-btn').forEach(b=>b.classList.remove('active'));
                                 btn.classList.add('active');
@@ -1131,7 +1131,7 @@
                         dls.forEach(ds => {
                             const a = document.createElement('a');
                             a.href = ds.url; a.target = '_blank'; a.className = 'server-btn';
-                            a.textContent = 'â¬‡ ' + (ds.name || 'ØªØ­Ù…ÙŠÙ„');
+                            a.textContent = '⬇ ' + (ds.name || 'تحميل');
                             dlList.appendChild(a);
                         });
                     } else { downloadSection.style.display = 'none'; }
@@ -1147,13 +1147,13 @@
                         const s = epPage * perPage, e = Math.min(s+perPage, eps.length);
                         const pageEps = eps.slice(s, e);
                         if (epPage > 0) {
-                            const pb = document.createElement('button'); pb.className='episode-btn'; pb.textContent='â€¹'; pb.style.fontSize='18px';
+                            const pb = document.createElement('button'); pb.className='episode-btn'; pb.textContent='‹'; pb.style.fontSize='18px';
                             pb.addEventListener('click', ()=>{epPage--;renderEpPage();});
                             episodeSel.appendChild(pb);
                         }
                         pageEps.forEach(ep => {
                             const b = document.createElement('button'); b.className='episode-btn';
-                            b.textContent = `Ø§Ù„Ø­Ù„Ù‚Ø© ${ep.episodeNumber || ep.number || ''}`;
+                            b.textContent = `الحلقة ${ep.episodeNumber || ep.number || ''}`;
                             b.addEventListener('click', ()=>{
                                 episodeSel.querySelectorAll('button').forEach(x=>x.classList.remove('active'));
                                 b.classList.add('active'); showServersForEpisode(ep);
@@ -1161,7 +1161,7 @@
                             episodeSel.appendChild(b);
                         });
                         if (e < eps.length) {
-                            const nb = document.createElement('button'); nb.className='episode-btn'; nb.textContent='â€º'; nb.style.fontSize='18px';
+                            const nb = document.createElement('button'); nb.className='episode-btn'; nb.textContent='›'; nb.style.fontSize='18px';
                             nb.addEventListener('click', ()=>{epPage++;renderEpPage();});
                             episodeSel.appendChild(nb);
                         }
@@ -1176,7 +1176,7 @@
                 seasons.forEach((s, idx) => {
                     const b = document.createElement('button');
                     b.className = `season-btn ${idx===0?'active':''}`;
-                    b.textContent = `Ø§Ù„Ù…ÙˆØ³Ù… ${s.seasonNumber || s.season || ''}`;
+                    b.textContent = `الموسم ${s.seasonNumber || s.season || ''}`;
                     b.addEventListener('click', () => {
                         seasonSel.querySelectorAll('button').forEach(x=>x.classList.remove('active'));
                         b.classList.add('active'); buildEpisodes(s);
@@ -1197,26 +1197,26 @@
             if (defaultUrl) {
                 const a = document.createElement('a');
                 a.href = defaultUrl; a.target = '_blank'; a.className = 'server-btn';
-                a.textContent = 'â–¶ ØªØ±ÙŠØ§Ù„';
+                a.textContent = '▶ تريال';
                 trailerSection.appendChild(a);
             }
             const imdb = document.createElement('a');
             imdb.href = 'https://www.imdb.com/find?q='+searchQuery; imdb.target = '_blank';
-            imdb.className = 'server-btn'; imdb.textContent = 'ðŸŽ¬ IMDB';
+            imdb.className = 'server-btn'; imdb.textContent = '🎬 IMDB';
             trailerSection.appendChild(imdb);
 
             if (!isSeries) {
                 serverList.innerHTML = '';
                 if (currentServers.length === 0) {
                     serverLabel.style.display = 'none';
-                    serverList.innerHTML = '<span class="text-gray-600 text-sm">Ù„Ø§ ØªÙˆØ¬Ø¯ Ø³ÙŠØ±ÙØ±Ø§Øª Ù…ØªØ§Ø­Ø©</span>';
+                    serverList.innerHTML = '<span class="text-gray-600 text-sm">لا توجد سيرفرات متاحة</span>';
                 } else {
                     serverLabel.style.display = 'block';
                     currentServers = sortServers(currentServers);
                     currentServers.forEach((s, i) => {
                         const b = document.createElement('button');
                         b.className = `server-btn ${i===0?'active':''}`;
-                        b.textContent = s.name || `Ø³ÙŠØ±ÙØ± ${i+1}`;
+                        b.textContent = s.name || `سيرفر ${i+1}`;
                         b.addEventListener('click', () => {
                             document.querySelectorAll('#serverList .server-btn').forEach(x=>x.classList.remove('active'));
                             b.classList.add('active'); startPlayback(s.url);
@@ -1238,15 +1238,15 @@
                     currentDownloadServers.forEach(ds => {
                         const a = document.createElement('a');
                         a.href = ds.url; a.target = '_blank'; a.className = 'server-btn';
-                        a.textContent = 'â¬‡ ' + (ds.name || 'ØªØ­Ù…ÙŠÙ„');
+                        a.textContent = '⬇ ' + (ds.name || 'تحميل');
                         dlList.appendChild(a);
                     });
                 } else { downloadSection.style.display = 'none'; }
             }
 
-            const cast = (item.cast || []).join('ØŒ ') || '';
+            const cast = (item.cast || []).join('، ') || '';
             let infoHtml = '';
-            if (cast) infoHtml += `<div class="mb-2"><strong class="text-white/60">ðŸŒŸ Ø·Ø§Ù‚Ù… Ø§Ù„ØªÙ…Ø«ÙŠÙ„:</strong> ${cast}</div>`;
+            if (cast) infoHtml += `<div class="mb-2"><strong class="text-white/60">🌟 طاقم التمثيل:</strong> ${cast}</div>`;
             infoEl.innerHTML = infoHtml;
 
             modal.style.display = 'flex';
@@ -1289,39 +1289,39 @@
                 if (catVal !== 'all') {
                     const it = (item.type || '').trim();
                     const ct = item.contentType || '';
-                    if (catVal === 'Ø§Ø¬Ù†Ø¨ÙŠ' && it !== 'Ø£Ø¬Ù†Ø¨ÙŠ') return false;
-                    else if (catVal === 'Ø¹Ø±Ø¨ÙŠ' && it !== 'Ø¹Ø±Ø¨ÙŠ') return false;
-                    else if (catVal === 'Ù‡Ù†Ø¯ÙŠ' && it !== 'Ù‡Ù†Ø¯ÙŠ') return false;
-                    else if (catVal === 'Ø§Ø³ÙŠÙˆÙŠ' && it !== 'Ø£Ø³ÙŠÙˆÙŠ') return false;
-                    else if (catVal === 'Ù†ØªÙÙ„ÙŠÙƒØ³' && it !== 'Ù†ØªÙÙ„ÙŠÙƒØ³') return false;
-                    else if (catVal === 'ØªØ±ÙƒÙŠ' && it !== 'ØªØ±ÙƒÙŠ' && it !== 'ØªØ±ÙƒÙŠÙŠ') return false;
-                    else if (catVal === 'turkish-completed' && (it !== 'ØªØ±ÙƒÙŠ' || ct !== 'series' || !item.isComplete)) return false;
-                    else if (catVal === 'turkish-ongoing' && (it !== 'ØªØ±ÙƒÙŠ' || ct !== 'series' || item.isComplete)) return false;
-                    else if (catVal === 'asian-series-completed' && (it !== 'Ø£Ø³ÙŠÙˆÙŠ' || ct !== 'series' || !item.isComplete)) return false;
-                    else if (catVal === 'asian-series-ongoing' && (it !== 'Ø£Ø³ÙŠÙˆÙŠ' || ct !== 'series' || item.isComplete)) return false;
-                    else if (catVal === 'foreign-series' && (it !== 'Ø£Ø¬Ù†Ø¨ÙŠ' || ct !== 'series')) return false;
-                    else if (catVal === 'Ø§Ù†Ù…ÙŠ' && !['Ø£Ù†Ù…ÙŠ','Ø§Ù†Ù…ÙŠ'].includes(it)) return false;
-                    else if (catVal === 'anime-series' && (!['Ø£Ù†Ù…ÙŠ','Ø§Ù†Ù…ÙŠ'].includes(it) || ct !== 'series')) return false;
-                    else if (catVal === 'Ù…Ø¯Ø¨Ù„Ø¬' && it !== 'Ù…Ø¯Ø¨Ù„Ø¬') return false;
-                    else if (catVal === 'ÙˆØ«Ø§Ø¦Ù‚ÙŠ' && it !== 'ÙˆØ«Ø§Ø¦Ù‚ÙŠ') return false;
+                    if (catVal === 'اجنبي' && it !== 'أجنبي') return false;
+                    else if (catVal === 'عربي' && it !== 'عربي') return false;
+                    else if (catVal === 'هندي' && it !== 'هندي') return false;
+                    else if (catVal === 'اسيوي' && it !== 'أسيوي') return false;
+                    else if (catVal === 'نتفليكس' && it !== 'نتفليكس') return false;
+                    else if (catVal === 'تركي' && it !== 'تركي' && it !== 'تركيي') return false;
+                    else if (catVal === 'turkish-completed' && (it !== 'تركي' || ct !== 'series' || !item.isComplete)) return false;
+                    else if (catVal === 'turkish-ongoing' && (it !== 'تركي' || ct !== 'series' || item.isComplete)) return false;
+                    else if (catVal === 'asian-series-completed' && (it !== 'أسيوي' || ct !== 'series' || !item.isComplete)) return false;
+                    else if (catVal === 'asian-series-ongoing' && (it !== 'أسيوي' || ct !== 'series' || item.isComplete)) return false;
+                    else if (catVal === 'foreign-series' && (it !== 'أجنبي' || ct !== 'series')) return false;
+                    else if (catVal === 'انمي' && !['أنمي','انمي'].includes(it)) return false;
+                    else if (catVal === 'anime-series' && (!['أنمي','انمي'].includes(it) || ct !== 'series')) return false;
+                    else if (catVal === 'مدبلج' && it !== 'مدبلج') return false;
+                    else if (catVal === 'وثائقي' && it !== 'وثائقي') return false;
                     else if (catVal === 'imdb' && it !== 'IMDb') return false;
                     else if (catVal === 'streamimdb' && it !== 'StreamIMDb') return false;
-                    else if (catVal === 'ooanime' && (it !== 'ÙƒØ±ØªÙˆÙ†' || ct !== 'series')) return false;
-                    else if (catVal === 'Ø§Ø®Ø±Ù‰' && !['Ø£Ø¬Ù†Ø¨ÙŠ','Ø¹Ø±Ø¨ÙŠ','Ù‡Ù†Ø¯ÙŠ','Ø£Ø³ÙŠÙˆÙŠ','Ø£Ù†Ù…ÙŠ','Ø§Ù†Ù…ÙŠ','Ù†ØªÙÙ„ÙŠÙƒØ³','ØªØ±ÙƒÙŠ','ØªØ±ÙƒÙŠÙŠ','Ù…Ø¯Ø¨Ù„Ø¬','ÙˆØ«Ø§Ø¦Ù‚ÙŠ','IMDb','StreamIMDb','foreign-series','ÙƒØ±ØªÙˆÙ†','Ø¹Ø±Ø¨ÙŠ'].includes(it)) return false;
+                    else if (catVal === 'ooanime' && (it !== 'كرتون' || ct !== 'series')) return false;
+                    else if (catVal === 'اخرى' && !['أجنبي','عربي','هندي','أسيوي','أنمي','انمي','نتفليكس','تركي','تركيي','مدبلج','وثائقي','IMDb','StreamIMDb','foreign-series','كرتون','عربي'].includes(it)) return false;
                 }
                 if (yearVal !== 'all' && year !== yearVal) return false;
                 return true;
             });
 
             // Map category ID to label for display
-            const catLabels = { 'Ø§Ø¬Ù†Ø¨ÙŠ':'Ø£Ø¬Ù†Ø¨ÙŠ', 'Ø¹Ø±Ø¨ÙŠ':'Ø¹Ø±Ø¨ÙŠ', 'Ù‡Ù†Ø¯ÙŠ':'Ù‡Ù†Ø¯ÙŠ', 'Ø§Ø³ÙŠÙˆÙŠ':'Ø¢Ø³ÙŠÙˆÙŠ', 'Ù†ØªÙÙ„ÙŠÙƒØ³':'Ù†Øª ÙÙ„ÙŠÙƒØ³', 'ØªØ±ÙƒÙŠ':'ØªØ±ÙƒÙŠ', 'Ø§Ù†Ù…ÙŠ':'Ø£Ù†Ù…ÙŠ', 'Ù…Ø¯Ø¨Ù„Ø¬':'Ù…Ø¯Ø¨Ù„Ø¬', 'ÙˆØ«Ø§Ø¦Ù‚ÙŠ':'ÙˆØ«Ø§Ø¦Ù‚ÙŠ', 'imdb':'Top IMDb', 'streamimdb':'Ø£ÙÙ„Ø§Ù… Ø£Ø¬Ù†Ø¨ÙŠØ© Ø£ØµÙ„ÙŠØ©', 'turkish-completed':'Ù…Ø³Ù„Ø³Ù„Ø§Øª ØªØ±ÙƒÙŠØ© Ù…Ù†ØªÙ‡ÙŠØ©', 'turkish-ongoing':'Ù…Ø³Ù„Ø³Ù„Ø§Øª ØªØ±ÙƒÙŠØ© (Ø§Ù„Ù…Ø³ØªÙ…Ø±Ø©)', 'asian-series-completed':'Ù…Ø³Ù„Ø³Ù„Ø§Øª Ø¢Ø³ÙŠÙˆÙŠØ© Ù…Ù†ØªÙ‡ÙŠØ©', 'asian-series-ongoing':'Ù…Ø³Ù„Ø³Ù„Ø§Øª Ø¢Ø³ÙŠÙˆÙŠØ© (Ø§Ù„Ù…Ø³ØªÙ…Ø±Ø©)', 'anime-series':'Ù…Ø³Ù„Ø³Ù„Ø§Øª Ø£Ù†Ù…ÙŠ', 'foreign-series':'Ù…Ø³Ù„Ø³Ù„Ø§Øª Ø£Ø¬Ù†Ø¨ÙŠØ©', 'ooanime':'ÙƒØ±ØªÙˆÙ† Ø§Ù„Ø²Ù…Ù† Ø§Ù„Ø¬Ù…ÙŠÙ„', 'Ø§Ø®Ø±Ù‰':'Ø£Ø®Ø±Ù‰' };
+            const catLabels = { 'اجنبي':'أجنبي', 'عربي':'عربي', 'هندي':'هندي', 'اسيوي':'آسيوي', 'نتفليكس':'نت فليكس', 'تركي':'تركي', 'انمي':'أنمي', 'مدبلج':'مدبلج', 'وثائقي':'وثائقي', 'imdb':'Top IMDb', 'streamimdb':'أفلام أجنبية أصلية', 'turkish-completed':'مسلسلات تركية منتهية', 'turkish-ongoing':'مسلسلات تركية (المستمرة)', 'asian-series-completed':'مسلسلات آسيوية منتهية', 'asian-series-ongoing':'مسلسلات آسيوية (المستمرة)', 'anime-series':'مسلسلات أنمي', 'foreign-series':'مسلسلات أجنبية', 'ooanime':'كرتون الزمن الجميل', 'اخرى':'أخرى' };
             const label = catLabels[catVal] || '';
 
             if (results.length === contentData.length && !searchVal && typeVal === 'all' && catVal === 'all' && yearVal === 'all') {
                 // No filters active, show sections
                 renderSections();
             } else {
-                showFilteredGrid(results, searchVal ? `Ø¨Ø­Ø«: "${document.getElementById('searchInput').value}"` : label);
+                showFilteredGrid(results, searchVal ? `بحث: "${document.getElementById('searchInput').value}"` : label);
             }
         }
 
@@ -1407,7 +1407,7 @@
         backBtn.addEventListener('click', () => window.scrollTo({top:0, behavior:'smooth'}));
 
         populateFilters();
-        document.getElementById('totalCount').textContent = (contentData.length).toLocaleString() + '+ ÙÙŠÙ„Ù…';
+        document.getElementById('totalCount').textContent = (contentData.length).toLocaleString() + '+ فيلم';
         renderSections();
     </script>
 

@@ -39,7 +39,7 @@ if ($carry) { $newLetter = 'aa' + $newLetter }
 $newVer = $num + $newLetter
 
 $content = $content -replace "v=$oldVer", "v=$newVer"
-[System.IO.File]::WriteAllText($INDEX, $content, [System.Text.UTF8Encoding]::new($false))
+[System.IO.File]::WriteAllText($INDEX, $content, [System.Text.UTF8]::new($false))
 
 Write-Host "Version: $oldVer → $newVer" -ForegroundColor Green
 
