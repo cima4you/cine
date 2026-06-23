@@ -9,23 +9,23 @@
     <meta http-equiv="expires" content="0">
     <title>R-CINE - Rachid Movies</title>
     <script src="https://cdn.tailwindcss.com"></script>
-        <script src="data-foreign.js?v=20250623q"></script>
-    <script src="data-foreign-series.js?v=20250623q"></script>
-    <script src="data-netflix.js?v=20250623q"></script>
-    <script src="data-arabic.js?v=20250623q"></script>
-    <script src="data-asian.js?v=20250623q"></script>
-    <script src="data-turkish-movies.js?v=20250623q"></script>
-    <script src="data-hindi.js?v=20250623q"></script>
-    <script src="data-arabic-series.js?v=20250623q"></script>
-    <script src="data-turkish-completed.js?v=20250623q"></script>
-    <script src="data-turkish-ongoing.js?v=20250623q"></script>
-    <script src="data-asian-series-completed.js?v=20250623q"></script>
-    <script src="data-asian-series-ongoing.js?v=20250623q"></script>
-    <script src="data-anime.js?v=20250623q"></script>
-    <script src="data-anime-series.js?v=20250623q"></script>
-    <script src="data-dubbed.js?v=20250623q"></script>
-    <script src="data-documentary.js?v=20250623q"></script>
-    <script src="data-other.js?v=20250623q"></script>
+        <script src="data-foreign.js?v=20250623r"></script>
+    <script src="data-foreign-series.js?v=20250623r"></script>
+    <script src="data-netflix.js?v=20250623r"></script>
+    <script src="data-arabic.js?v=20250623r"></script>
+    <script src="data-asian.js?v=20250623r"></script>
+    <script src="data-turkish-movies.js?v=20250623r"></script>
+    <script src="data-hindi.js?v=20250623r"></script>
+    <script src="data-arabic-series.js?v=20250623r"></script>
+    <script src="data-turkish-completed.js?v=20250623r"></script>
+    <script src="data-turkish-ongoing.js?v=20250623r"></script>
+    <script src="data-asian-series-completed.js?v=20250623r"></script>
+    <script src="data-asian-series-ongoing.js?v=20250623r"></script>
+    <script src="data-anime.js?v=20250623r"></script>
+    <script src="data-anime-series.js?v=20250623r"></script>
+    <script src="data-dubbed.js?v=20250623r"></script>
+    <script src="data-documentary.js?v=20250623r"></script>
+    <script src="data-other.js?v=20250623r"></script>
     <script src="data-imdb.js?v=20250619"></script>
     <script src="data-streamimdb.js?v=20250619"></script>
     <script src="data-ooanime.js?v=20250621"></script>
@@ -477,7 +477,8 @@
         <div class="glass-filter p-2.5 md:p-3">
             <div class="flex flex-col md:flex-row gap-2">
                 <div class="relative flex-1">
-                    <input type="text" id="searchInput" placeholder="🔍 ابحث عن فيلم أو مسلسل..." class="w-full text-sm">
+                    <input type="text" id="searchInput" placeholder="🔍 ابحث عن فيلم أو مسلسل..." class="w-full text-sm" autocomplete="off">
+                    <div id="autocompleteList" class="absolute top-full right-0 left-0 z-50 mt-1 rounded-xl overflow-hidden" style="display:none;background:#1e1e3a;border:1px solid rgba(212,168,67,.15);box-shadow:0 8px 24px rgba(0,0,0,.5);max-height:360px;overflow-y:auto"></div>
                     <button id="clearSearch" class="absolute left-1 top-1/2 -translate-y-1/2 w-6 h-6 flex items-center justify-center text-gray-400 hover:text-gray-200 transition-colors" style="display:none">&times;</button>
                 </div>
                 <select id="typeFilter" class="md:w-24 text-sm">
@@ -1384,6 +1385,7 @@
         document.getElementById('clearSearch').addEventListener('click', () => {
             document.getElementById('searchInput').value = '';
             document.getElementById('searchInput').focus();
+            hideAutocomplete();
             applyFilters();
         });
 
@@ -1397,6 +1399,7 @@
             updateYearOptions();
             if (showingGrid) renderSections();
             else { applyFilters(); }
+            hideAutocomplete();
             document.getElementById('clearSearch').style.display = 'none';
             document.getElementById('resetFilters').style.display = 'none';
         });
@@ -1404,6 +1407,7 @@
         // Header search -> main search
         document.getElementById('headerSearch').addEventListener('input', function() {
             document.getElementById('searchInput').value = this.value;
+            document.getElementById('searchInput').dispatchEvent(new Event('input'));
             currentPage = 1;
             applyFilters();
         });
@@ -1414,6 +1418,47 @@
             window.scrollTo({ top: document.getElementById('searchInput').offsetTop - 80, behavior: 'smooth' });
         });
 
+        // ===== SEARCH AUTOCOMPLETE =====
+        const searchInput = document.getElementById('searchInput');
+        const autoList = document.getElementById('autocompleteList');
+        let autoTimeout;
+
+        function hideAutocomplete() { autoList.style.display = 'none'; }
+
+        searchInput.addEventListener('input', function() {
+            clearTimeout(autoTimeout);
+            if (this.value.length < 2) { hideAutocomplete(); return; }
+            autoTimeout = setTimeout(() => {
+                const q = this.value.trim().toLowerCase();
+                const results = contentData
+                    .filter(m => (m.title || '').toLowerCase().includes(q))
+                    .slice(0, 10);
+                if (results.length === 0) { hideAutocomplete(); return; }
+                autoList.innerHTML = results.map((m, i) => {
+                    const t = m.title || '';
+                    const y = m.year || '';
+                    const icon = m.contentType === 'series' ? '📺' : '🎥';
+                    return `<div data-idx="${i}" style="padding:8px 12px;cursor:pointer;display:flex;align-items:center;gap:8px;color:#ccc;font-size:12px;border-bottom:1px solid rgba(255,255,255,.04);transition:background .15s" onmouseover="this.style.background='rgba(212,168,67,.1)'" onmouseout="this.style.background=''">${icon} <span style="flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${t}</span> <span style="color:#888;flex-shrink:0">${y}</span></div>`;
+                }).join('');
+                autoList.style.display = 'block';
+                autoList.querySelectorAll('div').forEach(el => {
+                    el.addEventListener('click', function() {
+                        const idx = parseInt(this.dataset.idx);
+                        const item = results[idx];
+                        searchInput.value = item.title || '';
+                        hideAutocomplete();
+                        currentPage = 1;
+                        applyFilters();
+                    });
+                });
+            }, 200);
+        });
+        searchInput.addEventListener('blur', () => setTimeout(hideAutocomplete, 200));
+        searchInput.addEventListener('focus', function() {
+            if (this.value.length >= 2) this.dispatchEvent(new Event('input'));
+        });
+        document.addEventListener('click', e => { if (!e.target.closest('.relative.flex-1')) hideAutocomplete(); });
+
         document.getElementById('backHomeBtn').addEventListener('click', () => {
             document.getElementById('searchInput').value = '';
             document.getElementById('typeFilter').value = 'all';
@@ -1423,6 +1468,7 @@
             sortMode = 'default';
             document.getElementById('clearSearch').style.display = 'none';
             document.getElementById('resetFilters').style.display = 'none';
+            hideAutocomplete();
             updateYearOptions();
             renderSections();
         });
