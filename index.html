@@ -14,23 +14,23 @@
     <meta name="apple-mobile-web-app-title" content="R-CINE">
     <title>R-CINE - Rachid Movies</title>
     <script src="https://cdn.tailwindcss.com"></script>
-        <script src="data-foreign.js?v=20250623x"></script>
-    <script src="data-foreign-series.js?v=20250623x"></script>
-    <script src="data-netflix.js?v=20250623x"></script>
-    <script src="data-arabic.js?v=20250623x"></script>
-    <script src="data-asian.js?v=20250623x"></script>
-    <script src="data-turkish-movies.js?v=20250623x"></script>
-    <script src="data-hindi.js?v=20250623x"></script>
-    <script src="data-arabic-series.js?v=20250623x"></script>
-    <script src="data-turkish-completed.js?v=20250623x"></script>
-    <script src="data-turkish-ongoing.js?v=20250623x"></script>
-    <script src="data-asian-series-completed.js?v=20250623x"></script>
-    <script src="data-asian-series-ongoing.js?v=20250623x"></script>
-    <script src="data-anime.js?v=20250623x"></script>
-    <script src="data-anime-series.js?v=20250623x"></script>
-    <script src="data-dubbed.js?v=20250623x"></script>
-    <script src="data-documentary.js?v=20250623x"></script>
-    <script src="data-other.js?v=20250623x"></script>
+        <script src="data-foreign.js?v=20250623y"></script>
+    <script src="data-foreign-series.js?v=20250623y"></script>
+    <script src="data-netflix.js?v=20250623y"></script>
+    <script src="data-arabic.js?v=20250623y"></script>
+    <script src="data-asian.js?v=20250623y"></script>
+    <script src="data-turkish-movies.js?v=20250623y"></script>
+    <script src="data-hindi.js?v=20250623y"></script>
+    <script src="data-arabic-series.js?v=20250623y"></script>
+    <script src="data-turkish-completed.js?v=20250623y"></script>
+    <script src="data-turkish-ongoing.js?v=20250623y"></script>
+    <script src="data-asian-series-completed.js?v=20250623y"></script>
+    <script src="data-asian-series-ongoing.js?v=20250623y"></script>
+    <script src="data-anime.js?v=20250623y"></script>
+    <script src="data-anime-series.js?v=20250623y"></script>
+    <script src="data-dubbed.js?v=20250623y"></script>
+    <script src="data-documentary.js?v=20250623y"></script>
+    <script src="data-other.js?v=20250623y"></script>
     <script src="data-imdb.js?v=20250619"></script>
     <script src="data-streamimdb.js?v=20250619"></script>
     <script src="data-ooanime.js?v=20250621"></script>
@@ -586,6 +586,7 @@
                 </select>
                 <button id="resetFilters" class="px-3 py-1.5 text-sm rounded-lg border border-gray-600 text-gray-400 hover:border-red-400 hover:text-red-400 hover:bg-red-900/20 transition-colors" style="display:none">✕ مسح</button>
             </div>
+            <div id="genreFilter" class="flex flex-wrap gap-1.5 mt-2" style="display:none"></div>
         </div>
     </section>
 
@@ -711,6 +712,7 @@
         let sortMode = 'default';
         let favoriteTitles = new Set(JSON.parse(localStorage.getItem('rcine_fav') || '[]'));
         let watchlistTitles = new Set(JSON.parse(localStorage.getItem('rcine_wl') || '[]'));
+        let activeGenre = 'all';
 
         function isFav(item) { return favoriteTitles.has(item.title + '|' + (item.year || '')); }
         function toggleFav(item) {
@@ -738,6 +740,34 @@
                     const wl = el.querySelector('.wl-star');
                     if (wl) wl.textContent = watchlistTitles.has(key) ? '🔖' : '📑';
                 }
+            });
+        }
+        // Genre filter
+        function updateGenreFilter() {
+            const catVal = document.getElementById('categoryFilter').value;
+            const gEl = document.getElementById('genreFilter');
+            activeGenre = 'all';
+            if (catVal === 'all') { gEl.style.display = 'none'; return; }
+            const cat = CATEGORIES.find(c => c.id === catVal) || {type:catVal, contentType:null};
+            let items;
+            if (cat.typeCheck) items = contentData.filter(m => cat.typeCheck(m.type, m));
+            else items = contentData.filter(m => (m.type || '').trim() === catVal);
+            const genres = [...new Set(items.flatMap(m => m.categories || []))].filter(Boolean).sort();
+            if (genres.length < 2) { gEl.style.display = 'none'; return; }
+            gEl.style.display = 'flex';
+            let html = `<button class="genre-btn active" data-g="all" style="padding:3px 10px;border-radius:20px;font-size:11px;border:1px solid rgba(212,168,67,.2);background:rgba(212,168,67,.12);color:#d4a843;cursor:pointer;transition:all .2s">الكل</button>`;
+            genres.forEach(g => {
+                html += `<button class="genre-btn" data-g="${g}" style="padding:3px 10px;border-radius:20px;font-size:11px;border:1px solid rgba(255,255,255,.08);background:transparent;color:#999;cursor:pointer;transition:all .2s">${g}</button>`;
+            });
+            gEl.innerHTML = html;
+            gEl.querySelectorAll('.genre-btn').forEach(b => {
+                b.addEventListener('click', function() {
+                    gEl.querySelectorAll('.genre-btn').forEach(x => { x.style.background='transparent'; x.style.color='#999'; x.style.borderColor='rgba(255,255,255,.08)'; });
+                    this.style.background='rgba(212,168,67,.12)'; this.style.color='#d4a843'; this.style.borderColor='rgba(212,168,67,.2)';
+                    activeGenre = this.dataset.g;
+                    currentPage = 1;
+                    applyFilters();
+                });
             });
         }
         // Continue watching
@@ -1519,6 +1549,10 @@
                     else if (catVal === 'اخرى' && !['أجنبي','عربي','هندي','أسيوي','أنمي','انمي','نتفليكس','تركي','تركيي','مدبلج','وثائقي','IMDb','StreamIMDb','foreign-series','كرتون','عربي'].includes(it)) return false;
                 }
                 if (yearVal !== 'all' && year !== yearVal) return false;
+                if (activeGenre !== 'all') {
+                    const g = activeGenre.toLowerCase();
+                    if (!(item.categories || []).some(c => c.toLowerCase().includes(g))) return false;
+                }
                 return true;
             });
 
@@ -1568,7 +1602,7 @@
         // ===== EVENT HANDLERS =====
         document.getElementById('searchInput').addEventListener('input', () => { currentPage=1; applyFilters(); });
         document.getElementById('typeFilter').addEventListener('change', () => { currentPage=1; applyFilters(); updateYearOptions(); });
-        document.getElementById('categoryFilter').addEventListener('change', () => { currentPage=1; applyFilters(); updateYearOptions(); });
+        document.getElementById('categoryFilter').addEventListener('change', () => { currentPage=1; applyFilters(); updateYearOptions(); updateGenreFilter(); });
         document.getElementById('yearFilter').addEventListener('change', () => { currentPage=1; applyFilters(); });
         document.getElementById('sortFilter').addEventListener('change', () => { sortMode = document.getElementById('sortFilter').value; if (showingGrid) { filteredMovies = sortItems(filteredMovies); currentPage = 1; renderGrid(); } });
 
@@ -1587,6 +1621,7 @@
             document.getElementById('sortFilter').value = 'default';
             sortMode = 'default';
             updateYearOptions();
+            updateGenreFilter();
             if (showingGrid) renderSections();
             else { applyFilters(); }
             hideAutocomplete();
@@ -1675,6 +1710,7 @@
             document.getElementById('resetFilters').style.display = 'none';
             hideAutocomplete();
             updateYearOptions();
+            updateGenreFilter();
             renderSections();
         });
         document.getElementById('backFromModal').addEventListener('click', () => {
