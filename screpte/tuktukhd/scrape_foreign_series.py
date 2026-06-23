@@ -542,6 +542,8 @@ def merge_with_existing(new_series, existing_path):
         return new_series
     existing = json.loads(m.group(1))
     p(f'\U0001f4c2 \u062a\u062d\u0645\u064a\u0644 {len(existing)} \u0639\u0646\u0635\u0631 \u0645\u0646 \u0627\u0644\u0645\u0644\u0641 \u0627\u0644\u062d\u0627\u0644\u064a')
+    for x in existing:
+        x.setdefault('dateAdded', 0)
     norm = lambda t: re.sub(r'\s+', '', (t or '').strip()).lower()
     exist_titles = {norm(x.get('title', '')): x for x in existing}
     added = 0
@@ -577,6 +579,7 @@ def merge_with_existing(new_series, existing_path):
             if changed:
                 updated += 1
         else:
+            item['dateAdded'] = int(time.time())
             existing.insert(0, item)
             exist_titles[t] = item
             added += 1

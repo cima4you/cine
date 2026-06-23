@@ -100,8 +100,8 @@ def save_data_js(path, items, var_name, header):
     p(f'📁 حفظ: {path} ({len(items)} عنصر)')
 
 def merge_into(existing, new_items):
-    # Clean existing titles too
     for x in existing:
+        x.setdefault('dateAdded', 0)
         cleaned = clean_title(x.get('title', ''))
         if cleaned != x.get('title', ''):
             x['title'] = cleaned
@@ -153,6 +153,7 @@ def merge_into(existing, new_items):
         else:
             item.setdefault('type', 'تركي')
             item.setdefault('contentType', 'series')
+            item['dateAdded'] = int(time.time())
             existing.insert(0, item)
             added += 1
             added_names.append(item.get('title', '')[:40])

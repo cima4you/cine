@@ -92,8 +92,8 @@ def save_data_js(path, items, var_name, header):
 
 def merge_into(existing, new_items, updated_existing_keys):
     norm = lambda t: re.sub(r'[\u064B-\u0652]', '', re.sub(r'\s+', '', (t or '').strip().lower()))
-    # Clean existing titles that may have مسلسل prefix or other artifacts
     for x in existing:
+        x.setdefault('dateAdded', 0)
         cleaned = clean_title(x.get('title', ''))
         if cleaned != x.get('title', ''):
             x['title'] = cleaned
@@ -137,6 +137,7 @@ def merge_into(existing, new_items, updated_existing_keys):
             if changed:
                 updated += 1
         else:
+            item['dateAdded'] = int(time.time())
             existing.insert(0, item)
             added += 1
     return existing, added, updated

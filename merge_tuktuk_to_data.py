@@ -1,4 +1,4 @@
-import json, os, re, sys
+import json, os, re, sys, time
 sys.stdout.reconfigure(encoding='utf-8')
 
 TUKTUK_JSON = r"screpte\tuktukhd\tuktuk\foreign.json"
@@ -24,6 +24,7 @@ updated = 0
 for m in new_movies:
     title = m.get('title', '')
     if title not in existing_titles:
+        m['dateAdded'] = int(time.time())
         existing.append(m)
         existing_titles.add(title)
         added += 1
