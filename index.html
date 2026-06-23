@@ -9,23 +9,23 @@
     <meta http-equiv="expires" content="0">
     <title>R-CINE - Rachid Movies</title>
     <script src="https://cdn.tailwindcss.com"></script>
-        <script src="data-foreign.js?v=20250623r"></script>
-    <script src="data-foreign-series.js?v=20250623r"></script>
-    <script src="data-netflix.js?v=20250623r"></script>
-    <script src="data-arabic.js?v=20250623r"></script>
-    <script src="data-asian.js?v=20250623r"></script>
-    <script src="data-turkish-movies.js?v=20250623r"></script>
-    <script src="data-hindi.js?v=20250623r"></script>
-    <script src="data-arabic-series.js?v=20250623r"></script>
-    <script src="data-turkish-completed.js?v=20250623r"></script>
-    <script src="data-turkish-ongoing.js?v=20250623r"></script>
-    <script src="data-asian-series-completed.js?v=20250623r"></script>
-    <script src="data-asian-series-ongoing.js?v=20250623r"></script>
-    <script src="data-anime.js?v=20250623r"></script>
-    <script src="data-anime-series.js?v=20250623r"></script>
-    <script src="data-dubbed.js?v=20250623r"></script>
-    <script src="data-documentary.js?v=20250623r"></script>
-    <script src="data-other.js?v=20250623r"></script>
+        <script src="data-foreign.js?v=20250623s"></script>
+    <script src="data-foreign-series.js?v=20250623s"></script>
+    <script src="data-netflix.js?v=20250623s"></script>
+    <script src="data-arabic.js?v=20250623s"></script>
+    <script src="data-asian.js?v=20250623s"></script>
+    <script src="data-turkish-movies.js?v=20250623s"></script>
+    <script src="data-hindi.js?v=20250623s"></script>
+    <script src="data-arabic-series.js?v=20250623s"></script>
+    <script src="data-turkish-completed.js?v=20250623s"></script>
+    <script src="data-turkish-ongoing.js?v=20250623s"></script>
+    <script src="data-asian-series-completed.js?v=20250623s"></script>
+    <script src="data-asian-series-ongoing.js?v=20250623s"></script>
+    <script src="data-anime.js?v=20250623s"></script>
+    <script src="data-anime-series.js?v=20250623s"></script>
+    <script src="data-dubbed.js?v=20250623s"></script>
+    <script src="data-documentary.js?v=20250623s"></script>
+    <script src="data-other.js?v=20250623s"></script>
     <script src="data-imdb.js?v=20250619"></script>
     <script src="data-streamimdb.js?v=20250619"></script>
     <script src="data-ooanime.js?v=20250621"></script>
@@ -195,6 +195,34 @@
             position: absolute; top: 6px; left: 6px; z-index: 3;
             padding: 2px 6px; border-radius: 5px; font-size: 10px; font-weight: 700;
             background: rgba(0,0,0,.65); color: #d4a843;
+        }
+
+        /* ===== SKELETON ===== */
+        @keyframes shimmer { 0%{background-position:-200px 0} 100%{background-position:calc(200px + 100%) 0} }
+        .skeleton-card {
+            width: 200px; flex-shrink: 0; border-radius: 10px; overflow: hidden;
+            background: #1a1a2e;
+        }
+        .turkish-scroll .skeleton-card { width: 300px; }
+        .skeleton-card .sk-poster {
+            aspect-ratio: 2/3;
+            background: linear-gradient(90deg, #1a1a2e 25%, #2a2a4e 50%, #1a1a2e 75%);
+            background-size: 200px 100%;
+            animation: shimmer 1.5s infinite;
+        }
+        .movie-card.series-card .skeleton-card .sk-poster,
+        .turkish-scroll .skeleton-card .sk-poster { aspect-ratio: 37/23; }
+        .movie-card.foreign-series-card .skeleton-card .sk-poster { aspect-ratio: 2/3; }
+        .skeleton-card .sk-info { padding: 10px 8px; }
+        .skeleton-card .sk-title {
+            height: 12px; border-radius: 4px; margin-bottom: 6px;
+            background: linear-gradient(90deg, #1a1a2e 25%, #2a2a4e 50%, #1a1a2e 75%);
+            background-size: 200px 100%; animation: shimmer 1.5s infinite;
+        }
+        .skeleton-card .sk-meta {
+            height: 9px; width: 60%; border-radius: 4px;
+            background: linear-gradient(90deg, #1a1a2e 25%, #2a2a4e 50%, #1a1a2e 75%);
+            background-size: 200px 100%; animation: shimmer 1.5s infinite;
         }
 
         /* ===== SECTIONS ===== */
@@ -533,8 +561,15 @@
     </section>
 
     <!-- ===== LOADING ===== -->
-    <div id="loading" class="flex justify-center items-center py-16" style="display:none">
-        <div class="w-8 h-8 border-3 border-[#d4a843]/20 border-t-[#d4a843] rounded-full animate-spin"></div>
+    <div id="loading" class="section-scroll" style="display:none;padding:4px 0 8px">
+        <div class="skeleton-card"><div class="sk-poster"></div><div class="sk-info"><div class="sk-title"></div><div class="sk-meta"></div></div></div>
+        <div class="skeleton-card"><div class="sk-poster"></div><div class="sk-info"><div class="sk-title"></div><div class="sk-meta"></div></div></div>
+        <div class="skeleton-card"><div class="sk-poster"></div><div class="sk-info"><div class="sk-title"></div><div class="sk-meta"></div></div></div>
+        <div class="skeleton-card"><div class="sk-poster"></div><div class="sk-info"><div class="sk-title"></div><div class="sk-meta"></div></div></div>
+        <div class="skeleton-card"><div class="sk-poster"></div><div class="sk-info"><div class="sk-title"></div><div class="sk-meta"></div></div></div>
+        <div class="skeleton-card"><div class="sk-poster"></div><div class="sk-info"><div class="sk-title"></div><div class="sk-meta"></div></div></div>
+        <div class="skeleton-card"><div class="sk-poster"></div><div class="sk-info"><div class="sk-title"></div><div class="sk-meta"></div></div></div>
+        <div class="skeleton-card"><div class="sk-poster"></div><div class="sk-info"><div class="sk-title"></div><div class="sk-meta"></div></div></div>
     </div>
 
     <!-- ===== PAGINATION ===== -->
