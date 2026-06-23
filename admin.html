@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>لوحة التحكم - R-CINE</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0f0f1a;color:#eee;font-family:Tajawal,sans-serif;padding:20px;max-width:900px;margin:0 auto}
+h1{color:#d4a843;font-size:20px;margin-bottom:16px}
+h2{color:#d4a84388;font-size:14px;margin:16px 0 8px;border-bottom:1px solid rgba(212,168,67,.1);padding-bottom:4px}
+.card{background:#1a1a2e;border-radius:10px;padding:16px;margin-bottom:12px}
+.stat{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(255,255,255,.04);font-size:13px}
+.stat:last-child{border:0}
+.stat span:first-child{color:#999}
+.stat span:last-child{color:#d4a843;font-weight:700}
+.back{display:inline-block;margin-bottom:16px;color:#d4a843;text-decoration:none;font-size:13px}
+.back:hover{text-decoration:underline}
+.badge{background:rgba(212,168,67,.12);color:#d4a843;padding:2px 8px;border-radius:10px;font-size:11px}
+</style></head>
+<body>
+<a href="/" class="back">← العودة للرئيسية</a>
+<h1>⚙️ لوحة التحكم</h1>
+<div class="card" id="stats"></div>
+<div class="card" id="catStats"></div>
+<div class="card" id="localStats"></div>
+<script src="data-loader.js"></script>
+<script>
+let allData = [];
+function init(data) {
+    allData = data || [];
+    renderStats();
+}
+const types = ['movie','series'];
+const typeLabels = {movie:'فيلم',series:'مسلسل'};
+function renderStats() {
+    const total = allData.length;
+    const typeCounts = {};
+    const catCounts = {};
+    const yearCounts = {};
+    types.forEach(t => typeCounts[t] = 0);
+    allData.forEach(item => {
+        const t = (item.contentType || item.type || '').toLowerCase();
+        typeCounts[t] = (typeCounts[t]||0) + 1;
+        const cat = (item.type || '').trim();
+        catCounts[cat] = (catCounts[cat]||0) + 1;
+        const y = item.year || item.releaseDate || '';
+        if (y) { const yr = y.toString().substring(0,4); yearCounts[yr] = (yearCounts[yr]||0) + 1; }
+    });
+    document.getElementById('stats').innerHTML = `
+        <div class="stat"><span>إجمالي المحتوى</span><span>${total.toLocaleString()}</span></div>
+        <div class="stat"><span>أفلام</span><span>${(typeCounts.movie||0).toLocaleString()}</span></div>
+        <div class="stat"><span>مسلسلات</span><span>${(typeCounts.series||0).toLocaleString()}</span></div>
+        <div class="stat"><span>آخر تحديث</span><span>${new Date().toLocaleDateString('ar-EG')}</span></div>
+    `;
+    const catHtml = Object.entries(catCounts).sort((a,b)=>b[1]-a[1]).map(([k,v]) =>
+        `<div class="stat"><span>${k}</span><span>${v.toLocaleString()}</span></div>`
+    ).join('');
+    document.getElementById('catStats').innerHTML = `<h2>📂 التصنيفات</h2>${catHtml}`;
+    // localStorage stats
+    const favs = JSON.parse(localStorage.getItem('rcine_fav') || '[]');
+    const wl = JSON.parse(localStorage.getItem('rcine_wl') || '[]');
+    const cw = JSON.parse(localStorage.getItem('rcine_cw') || '[]');
+    const ratings = JSON.parse(localStorage.getItem('rcine_ratings') || '{}');
+    document.getElementById('localStats').innerHTML = `
+        <h2>💾 بيانات المستخدم</h2>
+        <div class="stat"><span>⭐ المفضلة</span><span>${favs.length}</span></div>
+        <div class="stat"><span>🔖 للمشاهدة</span><span>${wl.length}</span></div>
+        <div class="stat"><span>▶️ مشاهدة مستمرة</span><span>${cw.length}</span></div>
+        <div class="stat"><span>⭐ تقييمات</span><span>${Object.keys(ratings).length}</span></div>
+    `;
+}
+</script>
+</body></html>
