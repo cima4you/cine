@@ -9,23 +9,23 @@
     <meta http-equiv="expires" content="0">
     <title>R-CINE - Rachid Movies</title>
     <script src="https://cdn.tailwindcss.com"></script>
-        <script src="data-foreign.js?v=20250623p"></script>
-    <script src="data-foreign-series.js?v=20250623p"></script>
-    <script src="data-netflix.js?v=20250623p"></script>
-    <script src="data-arabic.js?v=20250623p"></script>
-    <script src="data-asian.js?v=20250623p"></script>
-    <script src="data-turkish-movies.js?v=20250623p"></script>
-    <script src="data-hindi.js?v=20250623p"></script>
-    <script src="data-arabic-series.js?v=20250623p"></script>
-    <script src="data-turkish-completed.js?v=20250623p"></script>
-    <script src="data-turkish-ongoing.js?v=20250623p"></script>
-    <script src="data-asian-series-completed.js?v=20250623p"></script>
-    <script src="data-asian-series-ongoing.js?v=20250623p"></script>
-    <script src="data-anime.js?v=20250623p"></script>
-    <script src="data-anime-series.js?v=20250623p"></script>
-    <script src="data-dubbed.js?v=20250623p"></script>
-    <script src="data-documentary.js?v=20250623p"></script>
-    <script src="data-other.js?v=20250623p"></script>
+        <script src="data-foreign.js?v=20250623q"></script>
+    <script src="data-foreign-series.js?v=20250623q"></script>
+    <script src="data-netflix.js?v=20250623q"></script>
+    <script src="data-arabic.js?v=20250623q"></script>
+    <script src="data-asian.js?v=20250623q"></script>
+    <script src="data-turkish-movies.js?v=20250623q"></script>
+    <script src="data-hindi.js?v=20250623q"></script>
+    <script src="data-arabic-series.js?v=20250623q"></script>
+    <script src="data-turkish-completed.js?v=20250623q"></script>
+    <script src="data-turkish-ongoing.js?v=20250623q"></script>
+    <script src="data-asian-series-completed.js?v=20250623q"></script>
+    <script src="data-asian-series-ongoing.js?v=20250623q"></script>
+    <script src="data-anime.js?v=20250623q"></script>
+    <script src="data-anime-series.js?v=20250623q"></script>
+    <script src="data-dubbed.js?v=20250623q"></script>
+    <script src="data-documentary.js?v=20250623q"></script>
+    <script src="data-other.js?v=20250623q"></script>
     <script src="data-imdb.js?v=20250619"></script>
     <script src="data-streamimdb.js?v=20250619"></script>
     <script src="data-ooanime.js?v=20250621"></script>
@@ -487,6 +487,7 @@
                 </select>
                 <select id="categoryFilter" class="md:w-28 text-sm">
                     <option value="all">🏷️ التصنيف</option>
+                    <option value="favorites">⭐ المفضلة</option>
                     <option value="اجنبي">🌍 أجنبية</option>
                     <option value="عربي">🌙 عربية</option>
                     <option value="هندي">🇮🇳 هندية</option>
@@ -614,6 +615,22 @@
         let filteredMovies = [];
         let showingGrid = false;
         let sortMode = 'default';
+        let favoriteTitles = new Set(JSON.parse(localStorage.getItem('rcine_fav') || '[]'));
+
+        function isFav(item) { return favoriteTitles.has(item.title + '|' + (item.year || '')); }
+        function toggleFav(item) {
+            const key = item.title + '|' + (item.year || '');
+            if (favoriteTitles.has(key)) favoriteTitles.delete(key);
+            else favoriteTitles.add(key);
+            localStorage.setItem('rcine_fav', JSON.stringify([...favoriteTitles]));
+            document.querySelectorAll('.movie-card').forEach(el => {
+                const t = el.dataset.title, y = el.dataset.year;
+                if (t === item.title && (y || '') === (item.year || '')) {
+                    const star = el.querySelector('.fav-star');
+                    if (star) star.textContent = favoriteTitles.has(key) ? '⭐' : '☆';
+                }
+            });
+        }
 
         const NO_POSTER = 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="300" height="450" viewBox="0 0 300 450"><rect fill="#152238" width="300" height="450"/><text x="150" y="225" fill="#444" font-family="sans-serif" font-size="16" text-anchor="middle" dominant-baseline="middle">No Poster</text></svg>');
         const PLACEHOLDER_SVG = NO_POSTER;
@@ -621,6 +638,7 @@
         // Category definitions
         const CATEGORIES = [
             { id: 'recent', label: '🆕 مضاف حديثا', type: null, contentType: null, limit: 64, clr: 'gold' },
+            { id: 'favorites', label: '⭐ المفضلة', type: null, contentType: null, typeCheck: (t, item) => isFav(item), limit: 100, clr: 'gold' },
             { id: 'imdb', label: '⭐ Top 250 IMDb', type: 'IMDb', contentType: 'movie', limit: 246, clr: 'gold' },
             { id: 'streamimdb', label: '🎬 أفلام أجنبية أصلية', type: null, contentType: null, typeCheck: (t) => t === 'StreamIMDb', limit: 100, clr: 'blue' },
             { id: 'foreign', label: '🌍 أفلام أجنبية', type: 'أجنبي', contentType: 'movie', limit: 100, clr: 'blue' },
@@ -679,6 +697,7 @@
                     else if (catVal === 'imdb' && it !== 'IMDb') skip = true;
                     else if (catVal === 'streamimdb' && it !== 'StreamIMDb') skip = true;
                     else if (catVal === 'ooanime' && (it !== 'كرتون' || ct !== 'series')) skip = true;
+                    else if (catVal === 'favorites' && !isFav(m)) skip = true;
                     else if (catVal === 'اخرى' && !['أجنبي','عربي','هندي','أسيوي','أنمي','انمي','نتفليكس','تركي','تركيي','مدبلج','وثائقي','IMDb','StreamIMDb','foreign-series','كرتون'].includes(it)) skip = true;
                 }
                 if (skip) return;
@@ -742,6 +761,8 @@
 
             const card = document.createElement('div');
                 card.className = 'movie-card fade-up' + (isSeries ? ' series-card' : '') + (isForeignSeries ? ' foreign-series-card' : '');
+            card.dataset.title = title;
+            card.dataset.year = year || '';
             card.style.animationDelay = ((idx||0) % 10 * 40) + 'ms';
 
             const wrapper = document.createElement('div');
@@ -778,6 +799,13 @@
                 ratingEl.textContent = '⭐ ' + rating;
                 wrapper.appendChild(ratingEl);
             }
+
+            const favStar = document.createElement('div');
+            favStar.className = 'fav-star';
+            favStar.style.cssText = 'position:absolute;bottom:6px;left:6px;z-index:3;font-size:16px;cursor:pointer;text-shadow:0 1px 4px rgba(0,0,0,.8);line-height:1';
+            favStar.textContent = isFav(item) ? '⭐' : '☆';
+            favStar.addEventListener('click', e => { e.stopPropagation(); toggleFav(item); });
+            wrapper.appendChild(favStar);
 
             card.appendChild(wrapper);
             card.addEventListener('click', () => openModal(item));
@@ -1296,6 +1324,7 @@
                     else if (catVal === 'imdb' && it !== 'IMDb') return false;
                     else if (catVal === 'streamimdb' && it !== 'StreamIMDb') return false;
                     else if (catVal === 'ooanime' && (it !== 'كرتون' || ct !== 'series')) return false;
+                    else if (catVal === 'favorites' && !isFav(item)) return false;
                     else if (catVal === 'اخرى' && !['أجنبي','عربي','هندي','أسيوي','أنمي','انمي','نتفليكس','تركي','تركيي','مدبلج','وثائقي','IMDb','StreamIMDb','foreign-series','كرتون','عربي'].includes(it)) return false;
                 }
                 if (yearVal !== 'all' && year !== yearVal) return false;
@@ -1303,7 +1332,7 @@
             });
 
             // Map category ID to label for display
-            const catLabels = { 'اجنبي':'أجنبي', 'عربي':'عربي', 'هندي':'هندي', 'اسيوي':'آسيوي', 'نتفليكس':'نت فليكس', 'تركي':'تركي', 'انمي':'أنمي', 'مدبلج':'مدبلج', 'وثائقي':'وثائقي', 'imdb':'Top IMDb', 'streamimdb':'أفلام أجنبية أصلية', 'turkish-completed':'مسلسلات تركية منتهية', 'turkish-ongoing':'مسلسلات تركية (المستمرة)', 'asian-series-completed':'مسلسلات آسيوية منتهية', 'asian-series-ongoing':'مسلسلات آسيوية (المستمرة)', 'anime-series':'مسلسلات أنمي', 'foreign-series':'مسلسلات أجنبية', 'ooanime':'كرتون الزمن الجميل', 'اخرى':'أخرى' };
+            const catLabels = { 'اجنبي':'أجنبي', 'عربي':'عربي', 'هندي':'هندي', 'اسيوي':'آسيوي', 'نتفليكس':'نت فليكس', 'تركي':'تركي', 'انمي':'أنمي', 'مدبلج':'مدبلج', 'وثائقي':'وثائقي', 'imdb':'Top IMDb', 'streamimdb':'أفلام أجنبية أصلية', 'turkish-completed':'مسلسلات تركية منتهية', 'turkish-ongoing':'مسلسلات تركية (المستمرة)', 'asian-series-completed':'مسلسلات آسيوية منتهية', 'asian-series-ongoing':'مسلسلات آسيوية (المستمرة)', 'anime-series':'مسلسلات أنمي', 'foreign-series':'مسلسلات أجنبية', 'ooanime':'كرتون الزمن الجميل', 'favorites':'المفضلة', 'اخرى':'أخرى' };
             const label = catLabels[catVal] || '';
 
             if (results.length === contentData.length && !searchVal && typeVal === 'all' && catVal === 'all' && yearVal === 'all') {
