@@ -137,7 +137,7 @@ def merge_into(existing, new_items, updated_existing_keys):
             if changed:
                 updated += 1
         else:
-            existing.append(item)
+            existing.insert(0, item)
             added += 1
     return existing, added, updated
 

@@ -577,7 +577,7 @@ def merge_with_existing(new_series, existing_path):
             if changed:
                 updated += 1
         else:
-            existing.append(item)
+            existing.insert(0, item)
             exist_titles[t] = item
             added += 1
     p(f'\u2705 \u062c\u062f\u064a\u062f: {added} | \u0645\u062d\u062f\u062b: {updated} | \u0627\u0644\u0625\u062c\u0645\u0627\u0644\u064a: {len(existing)}')

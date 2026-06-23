@@ -153,7 +153,7 @@ def merge_into(existing, new_items):
         else:
             item.setdefault('type', 'تركي')
             item.setdefault('contentType', 'series')
-            existing.append(item)
+            existing.insert(0, item)
             added += 1
             added_names.append(item.get('title', '')[:40])
     if added_names:
