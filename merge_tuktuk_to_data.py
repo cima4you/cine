@@ -2,7 +2,7 @@ import json, os, re, sys
 sys.stdout.reconfigure(encoding='utf-8')
 
 TUKTUK_JSON = r"screpte\tuktukhd\tuktuk\foreign.json"
-DATA_FILE = r"data\data-foreign.js"
+DATA_FILE = r"data-foreign.js"
 
 with open(TUKTUK_JSON, 'r', encoding='utf-8') as f:
     new_movies = json.load(f)

@@ -13,7 +13,7 @@ Write-Host "========== TukTuk Foreign Films ==========" -ForegroundColor Cyan
 Write-Host "Pages: $StartPage - $EndPage" -ForegroundColor Yellow
 
 Write-Host "[1/2] Scraping foreign films..." -ForegroundColor Yellow
-python $SCRAPER --all -s $StartPage -e $EndPage -o $OUTPUT -d $Delay
+python -u $SCRAPER --all -s $StartPage -e $EndPage -o $OUTPUT -d $Delay
 if ($LASTEXITCODE -ne 0) { Write-Host "FAILED" -ForegroundColor Red; exit 1 }
 
 Write-Host "[2/2] Merging into data-foreign.js..." -ForegroundColor Yellow

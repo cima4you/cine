@@ -18,7 +18,7 @@ from urllib.parse import urljoin, urlparse, parse_qs
 from pathlib import Path
 from datetime import datetime
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', write_through=True)
 sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
 session = requests.Session()
