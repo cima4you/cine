@@ -1,0 +1,17 @@
+{
+  "name": "R-CINE",
+  "short_name": "R-CINE",
+  "description": "أفلام أجنبية · عربية · هندية · آسيوية · مسلسلات",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0f0f1a",
+  "theme_color": "#16162a",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "logo.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "logo.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "lang": "ar",
+  "dir": "rtl"
+}
