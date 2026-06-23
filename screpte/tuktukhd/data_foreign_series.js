@@ -1,5 +1,5 @@
 // مسلسلات أجنبية من tuktukhd — 200 مسلسل
-// تم التوليد: 2026-06-18 18:36:36
+// تم التوليد: 2026-06-23 09:33:39
 const cd_foreign_series = [
   {
     "title": "9-1-1",
@@ -9543,6 +9543,19 @@ const cd_foreign_series = [
               {
                 "name": "⭐  TukTuk Vip",
                 "url": "https://megatuktuk.store/iframe/BhjKRXyM0Z8uL",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 4,
+            "title": "حلقة 4",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/C8TjyF71qil0G",
                 "isDefault": true
               }
             ],
@@ -28642,6 +28655,19 @@ const cd_foreign_series = [
               }
             ],
             "downloadServers": []
+          },
+          {
+            "episodeNumber": 7,
+            "title": "حلقة 7",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/dz6gCJnKkrTln",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
           }
         ]
       }
@@ -36304,6 +36330,19 @@ const cd_foreign_series = [
               {
                 "name": "⭐  TukTuk Vip",
                 "url": "https://megatuktuk.store/iframe/FPL31RHGiivXO",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 9,
+            "title": "حلقة 9",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/Qdsr4tZQA20wb",
                 "isDefault": true
               }
             ],
@@ -48326,6 +48365,298 @@ const cd_foreign_series = [
     ]
   },
   {
+    "title": "House of the Dragon",
+    "year": "2026",
+    "rating": "8.302",
+    "type": "أجنبي",
+    "contentType": "series",
+    "description": "تدور الأحداث قبل 200 عام من أحداث مسلسل صراع العروش.، حيث سيركز على تفاصيل عائلة \"آل تارغيريان\" ولمحات هامة في تاريخ العائلة التي حكمت ويستروس منذ زمن بعيد، وصولًا إلى رقصة التنانين والصراعات الداخلية في العائلة التي دمرت كل شيء وهددت بانقراض التنانين للأبد.",
+    "cast": [
+      "Emma D'Arcy",
+      "Ewan Mitchell",
+      "Fabien Frankel",
+      "Harry Collett",
+      "Matt Smith",
+      "Olivia Cooke",
+      "Rhys Ifans",
+      "Sonoya Mizuno",
+      "Steve Toussaint",
+      "Tom Glynn-Carney"
+    ],
+    "poster": "https://tuktukhd.com/wp-content/uploads/2026/06/7V0Ebks0GgpKvQ7QbLAIdX5dos4.webp?x47010",
+    "categories": [
+      "اكشن ومغامرة",
+      "خيال علمي وفانتازيا",
+      "دراما"
+    ],
+    "quality": "",
+    "isComplete": false,
+    "seasons": [
+      {
+        "seasonNumber": 1,
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "حلقة 1",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/TuvBH5ON8l7PQ",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 2,
+            "title": "حلقة 2",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/xcm7BUlnw0Cx3",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 3,
+            "title": "حلقة 3",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/Q6uHD4S0pHEUK",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 4,
+            "title": "حلقة 4",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/PhuFR53OD449h",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 5,
+            "title": "حلقة 5",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/jETGAEiLTMDO4",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 6,
+            "title": "حلقة 6",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/wiLmYOCzJJpfW",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 7,
+            "title": "حلقة 7",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/5eJR7ZOSxe2TM",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 8,
+            "title": "حلقة 8",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/U4yBD8uWKc5yl",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 9,
+            "title": "حلقة 9",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/QNmWf6tgJsTzh",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 10,
+            "title": "حلقة 10",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/2kXheMYk2pQwA",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          }
+        ]
+      },
+      {
+        "seasonNumber": 2,
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "حلقة 1",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/1BQ4lQTwztPBA",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 2,
+            "title": "حلقة 2",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/vMYdykrNp1hVi",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 3,
+            "title": "حلقة 3",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/h4jA2Kdy2BkAs",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 4,
+            "title": "حلقة 4",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/zUekpvIb8qd2t",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 5,
+            "title": "حلقة 5",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/OMFn3TPdKGwOg",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 6,
+            "title": "حلقة 6",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/dsvJ6O81f9IVj",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 7,
+            "title": "حلقة 7",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/I5qcun4Ng5MuH",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 8,
+            "title": "حلقة 8",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/ADktC1PxZs0C3",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          }
+        ]
+      },
+      {
+        "seasonNumber": 3,
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "حلقة 1",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/kngtWSX6SGu4N",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          }
+        ]
+      }
+    ]
+  },
+  {
     "title": "Hulk Hogan: Real American",
     "year": "2026",
     "rating": "",
@@ -49044,6 +49375,19 @@ const cd_foreign_series = [
               {
                 "name": "⭐  TukTuk Vip",
                 "url": "https://megatuktuk.store/iframe/eLm3J2h7bTrLp",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 3,
+            "title": "حلقة 3",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/AEtIgyPqVbcx3",
                 "isDefault": true
               }
             ],
@@ -56261,6 +56605,145 @@ const cd_foreign_series = [
     ]
   },
   {
+    "title": "Oasis 2026",
+    "year": "2026",
+    "rating": "",
+    "type": "أجنبي",
+    "contentType": "series",
+    "description": "الواحة هي منتجع العطلات الأكثر فخامة في البلاد - جنة مخصصة للعائلات الأكثر ثراء، وتتميز بشواطئ خاصة ومرافق لكبار الشخصيات وأمن لا يمكن اختراقه. المكان المثالي لقضاء أفضل صيف في حياتك. لكن كل شيء ينهار عندما تقتحم الشرطة المنتجع للتحقيق في اختفاء غامض. في مثل هذا المكان الحصري، الجميع مشتبه بهم - ولا يمكن لأحد أن يغادر حتى يتم العثور على الجاني.",
+    "cast": [
+      "Ada Molina",
+      "Alex Mola",
+      "Ana Garcés",
+      "Berta Castañé",
+      "Cande Méndez",
+      "Jan Buxaderas",
+      "Laura Simón",
+      "Manel Duarte",
+      "Tomy Aguilera",
+      "Victoria Kantch"
+    ],
+    "poster": "https://tuktukhd.com/wp-content/uploads/2026/06/AAAABaP7j5-nFFJeOGp6HoNqWFOn_MkRAjkjVekGtUpS5GpuA9c8rZN6siEtqMl0gIO-GtdHxdojwMgoT46HJ0pEY6SzHYwP-37DF0Ba.webp?x47010",
+    "categories": [
+      "جريمة",
+      "دراما",
+      "غموض"
+    ],
+    "quality": "",
+    "isComplete": false,
+    "seasons": [
+      {
+        "seasonNumber": 1,
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "حلقة 1",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/PB6v1QXxMg6Ee",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 2,
+            "title": "حلقة 2",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/6TE28tD0a78TH",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 3,
+            "title": "حلقة 3",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/JaWdiFDizYKne",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 4,
+            "title": "حلقة 4",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/pG6cb0KJpaVc0",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 5,
+            "title": "حلقة 5",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/Kb5R97XJH3kKk",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 6,
+            "title": "حلقة 6",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/Etsf58qUzV2Xc",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 7,
+            "title": "حلقة 7",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/XId0kRnZCKiIx",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 8,
+            "title": "حلقة 8",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/uqW1xqV0iKsWL",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          }
+        ]
+      }
+    ]
+  },
+  {
     "title": "Off Campus",
     "year": "2026",
     "rating": "10",
@@ -59349,6 +59832,19 @@ const cd_foreign_series = [
               }
             ],
             "downloadServers": []
+          },
+          {
+            "episodeNumber": 2,
+            "title": "حلقة 2",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/SNirIKjQyBLRj",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
           }
         ]
       }
@@ -61161,142 +61657,6 @@ const cd_foreign_series = [
               {
                 "name": "⭐  TukTuk Vip",
                 "url": "https://megatuktuk.store/iframe/iUdZVt7dcsck4",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "title": "Scarpetta",
-    "year": "2026",
-    "rating": "7.25",
-    "type": "أجنبي",
-    "contentType": "series",
-    "description": "تعود الطبيبة الشرعية الشهيرة، الدكتورة كاي سكاربيتا، إلى منصبها السابق كرئيسة الأطباء الشرعيين في ولاية فرجينيا، حيث تحقق في جريمة قتل غامضة تحمل في طياتها ذكريات مرعبة من قضيتها الكبرى الأولى قبل عقود. في عام 1998، تعمل سكاربيتا جنباً إلى جنب مع المحقق بيت مارينو وعميل مكتب التحقيقات الفيدرالي بنتون ويزلي في تحقيقهم في سلسلة من جرائم الخنق الوحشية.",
-    "cast": [
-      "Ariana DeBose",
-      "Bobby Cannavale",
-      "Jake Cannavale",
-      "Jamie Lee Curtis",
-      "Nicole Kidman",
-      "Rosy McEwen",
-      "Simon Baker"
-    ],
-    "poster": "https://tuktukhd.com/wp-content/uploads/2026/03/zvkcHCJUPqv7R9ukaiDNkm75jy.webp?x47010",
-    "categories": [
-      "جريمة",
-      "دراما",
-      "غموض"
-    ],
-    "quality": "",
-    "isComplete": false,
-    "seasons": [
-      {
-        "seasonNumber": 1,
-        "episodes": [
-          {
-            "episodeNumber": 1,
-            "title": "حلقة 1",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/0j85shObU8rEI",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 2,
-            "title": "حلقة 2",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/PpdrhaRCQZ7DQ",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 3,
-            "title": "حلقة 3",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/8fRUQtdz3f8N6",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 4,
-            "title": "حلقة 4",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/ub8xaTYbegpFm",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 5,
-            "title": "حلقة 5",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/JK4TJSvt1Oswj",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 6,
-            "title": "حلقة 6",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/DFIsgpi3i9qRb",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 7,
-            "title": "حلقة 7",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/ZI5mVIC974mTc",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 8,
-            "title": "حلقة 8",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/d8QUmeJWILqQu",
                 "isDefault": true
               }
             ],
@@ -64020,101 +64380,6 @@ const cd_foreign_series = [
               }
             ],
             "downloadServers": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "title": "Star Trek: Starfleet Academy",
-    "year": "2026",
-    "rating": "",
-    "type": "أجنبي",
-    "contentType": "series",
-    "description": "يتدرب الطلاب الشباب ليصبحوا ضباط ستارفليت بينما يتعاملون مع الصداقات والمنافسات والرومانسية بينما يواجهون تهديدًا غامضًا لكل من الأكاديمية والاتحاد",
-    "cast": [
-      "Bella Shepard",
-      "George Hawkins",
-      "Gina Yashere",
-      "Holly Hunter",
-      "Karim Diane",
-      "Katie Ready-Walters",
-      "Kerrice Brooks",
-      "Mary Wiseman",
-      "Oded Fehr",
-      "Paul Giamatti",
-      "Rebecca Quin",
-      "Robert Picardo",
-      "Sandro Rosta",
-      "Solen Morales",
-      "Stephen Colbert",
-      "Tatiana Maslany",
-      "Tig Notaro",
-      "Zo Steiner"
-    ],
-    "poster": "https://tuktukhd.com/wp-content/uploads/2026/01/MV5BZGFkNWNjMWQtMDI4Ny00M2FhLTk2NjMtMDg3MGI2NzM5ZjVhXkEyXkFqcGc@.jpg_V1_SX700.webp?x47010",
-    "categories": [
-      "اكشن",
-      "خيال علمي",
-      "مغامرة"
-    ],
-    "quality": "",
-    "isComplete": false,
-    "seasons": [
-      {
-        "seasonNumber": 1,
-        "episodes": [
-          {
-            "episodeNumber": 1,
-            "title": "حلقة 1",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/limc4yCk19jRn",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 2,
-            "title": "حلقة 2",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/w4DUK1MExiytd",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 3,
-            "title": "حلقة 3",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/UkNbR2JMJ06Ei",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 4,
-            "title": "حلقة 4",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/5mwOwccnvbMqz",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
           },
           {
             "episodeNumber": 5,
@@ -64123,72 +64388,7 @@ const cd_foreign_series = [
             "servers": [
               {
                 "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/9pQCwBwkVXD3K",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 6,
-            "title": "حلقة 6",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/f8gC4TMi57UNg",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 7,
-            "title": "حلقة 7",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/TvKfzDgyHxIIq",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 8,
-            "title": "حلقة 8",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/BpNBjEcq9vHeP",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 9,
-            "title": "حلقة 9",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/n7rc3hOazaUkK",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 10,
-            "title": "حلقة 10",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/YBXSx4Ffnr0Cl",
+                "url": "https://megatuktuk.store/iframe/8QvOQbll3YBje",
                 "isDefault": true
               }
             ],
@@ -64399,6 +64599,158 @@ const cd_foreign_series = [
               {
                 "name": "⭐  TukTuk Vip",
                 "url": "https://megatuktuk.store/iframe/HQj8OdTM3LjXY",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Sugar",
+    "year": "2026",
+    "rating": "7.285",
+    "type": "أجنبي",
+    "contentType": "series",
+    "description": "محقق خاص غامض يكابد وساوس شخصية بينما يحقّق في اختفاء الحفيدة الحبيبة لأحد منتجي \"هوليوود\".",
+    "cast": [
+      "Colin Farrell",
+      "Jin Ha",
+      "Laura Donnelly",
+      "Raymond Lee",
+      "Sasha Calle",
+      "Tony Dalton"
+    ],
+    "poster": "https://tuktukhd.com/wp-content/uploads/2026/06/20i59DH8Fi7a5xfclGsjOvSVnMH.webp?x47010",
+    "categories": [
+      "دراما",
+      "غموض"
+    ],
+    "quality": "",
+    "isComplete": false,
+    "seasons": [
+      {
+        "seasonNumber": 1,
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "حلقة 1",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/s6KGe2cWx0kZA",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 2,
+            "title": "حلقة 2",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/i8bps8QrflfUo",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 3,
+            "title": "حلقة 3",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/bxFtHU5tmVNfv",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 4,
+            "title": "حلقة 4",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/Uo9lxGeAKtWsq",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 5,
+            "title": "حلقة 5",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/NlL3VWqoIuUnw",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 6,
+            "title": "حلقة 6",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/Q1Bv0GdNpwOC9",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 7,
+            "title": "حلقة 7",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/ysM218EYN8QsP",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 8,
+            "title": "حلقة 8",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/xVrfIaaRJ2XpA",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          }
+        ]
+      },
+      {
+        "seasonNumber": 2,
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "حلقة 1",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/HBrO03TziYusm",
                 "isDefault": true
               }
             ],
@@ -65209,6 +65561,227 @@ const cd_foreign_series = [
               {
                 "name": "⭐  TukTuk Vip",
                 "url": "https://megatuktuk.store/iframe/31yjnjQkroMSn",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "The Agency",
+    "year": "2026",
+    "rating": "7.1",
+    "type": "أجنبي",
+    "contentType": "series",
+    "description": "أُمر عميل وكالة المخابرات المركزية السري \"مارتيان\" بالتخلي عن حياته السرية والعودة إلى محطة لندن. عندما يظهر الحب الذي تركه وراءه بشكل غير متوقع، تشتعل الرومانسية من جديد، مما يضع حياته المهنية وهويته الحقيقية ومهمته ضد قلبه بينما يلقي بهما في لعبة مميتة من المكائد الدولية والتجسس.",
+    "cast": [
+      "Andrew Brooke",
+      "Christian Ochoa Lavernia",
+      "Harriet Sansom Harris",
+      "India Fowler",
+      "Jeffrey Wright",
+      "Jodie Turner-Smith",
+      "John Magaro",
+      "Katherine Waterston",
+      "Michael Fassbender",
+      "Saura Lightfoot-Leon"
+    ],
+    "poster": "https://tuktukhd.com/wp-content/uploads/2026/06/0b8376b1d0231df9b6afef0557ffc624.webp?x47010",
+    "categories": [
+      "دراما",
+      "غموض"
+    ],
+    "quality": "",
+    "isComplete": false,
+    "seasons": [
+      {
+        "seasonNumber": 1,
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "حلقة 1",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/rDxDGZyxNdVl2",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 2,
+            "title": "حلقة 2",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/qBbGPnzKTdq58",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 3,
+            "title": "حلقة 3",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/7fF0J4YRs2Qff",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 4,
+            "title": "حلقة 4",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/h2EsP1KLwWi1s",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 5,
+            "title": "حلقة 5",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/Ut6ZAex4Ak1XJ",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 6,
+            "title": "حلقة 6",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/tnooNaoo2YqwR",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 7,
+            "title": "حلقة 7",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/UrkYAlWM3mCBA",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 8,
+            "title": "حلقة 8",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/maUg3ZN0eGao6",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 9,
+            "title": "حلقة 9",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/4oiWrB4n75XmP",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 10,
+            "title": "حلقة 10",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/h7cDKiPCAuVBd",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          }
+        ]
+      },
+      {
+        "seasonNumber": 2,
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "title": "حلقة 1",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/eHBpw2Fptju3w",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 2,
+            "title": "حلقة 2",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/x2RUiuTGmm96Y",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 3,
+            "title": "حلقة 3",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/ig7ww0SPq6bPk",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 4,
+            "title": "حلقة 4",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/lDzAJ11OdBQAr",
                 "isDefault": true
               }
             ],
@@ -68210,6 +68783,19 @@ const cd_foreign_series = [
               {
                 "name": "⭐  TukTuk Vip",
                 "url": "https://megatuktuk.store/iframe/xTGjR2DO1pbtx",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 5,
+            "title": "حلقة 5",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/KnVjUqDagJwo0",
                 "isDefault": true
               }
             ],
@@ -75874,26 +76460,27 @@ const cd_foreign_series = [
     ]
   },
   {
-    "title": "The Secret Lives of Mormon Wives",
+    "title": "The Season",
     "year": "2026",
-    "rating": "6.8",
+    "rating": "10",
     "type": "أجنبي",
     "contentType": "series",
-    "description": "ينهار العالم الفاضح لمجموعة من الأمهات المورمونيات المؤثرات عندما يتم القبض عليهم وسط فضيحة جنسية تتصدر عناوين الصحف العالمية. الآن، اهتزت أخوتهم حتى النخاع. الإيمان والصداقة والسمعة كلها على المحك. هل ستتمكن #MomTok من البقاء على قيد الحياة والاستمرار في المنافسة على كتاب القواعد، أم ستسقط هذه المجموعة من النعمة؟",
+    "description": "تجد مجموعة من الأصدقاء في عالم القوارب الفاخر في \"هونج كونج\" أن إجازتهم الصيفية تنزلق إلى الخيانة وألعاب القوة مع ظهور أجندات خفية.",
     "cast": [
-      "Demi Engemann",
-      "Jen Affleck",
-      "Jessi Ngatikaura",
-      "Layla Taylor",
-      "Mayci Neeley",
-      "Mikayla Matthews",
-      "Taylor Frankie Paul",
-      "Whitney Leavitt"
+      "Carl Ng",
+      "Celina Jade",
+      "Chris Pang",
+      "Claire Lovering",
+      "Jessie Mei Li",
+      "Justin Chien",
+      "Karena Lam Kar-Yan",
+      "Reina Sawai",
+      "Toby Stephens",
+      "Yvonne Chapman"
     ],
-    "poster": "https://tuktukhd.com/wp-content/uploads/2026/03/6TYXFrVgV5JkirQG7gq8rHHaRD8.webp?x47010",
+    "poster": "https://tuktukhd.com/wp-content/uploads/2026/06/kPz9M2hbZVRue9bbZAHKB9RrXox.webp?x47010",
     "categories": [
-      "واقعي",
-      "وثائقي"
+      "دراما"
     ],
     "quality": "",
     "isComplete": false,
@@ -75908,7 +76495,7 @@ const cd_foreign_series = [
             "servers": [
               {
                 "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/Qj5IJkDsSUYm8",
+                "url": "https://megatuktuk.store/iframe/LiReNbYo3UjPT",
                 "isDefault": true
               }
             ],
@@ -75921,7 +76508,7 @@ const cd_foreign_series = [
             "servers": [
               {
                 "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/MsURPDdcwaBI2",
+                "url": "https://megatuktuk.store/iframe/bJDotSE7uTDRI",
                 "isDefault": true
               }
             ],
@@ -75934,7 +76521,7 @@ const cd_foreign_series = [
             "servers": [
               {
                 "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/8dnLHRUAuRzSV",
+                "url": "https://megatuktuk.store/iframe/T2rUxKzBJwJcq",
                 "isDefault": true
               }
             ],
@@ -75947,7 +76534,7 @@ const cd_foreign_series = [
             "servers": [
               {
                 "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/HsscU1EwxhU8r",
+                "url": "https://megatuktuk.store/iframe/A8wJgDZ2iUVSR",
                 "isDefault": true
               }
             ],
@@ -75960,7 +76547,7 @@ const cd_foreign_series = [
             "servers": [
               {
                 "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/HH0jR1UK4H6xX",
+                "url": "https://megatuktuk.store/iframe/9xBKJQACb9n4q",
                 "isDefault": true
               }
             ],
@@ -75973,316 +76560,7 @@ const cd_foreign_series = [
             "servers": [
               {
                 "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/HRjXlPdJhFOOp",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 7,
-            "title": "حلقة 7",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/KjYK6cPv2kqAO",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 8,
-            "title": "حلقة 8",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/CY9MmpafKZJdd",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          }
-        ]
-      },
-      {
-        "seasonNumber": 2,
-        "episodes": [
-          {
-            "episodeNumber": 1,
-            "title": "حلقة 1",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/H8pNpV2OdwlA7",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 2,
-            "title": "حلقة 2",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/NKSzWZYVjUUUk",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 3,
-            "title": "حلقة 3",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/A8Tk6pJ7oknLi",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 4,
-            "title": "حلقة 4",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/b7x2odljqVloq",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 5,
-            "title": "حلقة 5",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/N6acLcUgfMG4p",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 6,
-            "title": "حلقة 6",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/BUAPjVPwnGPIP",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 7,
-            "title": "حلقة 7",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/i1U02dhWOyePP",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 8,
-            "title": "حلقة 8",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/uDTK4JtN3o9Bo",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 9,
-            "title": "حلقة 9",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/hvGGD5Zz1p2uq",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 10,
-            "title": "حلقة 10",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/A3LIhTGn7A81h",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 11,
-            "title": "حلقة 11",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/DCNC8itJfKHJf",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          }
-        ]
-      },
-      {
-        "seasonNumber": 4,
-        "episodes": [
-          {
-            "episodeNumber": 1,
-            "title": "حلقة 1",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/rr4e0PFxlJkCP",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 2,
-            "title": "حلقة 2",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/9Pw5IPAUqL0kd",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 3,
-            "title": "حلقة 3",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/F04tvHlIRaaCy",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 4,
-            "title": "حلقة 4",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/vcrkFGnI3ypdt",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 5,
-            "title": "حلقة 5",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/1XrzvJelS1qWo",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 6,
-            "title": "حلقة 6",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/ZzoywN6pvSpwZ",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 7,
-            "title": "حلقة 7",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/edreJRTSbbXPu",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 8,
-            "title": "حلقة 8",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/k7GmKCzYa7koU",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 9,
-            "title": "حلقة 9",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/48DOxnCyPn6yH",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 10,
-            "title": "حلقة 10",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/81oSajgCSMOnt",
+                "url": "https://megatuktuk.store/iframe/oRZDjFAJhLrg0",
                 "isDefault": true
               }
             ],
@@ -77446,418 +77724,6 @@ const cd_foreign_series = [
               {
                 "name": "⭐  TukTuk Vip",
                 "url": "https://megatuktuk.store/iframe/Hq1LkzFnA6eHE",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "title": "Timeless",
-    "year": "2016",
-    "rating": "7.6",
-    "type": "أجنبي",
-    "contentType": "series",
-    "description": "تدور أحداث المسلسل حول ثلاثة أشخاص لم يحتمل من قبل اجتماعهم معًا، ويسافرون عبر الزمن لمحاربة المجرمين وحماية التاريخ كما نعرفه من أي تلاعب يجرى به.",
-    "cast": [
-      "Abigail Spencer",
-      "Annie Wersching",
-      "Bailey Noble",
-      "Chad Rook",
-      "Claudia Doumit",
-      "Daniel di Tomasso",
-      "Goran Visnjic",
-      "Hector Hugo",
-      "Jim Beaver",
-      "John Getz",
-      "Malcolm Barrett",
-      "Matt Frewer",
-      "Matt Lanter",
-      "Michael Rady",
-      "Paterson Joseph",
-      "Sakina Jaffrey",
-      "Susanna Thompson",
-      "Tonya Glanz"
-    ],
-    "poster": "https://tuktukhd.com/wp-content/uploads/2025/03/Timeless-S02.webp?x47010",
-    "categories": [
-      "اكشن",
-      "دراما",
-      "مغامرة"
-    ],
-    "quality": "",
-    "isComplete": false,
-    "seasons": [
-      {
-        "seasonNumber": 1,
-        "episodes": [
-          {
-            "episodeNumber": 1,
-            "title": "حلقة 1",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/WfoAtOJWSEZ1j",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 2,
-            "title": "حلقة 2",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/lXaLiacK35T3R",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 3,
-            "title": "حلقة 3",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/QGOeTQq532trE",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 4,
-            "title": "حلقة 4",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/44YlukVV26l4s",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 5,
-            "title": "حلقة 5",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/F2C7AfDV45n3y",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 6,
-            "title": "حلقة 6",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/2ld8VK4ChQdJT",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 7,
-            "title": "حلقة 7",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/BfmW32Gjqop48",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 8,
-            "title": "حلقة 8",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/egJZcTLlbf5RJ",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 9,
-            "title": "حلقة 9",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/SoJ8SD0AAbgTW",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 10,
-            "title": "حلقة 10",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/eMB0ViakBokSU",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 11,
-            "title": "حلقة 11",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/w2iVcm0FD83pE",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 12,
-            "title": "حلقة 12",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/woPAhiGWOw0qM",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 13,
-            "title": "حلقة 13",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/qY8NuGnzM8IDl",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 14,
-            "title": "حلقة 14",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/jrRbMtoUr9EcU",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 15,
-            "title": "حلقة 15",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/EcbMZ7z38gzak",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 16,
-            "title": "حلقة 16",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/B1gaWddMbcHqE",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          }
-        ]
-      },
-      {
-        "seasonNumber": 2,
-        "episodes": [
-          {
-            "episodeNumber": 1,
-            "title": "حلقة 1",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/gDYZvbh6lr0HZ",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 2,
-            "title": "حلقة 2",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/nbCKGDDPXOpCt",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 3,
-            "title": "حلقة 3",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/b4VxuI2SlHcI8",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 4,
-            "title": "حلقة 4",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/mlBapLUaUB4OC",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 5,
-            "title": "حلقة 5",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/muaekTRGUPdhi",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 6,
-            "title": "حلقة 6",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/w9YiLJ36EO9yd",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 7,
-            "title": "حلقة 7",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/SKrNbAnVFMiNI",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 8,
-            "title": "حلقة 8",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/Pq27xy3LrOHRJ",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 9,
-            "title": "حلقة 9",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/yioTs9UVtCLH1",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 10,
-            "title": "حلقة 10",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/vqPstWIPjGHwe",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 11,
-            "title": "حلقة 11",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/rDvRRnGozsyBC",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 12,
-            "title": "حلقة 12",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/a0hZTPx6mlE9L",
                 "isDefault": true
               }
             ],
@@ -79346,6 +79212,19 @@ const cd_foreign_series = [
               }
             ],
             "downloadServers": []
+          },
+          {
+            "episodeNumber": 8,
+            "title": "حلقة 8",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/JNoggeasXS5vD",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
           }
         ]
       }
@@ -79644,1026 +79523,6 @@ const cd_foreign_series = [
               {
                 "name": "⭐  TukTuk Vip",
                 "url": "https://megatuktuk.store/iframe/bN1W7574qdcYu",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "title": "Virgin River",
-    "year": "2019",
-    "rating": "7.9",
-    "type": "أجنبي",
-    "contentType": "series",
-    "description": "تنتقل ممرضة ممارسة من \"لوس أنجلوس\" إلى بلدة نائية في شمال \"كاليفورنيا\" بحثًا عن بداية جديدة، لكنها تُفاجَأ بما تكتشفه وبمن تقابلهم هناك.",
-    "cast": [
-      "Alexandra Breckenridge",
-      "Benjamin Hollingsworth",
-      "Colin Lawrence",
-      "Lauren Hammersley",
-      "Martin Henderson"
-    ],
-    "poster": "https://tuktukhd.com/wp-content/uploads/2026/03/oHEqfmSWR4Ex4V4AJyUn8HGHHnt.webp?x47010",
-    "categories": [
-      "دراما"
-    ],
-    "quality": "",
-    "isComplete": false,
-    "seasons": [
-      {
-        "seasonNumber": 1,
-        "episodes": [
-          {
-            "episodeNumber": 1,
-            "title": "حلقة 1",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/TPTPYs6jGR2p8",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 2,
-            "title": "حلقة 2",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/q5HZj1dAzRMvO",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 3,
-            "title": "حلقة 3",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/cPwBKIV0MVnj3",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 4,
-            "title": "حلقة 4",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/8xnW9hgQkk8xa",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 5,
-            "title": "حلقة 5",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/U89IwX1ySyVvo",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 6,
-            "title": "حلقة 6",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/IGQ2AAiZNnNo9",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 7,
-            "title": "حلقة 7",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/OBtHmTnQxgQ3H",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 8,
-            "title": "حلقة 8",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/DUHko85KemU1N",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 9,
-            "title": "حلقة 9",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/bdOLauKYmlYA9",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 10,
-            "title": "حلقة 10",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/FhvMeadNujvEQ",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          }
-        ]
-      },
-      {
-        "seasonNumber": 2,
-        "episodes": [
-          {
-            "episodeNumber": 1,
-            "title": "حلقة 1",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/n1XUw4lRM8nfU",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 2,
-            "title": "حلقة 2",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/5P4ALCYkhehlV",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 3,
-            "title": "حلقة 3",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/AntBtr6obgqYg",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 4,
-            "title": "حلقة 4",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/PcBaCEPa1WSLE",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 5,
-            "title": "حلقة 5",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/JfkdJnqGTl51S",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 6,
-            "title": "حلقة 6",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/SJBYkIfZOSU75",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 7,
-            "title": "حلقة 7",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/35wcY6CRZdLfd",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 8,
-            "title": "حلقة 8",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/exHDjY10y7zfo",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 9,
-            "title": "حلقة 9",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/t8pwgQJeV9sv1",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 10,
-            "title": "حلقة 10",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/Q6yWWfdFuWDXV",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          }
-        ]
-      },
-      {
-        "seasonNumber": 3,
-        "episodes": [
-          {
-            "episodeNumber": 1,
-            "title": "حلقة 1",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/PU9BvnirFhZwx",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 2,
-            "title": "حلقة 2",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/MgupnriuhD4uX",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 3,
-            "title": "حلقة 3",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/MBANPaQ2jddUa",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 4,
-            "title": "حلقة 4",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/B1vZuktePJF8y",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 5,
-            "title": "حلقة 5",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/64AMErERlpIVa",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 6,
-            "title": "حلقة 6",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/KY8Ammhe9vra0",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 7,
-            "title": "حلقة 7",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/1jjYJ8ntyFMUZ",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 8,
-            "title": "حلقة 8",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/EN5F9OJmmgykD",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 9,
-            "title": "حلقة 9",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/5pont1FiX0aP1",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 10,
-            "title": "حلقة 10",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/utIqdmHaqGmgP",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          }
-        ]
-      },
-      {
-        "seasonNumber": 4,
-        "episodes": [
-          {
-            "episodeNumber": 1,
-            "title": "حلقة 1",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/aTbuyHOgT08vf",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 2,
-            "title": "حلقة 2",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/hBrGtRBepIylG",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 3,
-            "title": "حلقة 3",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/rEgru5BAoBgbg",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 4,
-            "title": "حلقة 4",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/dZLtACCzceCzz",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 5,
-            "title": "حلقة 5",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/uddzDDjIqsnTP",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 6,
-            "title": "حلقة 6",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/vJjaNhPAS8Sgc",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 7,
-            "title": "حلقة 7",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/G1k7deex2HJ6X",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 8,
-            "title": "حلقة 8",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/rARNtZGEWkCWu",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 9,
-            "title": "حلقة 9",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/pccls9xukley6",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 10,
-            "title": "حلقة 10",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/xV8MidUzIKdKf",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 11,
-            "title": "حلقة 11",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/RkdrZpoqmCFNh",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 12,
-            "title": "حلقة 12",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/NpZsGNDKzjXqk",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          }
-        ]
-      },
-      {
-        "seasonNumber": 5,
-        "episodes": [
-          {
-            "episodeNumber": 1,
-            "title": "حلقة 1",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/WHHUkOuSswc3G",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 2,
-            "title": "حلقة 2",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/tN8IIOhlfd4Yu",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 3,
-            "title": "حلقة 3",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/1sBLjZuMyOCrN",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 4,
-            "title": "حلقة 4",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/RXHR6NLVjMdBS",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 5,
-            "title": "حلقة 5",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/JbvRt2eDND3Vr",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 6,
-            "title": "حلقة 6",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/BgbTOKOm8KXcm",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 7,
-            "title": "حلقة 7",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/rhQ7d5HNXlIR5",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 8,
-            "title": "حلقة 8",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/380X1Mp5OLmGF",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 9,
-            "title": "حلقة 9",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/Knw08mpdmfGs8",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 10,
-            "title": "حلقة 10",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/cvHTevJ469QiM",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 11,
-            "title": "حلقة 11",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/AaHcIa7A328cx",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 12,
-            "title": "حلقة 12",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/Wwt8YT9pVzdde",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          }
-        ]
-      },
-      {
-        "seasonNumber": 6,
-        "episodes": [
-          {
-            "episodeNumber": 1,
-            "title": "حلقة 1",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/0cDHh7c4eaiNi",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 2,
-            "title": "حلقة 2",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/k2OswMY8MJGdm",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 3,
-            "title": "حلقة 3",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/SMtcuSPkuvb39",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 4,
-            "title": "حلقة 4",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/Rvg6ciThzsGoI",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 5,
-            "title": "حلقة 5",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/GARMdEAqCopJk",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 6,
-            "title": "حلقة 6",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/UZSVQgTEN0And",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 7,
-            "title": "حلقة 7",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/Gslf4c1KEBeyE",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 8,
-            "title": "حلقة 8",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/cO2c6wjzu1rYd",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 9,
-            "title": "حلقة 9",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/MajxY3MKNbwPb",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 10,
-            "title": "حلقة 10",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/M4iG6k3ovwpTL",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          }
-        ]
-      },
-      {
-        "seasonNumber": 7,
-        "episodes": [
-          {
-            "episodeNumber": 1,
-            "title": "حلقة 1",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/OzGe3oSqUP7SI",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 2,
-            "title": "حلقة 2",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/k8gZV1EF09mUV",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 3,
-            "title": "حلقة 3",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/yTREJivVtyEQ2",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 4,
-            "title": "حلقة 4",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/0OyAl9E1k24xK",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 5,
-            "title": "حلقة 5",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/lIoaBvQ5Inc4l",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 6,
-            "title": "حلقة 6",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/N7pUkvnFF6nkK",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 7,
-            "title": "حلقة 7",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/hYr01fNoW9KaU",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 8,
-            "title": "حلقة 8",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/no0BodTGUkmwZ",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 9,
-            "title": "حلقة 9",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/eDNsPhgK8wFZh",
-                "isDefault": true
-              }
-            ],
-            "downloadServers": []
-          },
-          {
-            "episodeNumber": 10,
-            "title": "حلقة 10",
-            "duration": "",
-            "servers": [
-              {
-                "name": "⭐  TukTuk Vip",
-                "url": "https://megatuktuk.store/iframe/jlwD423TnVgWi",
                 "isDefault": true
               }
             ],
@@ -81900,6 +80759,19 @@ const cd_foreign_series = [
               {
                 "name": "⭐  TukTuk Vip",
                 "url": "https://megatuktuk.store/iframe/qnLaungInnX7E",
+                "isDefault": true
+              }
+            ],
+            "downloadServers": []
+          },
+          {
+            "episodeNumber": 7,
+            "title": "حلقة 7",
+            "duration": "",
+            "servers": [
+              {
+                "name": "⭐  TukTuk Vip",
+                "url": "https://megatuktuk.store/iframe/CVDnumjzj0rW3",
                 "isDefault": true
               }
             ],
