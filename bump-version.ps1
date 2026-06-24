@@ -43,6 +43,14 @@ $content = $content -replace "v=$oldVer", "v=$newVer"
 
 Write-Host "Version: $oldVer → $newVer" -ForegroundColor Green
 
+# Copy data/*.js to root (scripts write to data/ but HTML loads from root)
+if (Test-Path "$ROOT\data") {
+    Get-ChildItem "$ROOT\data\data-*.js" | ForEach-Object {
+        Copy-Item $_.FullName "$ROOT\$($_.Name)" -Force
+        Write-Host "Copied $($_.Name) → root" -ForegroundColor Cyan
+    }
+}
+
 # Git operations
 git add -A
 git commit -m "$Message"
