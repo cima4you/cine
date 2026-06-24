@@ -16,23 +16,23 @@
     <meta name="apple-mobile-web-app-title" content="R-CINE">
     <title>R-CINE - Rachid Movies</title>
     <script src="https://cdn.tailwindcss.com"></script>
-        <script src="data-foreign.js?v=20250623aae"></script>
-    <script src="data-foreign-series.js?v=20250623aae"></script>
-    <script src="data-netflix.js?v=20250623aae"></script>
-    <script src="data-arabic.js?v=20250623aae"></script>
-    <script src="data-asian.js?v=20250623aae"></script>
-    <script src="data-turkish-movies.js?v=20250623aae"></script>
-    <script src="data-hindi.js?v=20250623aae"></script>
-    <script src="data-arabic-series.js?v=20250623aae"></script>
-    <script src="data-turkish-completed.js?v=20250623aae"></script>
-    <script src="data-turkish-ongoing.js?v=20250623aae"></script>
-    <script src="data-asian-series-completed.js?v=20250623aae"></script>
-    <script src="data-asian-series-ongoing.js?v=20250623aae"></script>
-    <script src="data-anime.js?v=20250623aae"></script>
-    <script src="data-anime-series.js?v=20250623aae"></script>
-    <script src="data-dubbed.js?v=20250623aae"></script>
-    <script src="data-documentary.js?v=20250623aae"></script>
-    <script src="data-other.js?v=20250623aae"></script>
+        <script src="data-foreign.js?v=20250623aaf"></script>
+    <script src="data-foreign-series.js?v=20250623aaf"></script>
+    <script src="data-netflix.js?v=20250623aaf"></script>
+    <script src="data-arabic.js?v=20250623aaf"></script>
+    <script src="data-asian.js?v=20250623aaf"></script>
+    <script src="data-turkish-movies.js?v=20250623aaf"></script>
+    <script src="data-hindi.js?v=20250623aaf"></script>
+    <script src="data-arabic-series.js?v=20250623aaf"></script>
+    <script src="data-turkish-completed.js?v=20250623aaf"></script>
+    <script src="data-turkish-ongoing.js?v=20250623aaf"></script>
+    <script src="data-asian-series-completed.js?v=20250623aaf"></script>
+    <script src="data-asian-series-ongoing.js?v=20250623aaf"></script>
+    <script src="data-anime.js?v=20250623aaf"></script>
+    <script src="data-anime-series.js?v=20250623aaf"></script>
+    <script src="data-dubbed.js?v=20250623aaf"></script>
+    <script src="data-documentary.js?v=20250623aaf"></script>
+    <script src="data-other.js?v=20250623aaf"></script>
     <script src="data-imdb.js?v=20250619"></script>
     <script src="data-streamimdb.js?v=20250619"></script>
     <script src="data-ooanime.js?v=20250621"></script>
@@ -1768,10 +1768,18 @@
         renderSections();
 
         // Visitor counter
-        fetch('https://api.countapi.xyz/hit/cima4you.netlify.app/visitors')
-            .then(r => r.json())
-            .then(d => { document.getElementById('visitorCount').textContent = d.value.toLocaleString(); })
-            .catch(() => {});
+        fetch('https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://cima4you.netlify.app')
+            .then(r => r.text())
+            .then(t => {
+                const m = t.match(/(\d[\d,]*)/);
+                if (m) document.getElementById('visitorCount').textContent = m[1];
+            })
+            .catch(() => {
+                // fallback: use localStorage counter
+                let c = +(localStorage.getItem('rcine_visits') || '0') + 1;
+                localStorage.setItem('rcine_visits', c+'');
+                document.getElementById('visitorCount').textContent = c.toLocaleString();
+            });
 
         // PWA
         if ('serviceWorker' in navigator) {
