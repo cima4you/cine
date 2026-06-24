@@ -3,8 +3,8 @@ import json, os, re
 DATA_DIR = os.path.join(os.path.dirname(__file__), 'data')
 MOVIES_FILE = os.path.join(DATA_DIR, 'arabic_movies.json')
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
-OUTPUT_JS = os.path.join(ROOT, 'data', 'data-cimafre.js')
-OUTPUT_JSON = os.path.join(ROOT, 'data', 'data-cimafre.json')
+OUTPUT_JS = os.path.join(ROOT, 'data-cimafre.js')
+OUTPUT_JSON = os.path.join(ROOT, 'data-cimafre.json')
 
 movies = json.load(open(MOVIES_FILE, 'r', encoding='utf-8'))
 valid = [m for m in movies if m.get('servers')]

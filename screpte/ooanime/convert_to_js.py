@@ -2,8 +2,8 @@ import json, os, re
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data')
 SERIES_PATH = os.path.join(DATA_DIR, 'ooanime_series.json')
-JS_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'data', 'data-ooanime.js')
-JSON_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'data', 'data-ooanime.json')
+JS_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'data-ooanime.js')
+JSON_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'data-ooanime.json')
 
 with open(SERIES_PATH, 'r', encoding='utf-8') as f:
     series_list = json.load(f)

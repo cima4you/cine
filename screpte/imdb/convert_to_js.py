@@ -55,7 +55,7 @@ output += 'const cd_imdb = '
 output += json.dumps(entries, ensure_ascii=False, indent=2)
 output += ';\n'
 
-with open('data/data-imdb.js', 'w', encoding='utf-8') as f:
+with open('data-imdb.js', 'w', encoding='utf-8') as f:
     f.write(output)
 
 print(f'Saved {len(entries)} entries to data/data-imdb.js')

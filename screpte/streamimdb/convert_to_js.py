@@ -2,7 +2,7 @@ import json, os
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data')
 INPUT_PATH = os.path.join(DATA_DIR, 'streamimdb_movies.json')
-OUTPUT_PATH = 'data/data-streamimdb.js'
+OUTPUT_PATH = 'data-streamimdb.js'
 
 with open(INPUT_PATH, 'r', encoding='utf-8') as f:
     movies = json.load(f)
